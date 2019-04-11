@@ -4,6 +4,8 @@ CSDN: https://blog.csdn.net/hanziyuan08
 Github Page: https://bpazy.github.io
 
 # Usage
+Deploy: `hexo g -d`
+New article: `hexo new [layout] article-title`
 
 
 # Develop

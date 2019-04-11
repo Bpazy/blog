@@ -13,9 +13,9 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: bpazy.github.io
-root: /a
-permalink: :category/:id
+url: blog.hzy.ink
+root: /
+permalink: :category/:title/
 permalink_defaults:
 
 # Directory
