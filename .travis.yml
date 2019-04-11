@@ -1,0 +1,16 @@
+language: node_js
+node_js: stable
+
+install:
+  - npm install
+
+script:
+  - hexo g
+
+after_script:
+  - cd ./public
+  - git init
+  - git config user.name "travis"
+  - git add -A
+  - git commit -m "Update docs"
+  - git push --force --quiet "https://${GITHUB_ACCESS_TOKEN}@github.com/Bpazy/bpazy.github.io.git" master:master
