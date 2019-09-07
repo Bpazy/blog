@@ -1,6 +1,7 @@
 <h1 align="center">Bpazy's Blog</h1>
 
-本项目博客从[CSDN Blog](https://blog.csdn.net/hanziyuan08)采用[csdn-export](https://github.com/Bpazy/csdn-export)同步而来
+<p align="center">本项目博客从<a href="https://blog.csdn.net/hanziyuan08">CSDN Blog</a>采用<a href="https://github.com/Bpazy/csdn-export">csdn-export</a>同步而来</p>
+
 
 <br><br>
 <p align="center"><b>关于订阅</b></p>
