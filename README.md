@@ -1,12 +1,6 @@
-<h1 align="center">Bpazy's Blog Backup</h1>
+<h1 align="center">Bpazy's Blog</h1>
 
-<p align="center">
-    <a href="https://github.com/Bpazy/blog/issues"><b>Github Issue Blog</b></a>
-</p>
-<p align="center">
-    <a href="https://blog.csdn.net/hanziyuan08"><b>CSDN Blog</b></a>
-</p>
-<p align="center"><a href="https://github.com/Bpazy/csdn-export"><b>导出CSDN博客文章</b></a></p>
+本项目博客从[CSDN Blog](https://blog.csdn.net/hanziyuan08)采用[csdn-export](https://github.com/Bpazy/csdn-export)同步而来
 
 <br><br>
 <p align="center"><b>关于订阅</b></p>
