@@ -1,6 +1,6 @@
 <h1 align="center">Bpazy's Blog</h1>
 
-<p align="center">本项目博客从<a href="https://blog.csdn.net/hanziyuan08"> CSDN Blog </a>采用<a href="https://github.com/Bpazy/csdn-export"> csdn-export </a>同步而来</p>
+<p align="center">这里是我的个人博客，所有文章均在 issue 中，您可以通过 Github 的搜索功能直接搜索相关文章。</p>
 
 
 <br><br>
