@@ -11,7 +11,9 @@
 
 --------------
 
-### Recent Blogs:
+<br><br>
+<h2 align="center">Recent Blogs</h1>
+
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
