@@ -17,11 +17,11 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2022-11-16 | [Nginx 小记](https://github.com/Bpazy/blog/issues/252) | 记录一些零碎的 Nginx 知识点 |
 | 2022-11-15 | [Git快捷删除已经合并到master的分支](https://github.com/Bpazy/blog/issues/121) | ## 删除本地分支 ```shell git branch --merged master | gr |
 | 2022-11-10 | [利用 openwrt 全局代理，来解决 Docker 恶心的代理配置方法](https://github.com/Bpazy/blog/issues/240) | Docker 的代理必须在 daemon 启动的时候，通过 HTTP_PROXY, HTTPS_PR |
 | 2022-11-05 | [grep 命令](https://github.com/Bpazy/blog/issues/253) | 记录一些 grep 命令相关知识 |
 | 2022-11-05 | [Clash 使用记录](https://github.com/Bpazy/blog/issues/204) | Clash 相关记录在这 |
-| 2022-11-05 | [Nginx 小记](https://github.com/Bpazy/blog/issues/252) |  |
 | 2022-11-05 | [Linux smb 的挂载和取消挂载](https://github.com/Bpazy/blog/issues/160) | ### 挂载 smb **Step 1: Install the CIFS Utils pkg**  |
 | 2022-10-25 | [创建 Tailscale derper](https://github.com/Bpazy/blog/issues/219) | ```yaml version: '3' services:   derper:     image |
 | 2022-10-25 | [acme.sh 使用记录](https://github.com/Bpazy/blog/issues/138) | > 官方安装和使用文档：https://github.com/Neilpang/acme.sh/wi |
