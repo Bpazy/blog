@@ -15,8 +15,24 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
-| 2022-11-16 | [哈哈](https://github.com/Bpazy/issue-list-action-test/issues/5) |  |
-| 2022-11-16 | [中文测试：标题](https://github.com/Bpazy/issue-list-action-test/issues/4) | 正文 |
-| 2022-11-16 | [Repo's issue No.1](https://github.com/Bpazy/issue-list-action-test/issues/1) | im content.  newling |
-| 2022-11-16 | [Repo's issue No.3](https://github.com/Bpazy/issue-list-action-test/issues/3) | hey! |
+| 2022-11-15 | [Git快捷删除已经合并到master的分支](https://github.com/Bpazy/blog/issues/121) | ## 删除本地分支 ```shell git branch --merged master | gr |
+| 2022-11-10 | [利用 openwrt 全局代理，来解决 Docker 恶心的代理配置方法](https://github.com/Bpazy/blog/issues/240) | Docker 的代理必须在 daemon 启动的时候，通过 HTTP_PROXY, HTTPS_PR |
+| 2022-11-05 | [grep 命令](https://github.com/Bpazy/blog/issues/253) | 记录一些 grep 命令相关知识 |
+| 2022-11-05 | [Clash 使用记录](https://github.com/Bpazy/blog/issues/204) | Clash 相关记录在这 |
+| 2022-11-05 | [Nginx 小记](https://github.com/Bpazy/blog/issues/252) |  |
+| 2022-11-05 | [Linux smb 的挂载和取消挂载](https://github.com/Bpazy/blog/issues/160) | ### 挂载 smb **Step 1: Install the CIFS Utils pkg**  |
+| 2022-10-25 | [创建 Tailscale derper](https://github.com/Bpazy/blog/issues/219) | ```yaml version: '3' services:   derper:     image |
+| 2022-10-25 | [acme.sh 使用记录](https://github.com/Bpazy/blog/issues/138) | > 官方安装和使用文档：https://github.com/Neilpang/acme.sh/wi |
+| 2022-10-22 | [将 Jenkins 从裸机运行迁移到 Docker 中](https://github.com/Bpazy/blog/issues/251) | 步骤说明： 1. 我是用 Docker compose 来运行 Jenkins 的，所以先创建配置文 |
+| 2022-10-20 | [用 Docker Compose 替换掉威联通难用的 Container Station](https://github.com/Bpazy/blog/issues/239) | 近日遇到一个问题，我想升级 qbittorrent 的 Docker latest 镜像版本，但是  |
+| 2022-10-20 | [用 Portainer 替换掉威联通（QNAP）的 ContainerStation](https://github.com/Bpazy/blog/issues/250) | QNAP 自带的 ContainerStation 很难用，所以用 Portainer 替换掉它。  |
+| 2022-10-12 | [常用命令系列](https://github.com/Bpazy/blog/issues/249) |  |
+| 2022-10-12 | [MySQL insert ignore 究竟干了什么？](https://github.com/Bpazy/blog/issues/247) | 其实答案在 MySQL 关于 IGNORE 关键词的说明里，要看官方文档的直接跳转: https:/ |
+| 2022-10-11 | [MySQL Server Error Message Reference](https://github.com/Bpazy/blog/issues/248) | https://dev.mysql.com/doc/mysql-errors/8.0/en/serv |
+| 2022-09-21 | [WSL2 和 Proxifier 冲突的解决方案](https://github.com/Bpazy/blog/issues/156) | ### 解决方案 1. 下载 [http://www.proxifier.com/tmp/Test2 |
+| 2022-08-23 | [Prometheus increase 函数返回值变小](https://github.com/Bpazy/blog/issues/244) | > Refer: [为什么 Prometheus increase 不返回整数？](https:// |
+| 2022-08-15 | [Home Assistant 之旅](https://github.com/Bpazy/blog/issues/203) | Just do it |
+| 2022-08-15 | [Home Assistant 的 Prometheus 集成在设备下线后，仍返回设备在线时最后一刻的数据](https://github.com/Bpazy/blog/issues/241) | 今日发现一个问题，我的温湿度计在一周前电池耗尽下线了，但是 Prometheus 仍能持续不断的采集 |
+| 2022-08-03 | [Hyper-V 又 TM 不能上网的了，尝试解决下](https://github.com/Bpazy/blog/issues/236) | **问题描述：** 经常需要用虚拟机的时候，恢复保存的虚拟机，结果虚拟机上不了网了。  **再说明一 |
+| 2022-08-02 | [《代码整洁之道》读后感](https://github.com/Bpazy/blog/issues/238) |  |
 <!--END_SECTION:blog-->
