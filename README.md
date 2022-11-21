@@ -19,6 +19,7 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2022-11-21 | [Obsidian 折腾之旅](https://github.com/Bpazy/blog/issues/254) | Obsidian 看起来挺有意思的，最近寻求日记软件的替代，尝试一下 Obsidian。 |
 | 2022-11-16 | [Nginx 小记](https://github.com/Bpazy/blog/issues/252) | 记录一些零碎的 Nginx 知识点 |
 | 2022-11-15 | [Git快捷删除已经合并到master的分支](https://github.com/Bpazy/blog/issues/121) | ## 删除本地分支 ```shell git branch --merged master | gr |
 | 2022-11-10 | [利用 openwrt 全局代理，来解决 Docker 恶心的代理配置方法](https://github.com/Bpazy/blog/issues/240) | Docker 的代理必须在 daemon 启动的时候，通过 HTTP_PROXY, HTTPS_PR |
@@ -38,5 +39,4 @@
 | 2022-08-15 | [Home Assistant 之旅](https://github.com/Bpazy/blog/issues/203) | Just do it |
 | 2022-08-15 | [Home Assistant 的 Prometheus 集成在设备下线后，仍返回设备在线时最后一刻的数据](https://github.com/Bpazy/blog/issues/241) | 今日发现一个问题，我的温湿度计在一周前电池耗尽下线了，但是 Prometheus 仍能持续不断的采集 |
 | 2022-08-03 | [Hyper-V 又 TM 不能上网的了，尝试解决下](https://github.com/Bpazy/blog/issues/236) | **问题描述：** 经常需要用虚拟机的时候，恢复保存的虚拟机，结果虚拟机上不了网了。  **再说明一 |
-| 2022-08-02 | [《代码整洁之道》读后感](https://github.com/Bpazy/blog/issues/238) |  |
 <!--END_SECTION:blog-->
