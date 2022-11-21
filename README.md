@@ -21,22 +21,22 @@
 | ------ | ------ | ------ |
 | 2022-11-21 | [Obsidian 折腾之旅](https://github.com/Bpazy/blog/issues/254) | Obsidian 看起来挺有意思的，最近寻求日记软件的替代，尝试一下 Obsidian。 |
 | 2022-11-16 | [Nginx 小记](https://github.com/Bpazy/blog/issues/252) | 记录一些零碎的 Nginx 知识点 |
-| 2022-11-15 | [Git快捷删除已经合并到master的分支](https://github.com/Bpazy/blog/issues/121) | ## 删除本地分支 ```shell git branch --merged master | gr |
-| 2022-11-10 | [利用 openwrt 全局代理，来解决 Docker 恶心的代理配置方法](https://github.com/Bpazy/blog/issues/240) | Docker 的代理必须在 daemon 启动的时候，通过 HTTP_PROXY, HTTPS_PR |
+| 2022-11-15 | [Git快捷删除已经合并到master的分支](https://github.com/Bpazy/blog/issues/121) | ## 删除本地分支 ```shell git branch --merged master | grep -v '^[ *]*master$' | xargs git branch -d ```  原 |
+| 2022-11-10 | [利用 openwrt 全局代理，来解决 Docker 恶心的代理配置方法](https://github.com/Bpazy/blog/issues/240) | Docker 的代理必须在 daemon 启动的时候，通过 HTTP_PROXY, HTTPS_PROXY 参数来指定。按照[官方文档的例子](https://docs.docker.com/conf |
 | 2022-11-05 | [grep 命令](https://github.com/Bpazy/blog/issues/253) | 记录一些 grep 命令相关知识 |
 | 2022-11-05 | [Clash 使用记录](https://github.com/Bpazy/blog/issues/204) | Clash 相关记录在这 |
-| 2022-11-05 | [Linux smb 的挂载和取消挂载](https://github.com/Bpazy/blog/issues/160) | ### 挂载 smb **Step 1: Install the CIFS Utils pkg**  |
-| 2022-10-25 | [创建 Tailscale derper](https://github.com/Bpazy/blog/issues/219) | ```yaml version: '3' services:   derper:     image |
-| 2022-10-25 | [acme.sh 使用记录](https://github.com/Bpazy/blog/issues/138) | > 官方安装和使用文档：https://github.com/Neilpang/acme.sh/wi |
-| 2022-10-22 | [将 Jenkins 从裸机运行迁移到 Docker 中](https://github.com/Bpazy/blog/issues/251) | 步骤说明： 1. 我是用 Docker compose 来运行 Jenkins 的，所以先创建配置文 |
-| 2022-10-20 | [用 Docker Compose 替换掉威联通难用的 Container Station](https://github.com/Bpazy/blog/issues/239) | 近日遇到一个问题，我想升级 qbittorrent 的 Docker latest 镜像版本，但是  |
-| 2022-10-20 | [用 Portainer 替换掉威联通（QNAP）的 ContainerStation](https://github.com/Bpazy/blog/issues/250) | QNAP 自带的 ContainerStation 很难用，所以用 Portainer 替换掉它。  |
+| 2022-11-05 | [Linux smb 的挂载和取消挂载](https://github.com/Bpazy/blog/issues/160) | ### 挂载 smb **Step 1: Install the CIFS Utils pkg** ```shell `sudo apt-get install cifs-utils` ``` **S |
+| 2022-10-25 | [创建 Tailscale derper](https://github.com/Bpazy/blog/issues/219) | ```yaml version: '3' services:   derper:     image: fredliang/derper:latest     restart: unless-stop |
+| 2022-10-25 | [acme.sh 使用记录](https://github.com/Bpazy/blog/issues/138) | > 官方安装和使用文档：https://github.com/Neilpang/acme.sh/wiki/说明  ## HTTP 方式生成证书 该方法生成的证书不支持泛域名。 还有一点，acme.sh |
+| 2022-10-22 | [将 Jenkins 从裸机运行迁移到 Docker 中](https://github.com/Bpazy/blog/issues/251) | 步骤说明： 1. 我是用 Docker compose 来运行 Jenkins 的，所以先创建配置文件: ```sh mkdir ~/jenkins && cd ~/jenkins cat << EO |
+| 2022-10-20 | [用 Docker Compose 替换掉威联通难用的 Container Station](https://github.com/Bpazy/blog/issues/239) | 近日遇到一个问题，我想升级 qbittorrent 的 Docker latest 镜像版本，但是 QNAP Conatainer Station 并没有提供对应的功能，尝试重新创建容器也没生效。   |
+| 2022-10-20 | [用 Portainer 替换掉威联通（QNAP）的 ContainerStation](https://github.com/Bpazy/blog/issues/250) | QNAP 自带的 ContainerStation 很难用，所以用 Portainer 替换掉它。  首先你需要具有一个 Portainer 的服务端，我已经具备了，所以就不重复阐述了，这里是安装教程 |
 | 2022-10-12 | [常用命令系列](https://github.com/Bpazy/blog/issues/249) |  |
-| 2022-10-12 | [MySQL insert ignore 究竟干了什么？](https://github.com/Bpazy/blog/issues/247) | 其实答案在 MySQL 关于 IGNORE 关键词的说明里，要看官方文档的直接跳转: https:/ |
-| 2022-10-11 | [MySQL Server Error Message Reference](https://github.com/Bpazy/blog/issues/248) | https://dev.mysql.com/doc/mysql-errors/8.0/en/serv |
-| 2022-09-21 | [WSL2 和 Proxifier 冲突的解决方案](https://github.com/Bpazy/blog/issues/156) | ### 解决方案 1. 下载 [http://www.proxifier.com/tmp/Test2 |
-| 2022-08-23 | [Prometheus increase 函数返回值变小](https://github.com/Bpazy/blog/issues/244) | > Refer: [为什么 Prometheus increase 不返回整数？](https:// |
+| 2022-10-12 | [MySQL insert ignore 究竟干了什么？](https://github.com/Bpazy/blog/issues/247) | 其实答案在 MySQL 关于 IGNORE 关键词的说明里，要看官方文档的直接跳转: https://dev.mysql.com/doc/refman/8.0/en/sql-mode.html#ign |
+| 2022-10-11 | [MySQL Server Error Message Reference](https://github.com/Bpazy/blog/issues/248) | https://dev.mysql.com/doc/mysql-errors/8.0/en/server-error-reference.html |
+| 2022-09-21 | [WSL2 和 Proxifier 冲突的解决方案](https://github.com/Bpazy/blog/issues/156) | ### 解决方案 1. 下载 [http://www.proxifier.com/tmp/Test20200228/NoLsp.exe](http://www.proxifier.com/tmp/Te |
+| 2022-08-23 | [Prometheus increase 函数返回值变小](https://github.com/Bpazy/blog/issues/244) | > Refer: [为什么 Prometheus increase 不返回整数？](https://lotabout.me/2019/QQA-Why-Prometheus-increase-retur |
 | 2022-08-15 | [Home Assistant 之旅](https://github.com/Bpazy/blog/issues/203) | Just do it |
-| 2022-08-15 | [Home Assistant 的 Prometheus 集成在设备下线后，仍返回设备在线时最后一刻的数据](https://github.com/Bpazy/blog/issues/241) | 今日发现一个问题，我的温湿度计在一周前电池耗尽下线了，但是 Prometheus 仍能持续不断的采集 |
-| 2022-08-03 | [Hyper-V 又 TM 不能上网的了，尝试解决下](https://github.com/Bpazy/blog/issues/236) | **问题描述：** 经常需要用虚拟机的时候，恢复保存的虚拟机，结果虚拟机上不了网了。  **再说明一 |
+| 2022-08-15 | [Home Assistant 的 Prometheus 集成在设备下线后，仍返回设备在线时最后一刻的数据](https://github.com/Bpazy/blog/issues/241) | 今日发现一个问题，我的温湿度计在一周前电池耗尽下线了，但是 Prometheus 仍能持续不断的采集到最后一刻的数据，仿佛设备仍在线一样，不过数据都是错的。  今日给温湿度计换了电池重新上线，结果你猜 |
+| 2022-08-03 | [Hyper-V 又 TM 不能上网的了，尝试解决下](https://github.com/Bpazy/blog/issues/236) | **问题描述：** 经常需要用虚拟机的时候，恢复保存的虚拟机，结果虚拟机上不了网了。  **再说明一下环境背景：** * XPS 9570 * Win11 * 常常几个月不关机（S0待机转休眠） |
 <!--END_SECTION:blog-->
