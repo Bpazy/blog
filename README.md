@@ -19,11 +19,11 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
-| 2022-11-22 | [常用命令系列](https://github.com/Bpazy/blog/issues/249) |  |
+| 2022-11-22 | [Obsidian 折腾之旅](https://github.com/Bpazy/blog/issues/254) | Obsidian 看起来挺有意思的，最近寻求日记软件的替代，尝试一下 Obsidian。  我的需求： 1. 个人日记； 2. 多人共享同一份日记； 3. 数据独立存储； |
+| 2022-11-22 | [常用命令系列](https://github.com/Bpazy/blog/issues/249) | grep, tar 等等 |
 | 2022-11-22 | [acme.sh 使用记录](https://github.com/Bpazy/blog/issues/138) | 这里记录一些我的使用 acme.sh 的方法、内容，比如生成证书、生成多域名、多子域名证书、自动续期等等。  > 官方安装和使用文档：https://github.com/Neilpang/acme. |
 | 2022-11-22 | [Clash 使用记录](https://github.com/Bpazy/blog/issues/204) | Clash 相关记录在这，比如：同步 CFW 配置、Tun 模式 CPU 占用、Linux 使用 Tun 等等 |
 | 2022-11-22 | [走马观花之 CouchDB](https://github.com/Bpazy/blog/issues/255) | CouchDB 的安装等记录 |
-| 2022-11-21 | [Obsidian 折腾之旅](https://github.com/Bpazy/blog/issues/254) | Obsidian 看起来挺有意思的，最近寻求日记软件的替代，尝试一下 Obsidian。  我的需求： 1. 个人日记； 2. 多人共享同一份日记； 3. 数据独立存储； |
 | 2022-11-16 | [Nginx 小记](https://github.com/Bpazy/blog/issues/252) | 记录一些零碎的 Nginx 知识点 |
 | 2022-11-15 | [Git快捷删除已经合并到master的分支](https://github.com/Bpazy/blog/issues/121) | ## 删除本地分支 ```shell git branch --merged master | grep -v '^[ *]*master$' | xargs git branch -d ```  原 |
 | 2022-11-10 | [利用 openwrt 全局代理，来解决 Docker 恶心的代理配置方法](https://github.com/Bpazy/blog/issues/240) | Docker 的代理必须在 daemon 启动的时候，通过 HTTP_PROXY, HTTPS_PROXY 参数来指定。按照[官方文档的例子](https://docs.docker.com/conf |
