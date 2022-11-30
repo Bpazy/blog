@@ -19,6 +19,7 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2022-11-30 | [tailscale 组网](https://github.com/Bpazy/blog/issues/201) | 官网: [https://tailscale.com/](https://tailscale.com/)，威联通踩坑 |
 | 2022-11-23 | [Clash 使用记录](https://github.com/Bpazy/blog/issues/204) | Clash 相关记录在这，比如：同步 CFW 配置、Tun 模式 CPU 占用、Linux 使用 Tun、Clash Dashboard 等。 |
 | 2022-11-23 | [走马观花之 CouchDB](https://github.com/Bpazy/blog/issues/255) | CouchDB 的安装等记录 |
 | 2022-11-22 | [Obsidian 折腾之旅](https://github.com/Bpazy/blog/issues/254) | Obsidian 看起来挺有意思的，最近寻求日记软件的替代，尝试一下 Obsidian。  我的需求： 1. 个人日记； 2. 多人共享同一份日记； 3. 数据独立存储； |
@@ -38,5 +39,4 @@
 | 2022-09-21 | [WSL2 和 Proxifier 冲突的解决方案](https://github.com/Bpazy/blog/issues/156) | ### 解决方案 1. 下载 [http://www.proxifier.com/tmp/Test20200228/NoLsp.exe](http://www.proxifier.com/tmp/Te |
 | 2022-08-23 | [Prometheus increase 函数返回值变小](https://github.com/Bpazy/blog/issues/244) | > Refer: [为什么 Prometheus increase 不返回整数？](https://lotabout.me/2019/QQA-Why-Prometheus-increase-retur |
 | 2022-08-15 | [Home Assistant 之旅](https://github.com/Bpazy/blog/issues/203) | Just do it |
-| 2022-08-15 | [Home Assistant 的 Prometheus 集成在设备下线后，仍返回设备在线时最后一刻的数据](https://github.com/Bpazy/blog/issues/241) | 今日发现一个问题，我的温湿度计在一周前电池耗尽下线了，但是 Prometheus 仍能持续不断的采集到最后一刻的数据，仿佛设备仍在线一样，不过数据都是错的。  今日给温湿度计换了电池重新上线，结果你猜 |
 <!--END_SECTION:blog-->
