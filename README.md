@@ -19,6 +19,7 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2022-11-30 | [研究下 Docker](https://github.com/Bpazy/blog/issues/256) | docker bridge |
 | 2022-11-30 | [tailscale 组网](https://github.com/Bpazy/blog/issues/201) | 官网: [https://tailscale.com/](https://tailscale.com/)，威联通踩坑 |
 | 2022-11-23 | [Clash 使用记录](https://github.com/Bpazy/blog/issues/204) | Clash 相关记录在这，比如：同步 CFW 配置、Tun 模式 CPU 占用、Linux 使用 Tun、Clash Dashboard 等。 |
 | 2022-11-23 | [走马观花之 CouchDB](https://github.com/Bpazy/blog/issues/255) | CouchDB 的安装等记录 |
@@ -38,5 +39,4 @@
 | 2022-10-11 | [MySQL Server Error Message Reference](https://github.com/Bpazy/blog/issues/248) | https://dev.mysql.com/doc/mysql-errors/8.0/en/server-error-reference.html |
 | 2022-09-21 | [WSL2 和 Proxifier 冲突的解决方案](https://github.com/Bpazy/blog/issues/156) | ### 解决方案 1. 下载 [http://www.proxifier.com/tmp/Test20200228/NoLsp.exe](http://www.proxifier.com/tmp/Te |
 | 2022-08-23 | [Prometheus increase 函数返回值变小](https://github.com/Bpazy/blog/issues/244) | > Refer: [为什么 Prometheus increase 不返回整数？](https://lotabout.me/2019/QQA-Why-Prometheus-increase-retur |
-| 2022-08-15 | [Home Assistant 之旅](https://github.com/Bpazy/blog/issues/203) | Just do it |
 <!--END_SECTION:blog-->
