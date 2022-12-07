@@ -19,6 +19,7 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2022-12-07 | [WebStorm 中 nodejs 相关的配置](https://github.com/Bpazy/blog/issues/257) | 记录用 WebStorm 开发 nodejs 项目一些配置上的修改 |
 | 2022-12-07 | [win10无法进入睡眠的终极解决方案！](https://github.com/Bpazy/blog/issues/116) | **首先本方法不是网上所谓修改电源设置一类的。**  先介绍一下电源选项，ACPI(Advanced Configuration and Power Interface)在运行中有以下几种模式： >  |
 | 2022-12-07 | [Windows 11 设置“在此时间后休眠”](https://github.com/Bpazy/blog/issues/227) | 我记得以前用 Win10 的时候，电源设置里有这一选项，但是到 Win11 之后，这一选项消失了 ![image](https://user-images.githubusercontent.com/ |
 | 2022-12-02 | [研究下 Docker](https://github.com/Bpazy/blog/issues/256) | docker bridge |
@@ -38,5 +39,4 @@
 | 2022-10-20 | [用 Docker Compose 替换掉威联通难用的 Container Station](https://github.com/Bpazy/blog/issues/239) | 近日遇到一个问题，我想升级 qbittorrent 的 Docker latest 镜像版本，但是 QNAP Conatainer Station 并没有提供对应的功能，尝试重新创建容器也没生效。   |
 | 2022-10-20 | [用 Portainer 替换掉威联通（QNAP）的 ContainerStation](https://github.com/Bpazy/blog/issues/250) | QNAP 自带的 ContainerStation 很难用，所以用 Portainer 替换掉它。  首先你需要具有一个 Portainer 的服务端，我已经具备了，所以就不重复阐述了，这里是安装教程 |
 | 2022-10-12 | [MySQL insert ignore 究竟干了什么？](https://github.com/Bpazy/blog/issues/247) | 其实答案在 MySQL 关于 IGNORE 关键词的说明里，要看官方文档的直接跳转: https://dev.mysql.com/doc/refman/8.0/en/sql-mode.html#ign |
-| 2022-10-11 | [MySQL Server Error Message Reference](https://github.com/Bpazy/blog/issues/248) | https://dev.mysql.com/doc/mysql-errors/8.0/en/server-error-reference.html |
 <!--END_SECTION:blog-->
