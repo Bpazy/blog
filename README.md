@@ -19,7 +19,7 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
-| 2022-12-20 | [探寻 K3s](https://github.com/Bpazy/blog/issues/258) | 安装、使用等 |
+| 2022-12-24 | [探寻 K3s](https://github.com/Bpazy/blog/issues/258) | 安装、使用等 |
 | 2022-12-20 | [研究下 Docker](https://github.com/Bpazy/blog/issues/256) | docker bridge |
 | 2022-12-09 | [Windows 11 设置“在此时间后休眠”](https://github.com/Bpazy/blog/issues/227) | 我记得以前用 Win10 的时候，电源设置里有这一选项，但是到 Win11 之后，这一选项消失了 ![image](https://user-images.githubusercontent.com/ |
 | 2022-12-07 | [WebStorm 中 nodejs 相关的配置](https://github.com/Bpazy/blog/issues/257) | 记录用 WebStorm 开发 nodejs 项目一些配置上的修改 |
