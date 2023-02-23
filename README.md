@@ -19,13 +19,13 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2023-02-23 | [Clash 使用记录](https://github.com/Bpazy/blog/issues/204) | Clash 相关记录在这，比如：同步 CFW 配置、Tun 模式 CPU 占用、Linux 使用 Tun、Clash Dashboard 等。 |
 | 2023-01-03 | [WSL2 和 Proxifier 冲突的解决方案](https://github.com/Bpazy/blog/issues/156) | ### 解决方案 1. 下载 [http://www.proxifier.com/tmp/Test20200228/NoLsp.exe](http://www.proxifier.com/tmp/Te |
 | 2022-12-24 | [探寻 K3s](https://github.com/Bpazy/blog/issues/258) | 安装、使用等 |
 | 2022-12-20 | [研究下 Docker](https://github.com/Bpazy/blog/issues/256) | docker bridge |
 | 2022-12-09 | [Windows 11 设置“在此时间后休眠”](https://github.com/Bpazy/blog/issues/227) | 我记得以前用 Win10 的时候，电源设置里有这一选项，但是到 Win11 之后，这一选项消失了 ![image](https://user-images.githubusercontent.com/ |
 | 2022-12-07 | [WebStorm 中 nodejs 相关的配置](https://github.com/Bpazy/blog/issues/257) | 记录用 WebStorm 开发 nodejs 项目一些配置上的修改 |
 | 2022-12-07 | [win10无法进入睡眠的终极解决方案！](https://github.com/Bpazy/blog/issues/116) | **首先本方法不是网上所谓修改电源设置一类的。**  先介绍一下电源选项，ACPI(Advanced Configuration and Power Interface)在运行中有以下几种模式： >  |
-| 2022-11-30 | [Clash 使用记录](https://github.com/Bpazy/blog/issues/204) | Clash 相关记录在这，比如：同步 CFW 配置、Tun 模式 CPU 占用、Linux 使用 Tun、Clash Dashboard 等。 |
 | 2022-11-30 | [Linux smb 的挂载和取消挂载](https://github.com/Bpazy/blog/issues/160) | ### 挂载 smb **Step 1: Install the CIFS Utils pkg** ```shell `sudo apt-get install cifs-utils` ``` **S |
 | 2022-11-30 | [tailscale 组网](https://github.com/Bpazy/blog/issues/201) | 官网: [https://tailscale.com/](https://tailscale.com/)，威联通踩坑 |
 | 2022-11-23 | [走马观花之 CouchDB](https://github.com/Bpazy/blog/issues/255) | CouchDB 的安装等记录 |
