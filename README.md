@@ -1,7 +1,7 @@
 <h1 align="center">Bpazy's Blog</h1>
 
 <p align="center">这里是我的个人博客，<a href="https://github.com/Bpazy/blog/issues">所有文章点击查看</a>，另外您可以通过 Github 的搜索功能直接搜索相关文章。</p>
-
+<p align="center">讨论问题请来这里：<a href="https://github.com/Bpazy/blog/discussions">Discussions</a></p>
 
 <br><br>
 <p align="center"><b>关于订阅</b></p>
