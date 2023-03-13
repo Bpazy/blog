@@ -19,6 +19,7 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2023-03-13 | [Proxmox VE 技巧记录](https://github.com/Bpazy/blog/issues/260) |  |
 | 2023-03-02 | [tailscale 组网](https://github.com/Bpazy/blog/issues/201) | 官网: [https://tailscale.com/](https://tailscale.com/)，威联通踩坑 |
 | 2023-02-24 | [Windows 邮件登录 iCloud 一直提示过期的解决方案](https://github.com/Bpazy/blog/issues/259) | 1. 电子邮件地址就填写 appleid 2. 密码填入应用专属密码，在 https://appleid.apple.com/  3. 更改邮箱账户同步设置，关闭“联系人”选项 |
 | 2023-02-23 | [Clash 使用记录](https://github.com/Bpazy/blog/issues/204) | Clash 相关记录在这，比如：同步 CFW 配置、Tun 模式 CPU 占用、Linux 使用 Tun、Clash Dashboard 等。 |
@@ -38,5 +39,4 @@
 | 2022-11-10 | [利用 openwrt 全局代理，来解决 Docker 恶心的代理配置方法](https://github.com/Bpazy/blog/issues/240) | Docker 的代理必须在 daemon 启动的时候，通过 HTTP_PROXY, HTTPS_PROXY 参数来指定。按照[官方文档的例子](https://docs.docker.com/conf |
 | 2022-11-05 | [grep 命令](https://github.com/Bpazy/blog/issues/253) | 记录一些 grep 命令相关知识 |
 | 2022-10-25 | [创建 Tailscale derper](https://github.com/Bpazy/blog/issues/219) | ```yaml version: '3' services:   derper:     image: fredliang/derper:latest     restart: unless-stop |
-| 2022-10-22 | [将 Jenkins 从裸机运行迁移到 Docker 中](https://github.com/Bpazy/blog/issues/251) | 步骤说明： 1. 我是用 Docker compose 来运行 Jenkins 的，所以先创建配置文件: ```sh mkdir ~/jenkins && cd ~/jenkins cat << EO |
 <!--END_SECTION:blog-->
