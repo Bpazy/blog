@@ -19,11 +19,11 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2023-03-29 | [Clash 使用记录](https://github.com/Bpazy/blog/issues/204) | Clash 相关记录在这，比如：同步 CFW 配置、Tun 模式 CPU 占用、Linux 使用 Tun、Clash Dashboard 等。 |
 | 2023-03-16 | [xargs笔记](https://github.com/Bpazy/blog/issues/131) | ## xargs 和 mv配合 需求：将所有子目录里的txt文件移动到当前目录。 ```shell D:\INSTALLER\2 │  321.txt │ └─新建文件夹     │  1.txt   |
 | 2023-03-13 | [Proxmox VE 技巧记录](https://github.com/Bpazy/blog/issues/260) |  |
 | 2023-03-02 | [tailscale 组网](https://github.com/Bpazy/blog/issues/201) | 官网: [https://tailscale.com/](https://tailscale.com/)，威联通踩坑 |
 | 2023-02-24 | [Windows 邮件登录 iCloud 一直提示过期的解决方案](https://github.com/Bpazy/blog/issues/259) | 1. 电子邮件地址就填写 appleid 2. 密码填入应用专属密码，在 https://appleid.apple.com/  3. 更改邮箱账户同步设置，关闭“联系人”选项 |
-| 2023-02-23 | [Clash 使用记录](https://github.com/Bpazy/blog/issues/204) | Clash 相关记录在这，比如：同步 CFW 配置、Tun 模式 CPU 占用、Linux 使用 Tun、Clash Dashboard 等。 |
 | 2023-01-03 | [WSL2 和 Proxifier 冲突的解决方案](https://github.com/Bpazy/blog/issues/156) | ### 解决方案 1. 下载 [http://www.proxifier.com/tmp/Test20200228/NoLsp.exe](http://www.proxifier.com/tmp/Te |
 | 2022-12-24 | [探寻 K3s](https://github.com/Bpazy/blog/issues/258) | 安装、使用等 |
 | 2022-12-20 | [研究下 Docker](https://github.com/Bpazy/blog/issues/256) | docker bridge |
