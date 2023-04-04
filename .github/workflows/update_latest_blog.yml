@@ -14,3 +14,5 @@ jobs:
       - uses: Bpazy/issue-list-action@v1.0.2
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_NAME: Bpazy
+          GITHUB_EMAIL: hanziyuan08@outlook.com
