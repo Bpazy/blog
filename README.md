@@ -19,6 +19,7 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2023-08-09 | [测测常用设备的功率](https://github.com/Bpazy/blog/issues/184) | 用功率表把家里常用设备测了一下功耗：  * 台式机：待机 50W，玩 Dota2 170W > 安钛克(Antec)VP450 450W > i7-6700K > 1060 > 2 块 SSD > 1 |
 | 2023-08-03 | [Nginx 小记](https://github.com/Bpazy/blog/issues/252) | 记录一些零碎的 Nginx 知识点 |
 | 2023-08-02 | [MQTT with mosquitto](https://github.com/Bpazy/blog/issues/264) |  |
 | 2023-08-02 | [Zigbee2MQTT](https://github.com/Bpazy/blog/issues/263) |  |
@@ -38,5 +39,4 @@
 | 2022-11-30 | [Linux smb 的挂载和取消挂载](https://github.com/Bpazy/blog/issues/160) | ### 挂载 smb **Step 1: Install the CIFS Utils pkg** ```shell `sudo apt-get install cifs-utils` ``` **S |
 | 2022-11-23 | [走马观花之 CouchDB](https://github.com/Bpazy/blog/issues/255) | CouchDB 的安装等记录 |
 | 2022-11-22 | [Obsidian 折腾之旅](https://github.com/Bpazy/blog/issues/254) | Obsidian 看起来挺有意思的，最近寻求日记软件的替代，尝试一下 Obsidian。  我的需求： 1. 个人日记； 2. 多人共享同一份日记； 3. 数据独立存储； |
-| 2022-11-22 | [常用命令系列](https://github.com/Bpazy/blog/issues/249) | grep, tar 等等 |
 <!--END_SECTION:blog-->
