@@ -19,7 +19,7 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
-| 2023-08-23 | [打造我的 homelab](https://github.com/Bpazy/blog/issues/262) | ## 概要 新房装修，趁机把早就想要搞的各种智能家居搞起来，智能开关、智能温控、家具联动、语音控制等等。我会从几个方面分享整套 homelab 的内容：电路、硬件、软件、监控。  ## 硬件篇 ### |
+| 2023-08-25 | [打造我的 homelab](https://github.com/Bpazy/blog/issues/262) | ## 概要 新房装修，趁机把早就想要搞的各种智能家居搞起来，智能开关、智能温控、家具联动、语音控制等等。我会从几个方面分享整套 homelab 的内容：电路、硬件、软件、监控。  ## 硬件篇 ### |
 | 2023-08-09 | [测测常用设备的功率](https://github.com/Bpazy/blog/issues/184) | 用功率表把家里常用设备测了一下功耗：  * 台式机：待机 50W，玩 Dota2 170W > 安钛克(Antec)VP450 450W > i7-6700K > 1060 > 2 块 SSD > 1 |
 | 2023-08-03 | [Nginx 小记](https://github.com/Bpazy/blog/issues/252) | 记录一些零碎的 Nginx 知识点 |
 | 2023-08-02 | [MQTT with mosquitto](https://github.com/Bpazy/blog/issues/264) |  |
