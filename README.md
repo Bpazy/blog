@@ -19,6 +19,7 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2023-09-01 | [网上国网加密方式分析](https://github.com/Bpazy/blog/issues/265) | 网上国网有 web 端，所以直接分析 web 端即可。  ## 电量电费查询接口分析  URL: https://www.95598.cn/api/osg-web0004/member/c24/f01 |
 | 2023-08-28 | [创建 Tailscale derper](https://github.com/Bpazy/blog/issues/219) | ```yaml version: '3' services:   derper:     image: fredliang/derper:latest     restart: unless-stop |
 | 2023-08-28 | [Pve 中的 Ubuntu (LVM) 动态扩容](https://github.com/Bpazy/blog/issues/261) | 大体上就两个步骤： 1. 在 PVE 扩容 Hard Disk； 2. 在 Ubuntu 中使用该部分空间；  pve 扩容很简单： ![image](https://github.com/Bpazy |
 | 2023-08-28 | [Zigbee2MQTT](https://github.com/Bpazy/blog/issues/263) | Zigbee2MQTT 是一款开源的用于接入 Zigbee 设备的软件，可将 Zigbee 设备接入后，并接受或发送消息到 MQTT Broker，进而与 Home Assistant 等平台去做处理 |
@@ -38,5 +39,4 @@
 | 2022-12-07 | [WebStorm 中 nodejs 相关的配置](https://github.com/Bpazy/blog/issues/257) | 记录用 WebStorm 开发 nodejs 项目一些配置上的修改 |
 | 2022-12-07 | [win10无法进入睡眠的终极解决方案！](https://github.com/Bpazy/blog/issues/116) | **首先本方法不是网上所谓修改电源设置一类的。**  先介绍一下电源选项，ACPI(Advanced Configuration and Power Interface)在运行中有以下几种模式： >  |
 | 2022-11-30 | [Linux smb 的挂载和取消挂载](https://github.com/Bpazy/blog/issues/160) | ### 挂载 smb **Step 1: Install the CIFS Utils pkg** ```shell `sudo apt-get install cifs-utils` ``` **S |
-| 2022-11-23 | [走马观花之 CouchDB](https://github.com/Bpazy/blog/issues/255) | CouchDB 的安装等记录 |
 <!--END_SECTION:blog-->
