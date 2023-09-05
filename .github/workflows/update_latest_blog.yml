@@ -11,7 +11,7 @@ jobs:
     name: Update latest blog
     steps:
       - uses: actions/checkout@v3
-      - uses: Bpazy/issue-list-action@v1.0.2
+      - uses: Bpazy/issue-list-action@v1.1.0
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_NAME: Bpazy
