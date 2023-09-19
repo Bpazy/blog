@@ -19,6 +19,8 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2023-09-18 | [事务嵌套导致的 SQL 超时](https://github.com/Bpazy/blog/issues/234) | 最近发生了个有趣的事情，事务的模型大概是这样： ![事务嵌套](https://user-images.githubusercontent.com/9838749/176080870-cb9dd107 |
+| 2023-09-18 | [MySQL 锁](https://github.com/Bpazy/blog/issues/209) |  |
 | 2023-09-04 | [网上国网加密方式分析](https://github.com/Bpazy/blog/issues/265) | 网上国网有 web 端，所以直接分析 web 端即可。  ## 电量电费查询接口分析  URL: https://www.95598.cn/api/osg-web0004/member/c24/f01 |
 | 2023-08-28 | [创建 Tailscale derper](https://github.com/Bpazy/blog/issues/219) | ```yaml version: '3' services:   derper:     image: fredliang/derper:latest     restart: unless-stop |
 | 2023-08-28 | [Pve 中的 Ubuntu (LVM) 动态扩容](https://github.com/Bpazy/blog/issues/261) | 大体上就两个步骤： 1. 在 PVE 扩容 Hard Disk； 2. 在 Ubuntu 中使用该部分空间；  pve 扩容很简单： ![image](https://github.com/Bpazy |
@@ -37,6 +39,4 @@
 | 2022-12-20 | [研究下 Docker](https://github.com/Bpazy/blog/issues/256) | docker bridge |
 | 2022-12-09 | [Windows 11 设置“在此时间后休眠”](https://github.com/Bpazy/blog/issues/227) | 我记得以前用 Win10 的时候，电源设置里有这一选项，但是到 Win11 之后，这一选项消失了 ![image](https://user-images.githubusercontent.com/ |
 | 2022-12-07 | [WebStorm 中 nodejs 相关的配置](https://github.com/Bpazy/blog/issues/257) | 记录用 WebStorm 开发 nodejs 项目一些配置上的修改 |
-| 2022-12-07 | [win10无法进入睡眠的终极解决方案！](https://github.com/Bpazy/blog/issues/116) | **首先本方法不是网上所谓修改电源设置一类的。**  先介绍一下电源选项，ACPI(Advanced Configuration and Power Interface)在运行中有以下几种模式： >  |
-| 2022-11-30 | [Linux smb 的挂载和取消挂载](https://github.com/Bpazy/blog/issues/160) | ### 挂载 smb **Step 1: Install the CIFS Utils pkg** ```shell `sudo apt-get install cifs-utils` ``` **S |
 <!--END_SECTION:blog-->
