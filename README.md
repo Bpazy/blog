@@ -19,6 +19,15 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2023-09-26 | [杂谈 Redis](https://github.com/Bpazy/blog/issues/299) |  |
+| 2023-09-26 | [杂谈分库分表](https://github.com/Bpazy/blog/issues/298) | ## 分表的一些难点 1. 数据迁移。可利用 DataX 全量迁移+otter增量同步。这里要考虑上线时是否允许停机几分钟，最好能停机，复杂度低很多。 2. 数据一致性。跨分片键如何保证数据一致性？可 |
+| 2023-09-26 | [B+树](https://github.com/Bpazy/blog/issues/291) | > 原文: https://mqjyl2012.gitbook.io/algorithm/data-structure/balanced-multipath-search-tree#1b-shu-de |
+| 2023-09-26 | [MySQL 之慢查案例](https://github.com/Bpazy/blog/issues/297) | 记录一些典型的慢查案例。  百度搜了个排查步骤，也算不赖: 1. 判断运行时是否真的很慢； 2. 定位性能瓶颈（是因为在数据访问消耗了太多的时间，还是在数据的运算（如分组排序等）方面花费了太多资源）； |
+| 2023-09-26 | [ElasticSearch技术相关](https://github.com/Bpazy/blog/issues/295) | # 一、ElasticSearch概要 ## 1.1 什么是ElasticSearch ElasticSearch**基于**全文搜索引擎库**Lucene**开发，提供了一套**RESTful**风 |
+| 2023-09-26 | [BKD树](https://github.com/Bpazy/blog/issues/296) | TODO |
+| 2023-09-26 | [怎样把 Sentinel 规则配置在 Apollo 中](https://github.com/Bpazy/blog/issues/294) | ## 背景说明 > Refer: [Sentinel 核心概念](https://github.com/Bpazy/blog/issues/293)  目前的应用使用 Sentinel 存在一些问题： |
+| 2023-09-26 | [Sentinel 核心概念](https://github.com/Bpazy/blog/issues/293) | 官方文档: https://sentinelguard.io/zh-cn/docs/introduction.html  核心有几点： 1. 流量控制（QPS） 2. 熔断降级 3. 系统自适应保护  |
+| 2023-09-26 | [mysql基本数据类型范围与存储说明](https://github.com/Bpazy/blog/issues/292) | 一、整型数据类型存储方式  整型数据类型是Mysql中最常用的数据类型之一，其存储方式如下：  1. TINYINT：占用1个字节，范围为-128~127。  2. SMALLINT：占用2个字节，范 |
 | 2023-09-20 | [XXL-JOB点击终止任务无效](https://github.com/Bpazy/blog/issues/290) | ## 问题描述 发布日，发现xxljob上点击终止任务无效。  ## 问题分析 首先查看xxljob上被终止的任务类型发现是GLUE(SHELL)，且shell代码为： ```shell #!/bin |
 | 2023-09-20 | [limit 导致的慢 SQL](https://github.com/Bpazy/blog/issues/289) | ### 分析 慢 SQL：这是一段带分页模糊查询的 SQL ```sql select   pk_id,name,address,detail_address,contacts,fax,contact |
 | 2023-09-20 | [Apollo 不支持 @ConfigurationProperties](https://github.com/Bpazy/blog/issues/288) | 说好的支持配置自动更新，结果只支持到 @Value ？？？  ## 原因 Apollo 支持 @Value 形式的配置自动更新，但是不支持 @ConfigurationProperties 形式的配置 |
@@ -30,13 +39,4 @@
 | 2023-09-20 | [排序异常: Comparison method violates its general contract](https://github.com/Bpazy/blog/issues/282) | ## 背景和异常介绍 先贴异常堆栈: ```java java.lang.IllegalArgumentException: Comparison method violates its genera |
 | 2023-09-20 | [Apollo 接入准则](https://github.com/Bpazy/blog/issues/281) | ## 结论 ### 哪些配置应该上 Apollo 绝大部分配置都可以上 Apollo，如：  1. 数据库连接、MQ 配置； 2. 简单的开关，如关闭 MQ 流量，无需额外接入 XXLJOB； 3.  |
 | 2023-09-20 | [为什么字段一定要非空且有默认值？](https://github.com/Bpazy/blog/issues/280) | ## 前言 为什么公司要求所有字段都必须 NOT NULL 且有默认值？ 以门店主从关系表举例，表结构如下： ```sql CREATE TABLE `sys_org_relation`  (   ` |
-| 2023-09-20 | [SQL查询切换主从支持使用注解方案调查](https://github.com/Bpazy/blog/issues/279) | 目前多数工程使用了 @DataSource 动态切换数据源，而智配多采用 dao, dao2, dao3 这种形式手工维护不同数据源的读写分离。这里调查**如何降低维护读写分离的人工成本**。 ##  |
-| 2023-09-20 | [Wow~ you can really JMH](https://github.com/Bpazy/blog/issues/278) | ## JMH 介绍 ### JMH 是什么 > JMH is a Java harness for building, running, and analysing nano/micro/milli/ |
-| 2023-09-20 | [提高排查和写代码效率的方法](https://github.com/Bpazy/blog/issues/277) | 工作中经常一些场景：  1. 排查某接口的影响范围、接口是否有访问、前端是否用了某接口； 2. 代码写起来比较困难：写得慢、抽象慢、异味对应慢等；  ## 工具层面 ### 1. 善用 IDE ### |
-| 2023-09-20 | [采购dubbo接口反向依赖的接口排查](https://github.com/Bpazy/blog/issues/276) | ## 范围 purchase <-> erp purchase <-> stock ## 排查结果 红色字体为导致反向依赖的接口。 黄色底为erp接口。 绿色底为stock接口。 灰色底为无需关注的接 |
-| 2023-09-20 | [复杂链路数据一致性解决方案落地](https://github.com/Bpazy/blog/issues/275) | # 前言 什么微服务、服务网格，时下流行的各种名词、文章里一定少不了的话题——数据一致性。  它在博客中原理总是很简单，让你觉得实践并不难； 它在解决方案的 Demo 中也很清晰，让你觉得手到擒来；  |
-| 2023-09-20 | [RocketMQ 订阅关系不一致](https://github.com/Bpazy/blog/issues/274) | ### 订阅关系不一致 相同 GID 多个 Consumer 订阅不同的 (Topic, Tag) 即为订阅关系不一致。 ![image](https://github.com/Bpazy/blog/ |
-| 2023-09-20 | [java float dubo 取值范围和精度](https://github.com/Bpazy/blog/issues/273) | ## IEEE 754 介绍 Java 中浮点数采用的是 [IEEE754 标准](https://en.wikipedia.org/wiki/IEEE_754)。 #### float | 符号位（ |
-| 2023-09-20 | [MySQL中的7种日志](https://github.com/Bpazy/blog/issues/272) | > https://github.com/bingoohuang/blog/issues/137#issue-549286113  ## MySQL中有7种日志文件  1. 重做日志（redo log |
-| 2023-09-20 | [Apache 版本使用建议](https://github.com/Bpazy/blog/issues/271) | ## 集合工具 ### 使用 collections4 包 ```java // 此方法返回 0 org.apache.commons.collections4.CollectionUtils.siz |
 <!--END_SECTION:blog-->
