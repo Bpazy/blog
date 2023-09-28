@@ -16,3 +16,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_NAME: Bpazy
           GITHUB_EMAIL: hanziyuan08@outlook.com
+          NUMBER: 50
