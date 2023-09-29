@@ -19,12 +19,14 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
-| 2023-09-26 | [杂谈 Redis](https://github.com/Bpazy/blog/issues/299) |  |
-| 2023-09-26 | [杂谈分库分表](https://github.com/Bpazy/blog/issues/298) | ## 分表的一些难点 1. 数据迁移。可利用 DataX 全量迁移+otter增量同步。这里要考虑上线时是否允许停机几分钟，最好能停机，复杂度低很多。 2. 数据一致性。跨分片键如何保证数据一致性？可 |
+| 2023-09-28 | [杂谈 Redis](https://github.com/Bpazy/blog/issues/299) | 重点： 1. 数据类型的选择 2. 集群 3. 集群扩容  Redis五大数据类型：String（字符串），Hash（哈希），List（列表），Set（集合）及Zset(sorted set：有序集合 |
+| 2023-09-28 | [缓存系统](https://github.com/Bpazy/blog/issues/301) | 几个重点： 1. 击穿、穿透、雪崩 2. 二级缓存 3. 布隆过滤器 |
+| 2023-09-28 | [杂谈微服务](https://github.com/Bpazy/blog/issues/300) | ## 多维度抗压 TODO  ## 如何设计架构 TODO  ## 怎样做服务治理 TODO |
+| 2023-09-28 | [BKD树](https://github.com/Bpazy/blog/issues/296) | BKD树，全称为b-树形kd树（bushy kd-trees），是一种用于高维数据搜索的数据结构。它是基于kd树（k-dimensional tree）的改进版本。  kd树是一种二叉树结构，将数据按 |
+| 2023-09-28 | [杂谈分库分表](https://github.com/Bpazy/blog/issues/298) | ## 分表的一些难点 1. 数据迁移。可利用 DataX 全量迁移+otter增量同步。这里要考虑上线时是否允许停机几分钟，最好能停机，复杂度低很多。 2. 数据一致性。跨分片键如何保证数据一致性？可 |
 | 2023-09-26 | [B+树](https://github.com/Bpazy/blog/issues/291) | > 原文: https://mqjyl2012.gitbook.io/algorithm/data-structure/balanced-multipath-search-tree#1b-shu-de |
 | 2023-09-26 | [MySQL 之慢查案例](https://github.com/Bpazy/blog/issues/297) | 记录一些典型的慢查案例。  百度搜了个排查步骤，也算不赖: 1. 判断运行时是否真的很慢； 2. 定位性能瓶颈（是因为在数据访问消耗了太多的时间，还是在数据的运算（如分组排序等）方面花费了太多资源）； |
 | 2023-09-26 | [ElasticSearch技术相关](https://github.com/Bpazy/blog/issues/295) | # 一、ElasticSearch概要 ## 1.1 什么是ElasticSearch ElasticSearch**基于**全文搜索引擎库**Lucene**开发，提供了一套**RESTful**风 |
-| 2023-09-26 | [BKD树](https://github.com/Bpazy/blog/issues/296) | TODO |
 | 2023-09-26 | [怎样把 Sentinel 规则配置在 Apollo 中](https://github.com/Bpazy/blog/issues/294) | ## 背景说明 > Refer: [Sentinel 核心概念](https://github.com/Bpazy/blog/issues/293)  目前的应用使用 Sentinel 存在一些问题： |
 | 2023-09-26 | [Sentinel 核心概念](https://github.com/Bpazy/blog/issues/293) | 官方文档: https://sentinelguard.io/zh-cn/docs/introduction.html  核心有几点： 1. 流量控制（QPS） 2. 熔断降级 3. 系统自适应保护  |
 | 2023-09-26 | [mysql基本数据类型范围与存储说明](https://github.com/Bpazy/blog/issues/292) | 一、整型数据类型存储方式  整型数据类型是Mysql中最常用的数据类型之一，其存储方式如下：  1. TINYINT：占用1个字节，范围为-128~127。  2. SMALLINT：占用2个字节，范 |
@@ -39,4 +41,32 @@
 | 2023-09-20 | [排序异常: Comparison method violates its general contract](https://github.com/Bpazy/blog/issues/282) | ## 背景和异常介绍 先贴异常堆栈: ```java java.lang.IllegalArgumentException: Comparison method violates its genera |
 | 2023-09-20 | [Apollo 接入准则](https://github.com/Bpazy/blog/issues/281) | ## 结论 ### 哪些配置应该上 Apollo 绝大部分配置都可以上 Apollo，如：  1. 数据库连接、MQ 配置； 2. 简单的开关，如关闭 MQ 流量，无需额外接入 XXLJOB； 3.  |
 | 2023-09-20 | [为什么字段一定要非空且有默认值？](https://github.com/Bpazy/blog/issues/280) | ## 前言 为什么公司要求所有字段都必须 NOT NULL 且有默认值？ 以门店主从关系表举例，表结构如下： ```sql CREATE TABLE `sys_org_relation`  (   ` |
+| 2023-09-20 | [SQL查询切换主从支持使用注解方案调查](https://github.com/Bpazy/blog/issues/279) | 目前多数工程使用了 @DataSource 动态切换数据源，而智配多采用 dao, dao2, dao3 这种形式手工维护不同数据源的读写分离。这里调查**如何降低维护读写分离的人工成本**。 ##  |
+| 2023-09-20 | [Wow~ you can really JMH](https://github.com/Bpazy/blog/issues/278) | ## JMH 介绍 ### JMH 是什么 > JMH is a Java harness for building, running, and analysing nano/micro/milli/ |
+| 2023-09-20 | [提高排查和写代码效率的方法](https://github.com/Bpazy/blog/issues/277) | 工作中经常一些场景：  1. 排查某接口的影响范围、接口是否有访问、前端是否用了某接口； 2. 代码写起来比较困难：写得慢、抽象慢、异味对应慢等；  ## 工具层面 ### 1. 善用 IDE ### |
+| 2023-09-20 | [采购dubbo接口反向依赖的接口排查](https://github.com/Bpazy/blog/issues/276) | ## 范围 purchase <-> erp purchase <-> stock ## 排查结果 红色字体为导致反向依赖的接口。 黄色底为erp接口。 绿色底为stock接口。 灰色底为无需关注的接 |
+| 2023-09-20 | [复杂链路数据一致性解决方案落地](https://github.com/Bpazy/blog/issues/275) | # 前言 什么微服务、服务网格，时下流行的各种名词、文章里一定少不了的话题——数据一致性。  它在博客中原理总是很简单，让你觉得实践并不难； 它在解决方案的 Demo 中也很清晰，让你觉得手到擒来；  |
+| 2023-09-20 | [RocketMQ 订阅关系不一致](https://github.com/Bpazy/blog/issues/274) | ### 订阅关系不一致 相同 GID 多个 Consumer 订阅不同的 (Topic, Tag) 即为订阅关系不一致。 ![image](https://github.com/Bpazy/blog/ |
+| 2023-09-20 | [java float dubo 取值范围和精度](https://github.com/Bpazy/blog/issues/273) | ## IEEE 754 介绍 Java 中浮点数采用的是 [IEEE754 标准](https://en.wikipedia.org/wiki/IEEE_754)。 #### float | 符号位（ |
+| 2023-09-20 | [MySQL中的7种日志](https://github.com/Bpazy/blog/issues/272) | > https://github.com/bingoohuang/blog/issues/137#issue-549286113  ## MySQL中有7种日志文件  1. 重做日志（redo log |
+| 2023-09-20 | [Apache 版本使用建议](https://github.com/Bpazy/blog/issues/271) | ## 集合工具 ### 使用 collections4 包 ```java // 此方法返回 0 org.apache.commons.collections4.CollectionUtils.siz |
+| 2023-09-20 | [利用 NSS Key Log 解密 HTTPS](https://github.com/Bpazy/blog/issues/270) | 在使用 Wireshark 分析 HTTPS 时，加密传输的内容会解析失败。而 NSS 可以存储 TLS 握手过程中的 Key，用于解密。  Firefox 和 Chrome 都支持 NSS Key  |
+| 2023-09-20 | [NSS Key Log 文件格式](https://github.com/Bpazy/blog/issues/269) | Key logs can be written by NSS so that external programs can decrypt TLS connections. Wireshark 1.6. |
+| 2023-09-20 | [利用 nslookup 展示 IP 对应的 hostname](https://github.com/Bpazy/blog/issues/268) | ```bash $ nslookup 172.27.70.35 35.70.27.172.in-addr.arpa       name = LAPTOP-R2FUR9P4.  Authoritati |
+| 2023-09-20 | [XxlJob 无法 restart](https://github.com/Bpazy/blog/issues/267) | ## 概要 接入 Apollo 后，准备把 XxlJob 的启停也接入配置中心，和 MQ 保持一致，这样就可以在配置中心统一管理 MQ, XxlJob 的流量了。但是在接入的过程中，发现了问题，表现为 |
+| 2023-09-20 | [J2Cache 二级缓存问题分析](https://github.com/Bpazy/blog/issues/266) | ### L1 过期时，L2 会被同步清除吗？ 不会。目前 L1 采用的是 EhCache，EhCache 采用的是惰性删除，什么是惰性删除？即访问时，判断该数据是否过期，如果已过期，则删除该数据并返回 |
+| 2023-09-18 | [事务嵌套导致的 SQL 超时](https://github.com/Bpazy/blog/issues/234) | 最近发生了个有趣的事情，事务的模型大概是这样： ![事务嵌套](https://user-images.githubusercontent.com/9838749/176080870-cb9dd107 |
+| 2023-09-18 | [MySQL 锁](https://github.com/Bpazy/blog/issues/209) |  |
+| 2023-09-04 | [网上国网加密方式分析](https://github.com/Bpazy/blog/issues/265) | 网上国网有 web 端，所以直接分析 web 端即可。  ## 电量电费查询接口分析  URL: https://www.95598.cn/api/osg-web0004/member/c24/f01 |
+| 2023-08-28 | [创建 Tailscale derper](https://github.com/Bpazy/blog/issues/219) | ```yaml version: '3' services:   derper:     image: fredliang/derper:latest     restart: unless-stop |
+| 2023-08-28 | [Pve 中的 Ubuntu (LVM) 动态扩容](https://github.com/Bpazy/blog/issues/261) | 大体上就两个步骤： 1. 在 PVE 扩容 Hard Disk； 2. 在 Ubuntu 中使用该部分空间；  pve 扩容很简单： ![image](https://github.com/Bpazy |
+| 2023-08-28 | [Zigbee2MQTT](https://github.com/Bpazy/blog/issues/263) | Zigbee2MQTT 是一款开源的用于接入 Zigbee 设备的软件，可将 Zigbee 设备接入后，并接受或发送消息到 MQTT Broker，进而与 Home Assistant 等平台去做处理 |
+| 2023-08-28 | [MQTT with mosquitto](https://github.com/Bpazy/blog/issues/264) | mosquitto 是由 Apache 对 MQTT 协议的实现 |
+| 2023-08-25 | [打造我的 homelab](https://github.com/Bpazy/blog/issues/262) | ## 概要 新房装修，趁机把早就想要搞的各种智能家居搞起来，智能开关、智能温控、家具联动、语音控制等等。我会从几个方面分享整套 homelab 的内容：电路、硬件、软件、监控。  ## 硬件篇 ### |
+| 2023-08-09 | [测测常用设备的功率](https://github.com/Bpazy/blog/issues/184) | 用功率表把家里常用设备测了一下功耗：  * 台式机：待机 50W，玩 Dota2 170W > 安钛克(Antec)VP450 450W > i7-6700K > 1060 > 2 块 SSD > 1 |
+| 2023-08-03 | [Nginx 小记](https://github.com/Bpazy/blog/issues/252) | 记录一些零碎的 Nginx 知识点 |
+| 2023-03-29 | [Clash 使用记录](https://github.com/Bpazy/blog/issues/204) | Clash 相关记录在这，比如：同步 CFW 配置、Tun 模式 CPU 占用、Linux 使用 Tun、Clash Dashboard 等。 |
+| 2023-03-16 | [xargs笔记](https://github.com/Bpazy/blog/issues/131) | ## xargs 和 mv配合 需求：将所有子目录里的txt文件移动到当前目录。 ```shell D:\INSTALLER\2 │  321.txt │ └─新建文件夹     │  1.txt   |
+| 2023-03-13 | [Proxmox VE 技巧记录](https://github.com/Bpazy/blog/issues/260) |  |
+| 2023-03-02 | [tailscale 组网](https://github.com/Bpazy/blog/issues/201) | 官网: [https://tailscale.com/](https://tailscale.com/)，威联通踩坑 |
 <!--END_SECTION:blog-->
