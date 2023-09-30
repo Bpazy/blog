@@ -19,8 +19,9 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
-| 2023-09-28 | [杂谈 Redis](https://github.com/Bpazy/blog/issues/299) | 重点： 1. 数据类型的选择 2. 集群 3. 集群扩容  Redis五大数据类型：String（字符串），Hash（哈希），List（列表），Set（集合）及Zset(sorted set：有序集合 |
-| 2023-09-28 | [缓存系统](https://github.com/Bpazy/blog/issues/301) | 几个重点： 1. 击穿、穿透、雪崩 2. 二级缓存 3. 布隆过滤器 |
+| 2023-09-29 | [杂谈 Redis](https://github.com/Bpazy/blog/issues/299) | 重点： 1. 数据类型的选择 2. 集群 3. 集群扩容  Redis五大数据类型：String（字符串），Hash（哈希），List（列表），Set（集合）及Zset(sorted set：有序集合 |
+| 2023-09-29 | [缓存系统](https://github.com/Bpazy/blog/issues/301) | 几个重点： 1. 击穿、穿透、雪崩 2. 二级缓存 3. 布隆过滤器 |
+| 2023-09-29 | [布隆过滤器](https://github.com/Bpazy/blog/issues/302) | 布隆过滤器（Bloom Filter）是由布隆（Burton Howard Bloom）在 1970 年提出的，它实际上是由一个很长的二进制向量和一系列随机hash映射函数组成（说白了，就是用二进制数 |
 | 2023-09-28 | [杂谈微服务](https://github.com/Bpazy/blog/issues/300) | ## 多维度抗压 TODO  ## 如何设计架构 TODO  ## 怎样做服务治理 TODO |
 | 2023-09-28 | [BKD树](https://github.com/Bpazy/blog/issues/296) | BKD树，全称为b-树形kd树（bushy kd-trees），是一种用于高维数据搜索的数据结构。它是基于kd树（k-dimensional tree）的改进版本。  kd树是一种二叉树结构，将数据按 |
 | 2023-09-28 | [杂谈分库分表](https://github.com/Bpazy/blog/issues/298) | ## 分表的一些难点 1. 数据迁移。可利用 DataX 全量迁移+otter增量同步。这里要考虑上线时是否允许停机几分钟，最好能停机，复杂度低很多。 2. 数据一致性。跨分片键如何保证数据一致性？可 |
@@ -68,5 +69,4 @@
 | 2023-03-29 | [Clash 使用记录](https://github.com/Bpazy/blog/issues/204) | Clash 相关记录在这，比如：同步 CFW 配置、Tun 模式 CPU 占用、Linux 使用 Tun、Clash Dashboard 等。 |
 | 2023-03-16 | [xargs笔记](https://github.com/Bpazy/blog/issues/131) | ## xargs 和 mv配合 需求：将所有子目录里的txt文件移动到当前目录。 ```shell D:\INSTALLER\2 │  321.txt │ └─新建文件夹     │  1.txt   |
 | 2023-03-13 | [Proxmox VE 技巧记录](https://github.com/Bpazy/blog/issues/260) |  |
-| 2023-03-02 | [tailscale 组网](https://github.com/Bpazy/blog/issues/201) | 官网: [https://tailscale.com/](https://tailscale.com/)，威联通踩坑 |
 <!--END_SECTION:blog-->
