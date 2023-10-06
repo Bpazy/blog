@@ -19,11 +19,12 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2023-10-05 | [杂谈微服务](https://github.com/Bpazy/blog/issues/300) | ## 多维度抗压 前端做好防抖。 后端做的事情挺多： * 限流（通过生产压测得出系统最高 QPS）：   * QPS：限制每秒的请求数   * 并发数：避免开启过多线程导致资源耗尽   * 连接数：限 |
+| 2023-10-05 | [注册中心及其理论](https://github.com/Bpazy/blog/issues/303) | 记录下注册中心相关知识。  各种注册中心对比： ![image](https://github.com/Bpazy/blog/assets/9838749/4d2b5ef9-4acf-4e2c-bc2 |
 | 2023-10-05 | [杂谈分库分表](https://github.com/Bpazy/blog/issues/298) | ## 分表的一些难点 1. 数据迁移。可利用 DataX 全量迁移+otter增量同步。这里要考虑上线时是否允许停机几分钟，最好能停机，复杂度低很多。 2. 数据一致性。跨分片键如何保证数据一致性？可 |
 | 2023-10-02 | [布隆过滤器](https://github.com/Bpazy/blog/issues/302) | 布隆过滤器（Bloom Filter）是由布隆（Burton Howard Bloom）在 1970 年提出的，它实际上是由一个很长的二进制向量和一系列随机hash映射函数组成（说白了，就是用二进制数 |
 | 2023-09-30 | [杂谈 Redis](https://github.com/Bpazy/blog/issues/299) | 重点： 1. 数据类型的选择 2. 集群 3. 集群扩容  Redis五大数据类型：String（字符串），Hash（哈希），List（列表），Set（集合）及Zset(sorted set：有序集合 |
 | 2023-09-29 | [缓存系统](https://github.com/Bpazy/blog/issues/301) | 几个重点： 1. 击穿、穿透、雪崩 2. 二级缓存 3. 布隆过滤器 |
-| 2023-09-28 | [杂谈微服务](https://github.com/Bpazy/blog/issues/300) | ## 多维度抗压 TODO  ## 如何设计架构 TODO  ## 怎样做服务治理 TODO |
 | 2023-09-28 | [BKD树](https://github.com/Bpazy/blog/issues/296) | BKD树，全称为b-树形kd树（bushy kd-trees），是一种用于高维数据搜索的数据结构。它是基于kd树（k-dimensional tree）的改进版本。  kd树是一种二叉树结构，将数据按 |
 | 2023-09-26 | [B+树](https://github.com/Bpazy/blog/issues/291) | > 原文: https://mqjyl2012.gitbook.io/algorithm/data-structure/balanced-multipath-search-tree#1b-shu-de |
 | 2023-09-26 | [MySQL 之慢查案例](https://github.com/Bpazy/blog/issues/297) | 记录一些典型的慢查案例。  百度搜了个排查步骤，也算不赖: 1. 判断运行时是否真的很慢； 2. 定位性能瓶颈（是因为在数据访问消耗了太多的时间，还是在数据的运算（如分组排序等）方面花费了太多资源）； |
@@ -68,5 +69,4 @@
 | 2023-08-03 | [Nginx 小记](https://github.com/Bpazy/blog/issues/252) | 记录一些零碎的 Nginx 知识点 |
 | 2023-03-29 | [Clash 使用记录](https://github.com/Bpazy/blog/issues/204) | Clash 相关记录在这，比如：同步 CFW 配置、Tun 模式 CPU 占用、Linux 使用 Tun、Clash Dashboard 等。 |
 | 2023-03-16 | [xargs笔记](https://github.com/Bpazy/blog/issues/131) | ## xargs 和 mv配合 需求：将所有子目录里的txt文件移动到当前目录。 ```shell D:\INSTALLER\2 │  321.txt │ └─新建文件夹     │  1.txt   |
-| 2023-03-13 | [Proxmox VE 技巧记录](https://github.com/Bpazy/blog/issues/260) |  |
 <!--END_SECTION:blog-->
