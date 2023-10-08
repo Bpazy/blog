@@ -19,12 +19,13 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2023-10-07 | [注册中心及其理论](https://github.com/Bpazy/blog/issues/303) | 记录下注册中心相关知识。  各种注册中心对比： <html> <body> <!--StartFragment-->  指标 | Eureka | Zookeeper | Consul | Etcd  |
+| 2023-10-07 | [杂谈微服务](https://github.com/Bpazy/blog/issues/300) | ## 多维度抗压 前端做好防抖。  后端做的事情挺多： * 风控（检测到机器人直接封账号或 IP） * 限流（通过生产压测得出系统最高 QPS）：   * QPS：限制每秒的请求数   * 并发数：避 |
+| 2023-10-07 | [Java 线程池](https://github.com/Bpazy/blog/issues/305) | Refer: [Java线程池实现原理及其在美团业务中的实践](https://tech.meituan.com/2020/04/02/java-pooling-pratice-in-meituan. |
+| 2023-10-07 | [杂谈 Redis](https://github.com/Bpazy/blog/issues/299) | 重点： 1. 数据类型的选择 2. 集群 3. 集群扩容  Redis五大数据类型：String（字符串），Hash（哈希），List（列表），Set（集合）及Zset(sorted set：有序集合 |
 | 2023-10-06 | [Spring Boot @Enable* 这类注解的实现原理](https://github.com/Bpazy/blog/issues/304) | 比如 @EnableCaching, @EnableEql, @EnableAsync，这些都是如何实现的？我们又如何自定义呢？   以 @EnableAsync 为例: ```java @Targe |
-| 2023-10-06 | [杂谈微服务](https://github.com/Bpazy/blog/issues/300) | ## 多维度抗压 前端做好防抖。  后端做的事情挺多： * 风控（检测到机器人直接封账号或 IP） * 限流（通过生产压测得出系统最高 QPS）：   * QPS：限制每秒的请求数   * 并发数：避 |
-| 2023-10-05 | [注册中心及其理论](https://github.com/Bpazy/blog/issues/303) | 记录下注册中心相关知识。  各种注册中心对比： ![image](https://github.com/Bpazy/blog/assets/9838749/4d2b5ef9-4acf-4e2c-bc2 |
 | 2023-10-05 | [杂谈分库分表](https://github.com/Bpazy/blog/issues/298) | ## 分表的一些难点 1. 数据迁移。可利用 DataX 全量迁移+otter增量同步。这里要考虑上线时是否允许停机几分钟，最好能停机，复杂度低很多。 2. 数据一致性。跨分片键如何保证数据一致性？可 |
 | 2023-10-02 | [布隆过滤器](https://github.com/Bpazy/blog/issues/302) | 布隆过滤器（Bloom Filter）是由布隆（Burton Howard Bloom）在 1970 年提出的，它实际上是由一个很长的二进制向量和一系列随机hash映射函数组成（说白了，就是用二进制数 |
-| 2023-09-30 | [杂谈 Redis](https://github.com/Bpazy/blog/issues/299) | 重点： 1. 数据类型的选择 2. 集群 3. 集群扩容  Redis五大数据类型：String（字符串），Hash（哈希），List（列表），Set（集合）及Zset(sorted set：有序集合 |
 | 2023-09-29 | [缓存系统](https://github.com/Bpazy/blog/issues/301) | 几个重点： 1. 击穿、穿透、雪崩 2. 二级缓存 3. 布隆过滤器 |
 | 2023-09-28 | [BKD树](https://github.com/Bpazy/blog/issues/296) | BKD树，全称为b-树形kd树（bushy kd-trees），是一种用于高维数据搜索的数据结构。它是基于kd树（k-dimensional tree）的改进版本。  kd树是一种二叉树结构，将数据按 |
 | 2023-09-26 | [B+树](https://github.com/Bpazy/blog/issues/291) | > 原文: https://mqjyl2012.gitbook.io/algorithm/data-structure/balanced-multipath-search-tree#1b-shu-de |
@@ -68,5 +69,4 @@
 | 2023-08-25 | [打造我的 homelab](https://github.com/Bpazy/blog/issues/262) | ## 概要 新房装修，趁机把早就想要搞的各种智能家居搞起来，智能开关、智能温控、家具联动、语音控制等等。我会从几个方面分享整套 homelab 的内容：电路、硬件、软件、监控。  ## 硬件篇 ### |
 | 2023-08-09 | [测测常用设备的功率](https://github.com/Bpazy/blog/issues/184) | 用功率表把家里常用设备测了一下功耗：  * 台式机：待机 50W，玩 Dota2 170W > 安钛克(Antec)VP450 450W > i7-6700K > 1060 > 2 块 SSD > 1 |
 | 2023-08-03 | [Nginx 小记](https://github.com/Bpazy/blog/issues/252) | 记录一些零碎的 Nginx 知识点 |
-| 2023-03-29 | [Clash 使用记录](https://github.com/Bpazy/blog/issues/204) | Clash 相关记录在这，比如：同步 CFW 配置、Tun 模式 CPU 占用、Linux 使用 Tun、Clash Dashboard 等。 |
 <!--END_SECTION:blog-->
