@@ -19,14 +19,14 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2023-10-08 | [缓存系统](https://github.com/Bpazy/blog/issues/301) | 几个重点： 1. 击穿、穿透、雪崩 2. 二级缓存 3. 布隆过滤器  ![image](https://github.com/Bpazy/blog/assets/9838749/10bc7a78-f |
+| 2023-10-08 | [Java 线程池](https://github.com/Bpazy/blog/issues/305) | Refer: [Java线程池实现原理及其在美团业务中的实践](https://tech.meituan.com/2020/04/02/java-pooling-pratice-in-meituan. |
 | 2023-10-07 | [注册中心及其理论](https://github.com/Bpazy/blog/issues/303) | 记录下注册中心相关知识。  各种注册中心对比： <html> <body> <!--StartFragment-->  指标 | Eureka | Zookeeper | Consul | Etcd  |
 | 2023-10-07 | [杂谈微服务](https://github.com/Bpazy/blog/issues/300) | ## 多维度抗压 前端做好防抖。  后端做的事情挺多： * 风控（检测到机器人直接封账号或 IP） * 限流（通过生产压测得出系统最高 QPS）：   * QPS：限制每秒的请求数   * 并发数：避 |
-| 2023-10-07 | [Java 线程池](https://github.com/Bpazy/blog/issues/305) | Refer: [Java线程池实现原理及其在美团业务中的实践](https://tech.meituan.com/2020/04/02/java-pooling-pratice-in-meituan. |
 | 2023-10-07 | [杂谈 Redis](https://github.com/Bpazy/blog/issues/299) | 重点： 1. 数据类型的选择 2. 集群 3. 集群扩容  Redis五大数据类型：String（字符串），Hash（哈希），List（列表），Set（集合）及Zset(sorted set：有序集合 |
 | 2023-10-06 | [Spring Boot @Enable* 这类注解的实现原理](https://github.com/Bpazy/blog/issues/304) | 比如 @EnableCaching, @EnableEql, @EnableAsync，这些都是如何实现的？我们又如何自定义呢？   以 @EnableAsync 为例: ```java @Targe |
 | 2023-10-05 | [杂谈分库分表](https://github.com/Bpazy/blog/issues/298) | ## 分表的一些难点 1. 数据迁移。可利用 DataX 全量迁移+otter增量同步。这里要考虑上线时是否允许停机几分钟，最好能停机，复杂度低很多。 2. 数据一致性。跨分片键如何保证数据一致性？可 |
 | 2023-10-02 | [布隆过滤器](https://github.com/Bpazy/blog/issues/302) | 布隆过滤器（Bloom Filter）是由布隆（Burton Howard Bloom）在 1970 年提出的，它实际上是由一个很长的二进制向量和一系列随机hash映射函数组成（说白了，就是用二进制数 |
-| 2023-09-29 | [缓存系统](https://github.com/Bpazy/blog/issues/301) | 几个重点： 1. 击穿、穿透、雪崩 2. 二级缓存 3. 布隆过滤器 |
 | 2023-09-28 | [BKD树](https://github.com/Bpazy/blog/issues/296) | BKD树，全称为b-树形kd树（bushy kd-trees），是一种用于高维数据搜索的数据结构。它是基于kd树（k-dimensional tree）的改进版本。  kd树是一种二叉树结构，将数据按 |
 | 2023-09-26 | [B+树](https://github.com/Bpazy/blog/issues/291) | > 原文: https://mqjyl2012.gitbook.io/algorithm/data-structure/balanced-multipath-search-tree#1b-shu-de |
 | 2023-09-26 | [MySQL 之慢查案例](https://github.com/Bpazy/blog/issues/297) | 记录一些典型的慢查案例。  百度搜了个排查步骤，也算不赖: 1. 判断运行时是否真的很慢； 2. 定位性能瓶颈（是因为在数据访问消耗了太多的时间，还是在数据的运算（如分组排序等）方面花费了太多资源）； |
