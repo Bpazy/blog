@@ -19,6 +19,9 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2023-10-11 | [Sentinel 核心概念](https://github.com/Bpazy/blog/issues/293) | 官方文档: https://sentinelguard.io/zh-cn/docs/introduction.html  核心有几点： 1. 流量控制（QPS） 2. 熔断降级 3. 系统自适应保护  |
+| 2023-10-11 | [B+树](https://github.com/Bpazy/blog/issues/291) | > 原文: https://mqjyl2012.gitbook.io/algorithm/data-structure/balanced-multipath-search-tree#1b-shu-de |
+| 2023-10-11 | [MQ 记录](https://github.com/Bpazy/blog/issues/307) | 常见的 MQ 有很多，比如 RocketMQ, Kafka |
 | 2023-10-09 | [Spring Boot @Enable* 这类注解的实现原理](https://github.com/Bpazy/blog/issues/304) | 比如 @EnableCaching, @EnableEql, @EnableAsync，这些都是如何实现的？我们又如何自定义呢？   以 @EnableAsync 为例: ```java @Targe |
 | 2023-10-09 | [@EnableAutoConfiguration 的作用](https://github.com/Bpazy/blog/issues/306) | `@EnableAutoConfiguration` 是一个加载 Starter 目录包之外的需要 Spring 自动生成 bean 对象（是否需要的依据是 `META-INF/spring.fact |
 | 2023-10-09 | [杂谈分库分表](https://github.com/Bpazy/blog/issues/298) | ## 分表的一些难点 1. 数据迁移。可利用 DataX 全量迁移+otter增量同步。这里要考虑上线时是否允许停机几分钟，最好能停机，复杂度低很多。 2. 数据一致性。跨分片键如何保证数据一致性？可 |
@@ -29,11 +32,9 @@
 | 2023-10-07 | [杂谈 Redis](https://github.com/Bpazy/blog/issues/299) | 重点： 1. 数据类型的选择 2. 集群 3. 集群扩容  Redis五大数据类型：String（字符串），Hash（哈希），List（列表），Set（集合）及Zset(sorted set：有序集合 |
 | 2023-10-02 | [布隆过滤器](https://github.com/Bpazy/blog/issues/302) | 布隆过滤器（Bloom Filter）是由布隆（Burton Howard Bloom）在 1970 年提出的，它实际上是由一个很长的二进制向量和一系列随机hash映射函数组成（说白了，就是用二进制数 |
 | 2023-09-28 | [BKD树](https://github.com/Bpazy/blog/issues/296) | BKD树，全称为b-树形kd树（bushy kd-trees），是一种用于高维数据搜索的数据结构。它是基于kd树（k-dimensional tree）的改进版本。  kd树是一种二叉树结构，将数据按 |
-| 2023-09-26 | [B+树](https://github.com/Bpazy/blog/issues/291) | > 原文: https://mqjyl2012.gitbook.io/algorithm/data-structure/balanced-multipath-search-tree#1b-shu-de |
 | 2023-09-26 | [MySQL 之慢查案例](https://github.com/Bpazy/blog/issues/297) | 记录一些典型的慢查案例。  百度搜了个排查步骤，也算不赖: 1. 判断运行时是否真的很慢； 2. 定位性能瓶颈（是因为在数据访问消耗了太多的时间，还是在数据的运算（如分组排序等）方面花费了太多资源）； |
 | 2023-09-26 | [ElasticSearch技术相关](https://github.com/Bpazy/blog/issues/295) | # 一、ElasticSearch概要 ## 1.1 什么是ElasticSearch ElasticSearch**基于**全文搜索引擎库**Lucene**开发，提供了一套**RESTful**风 |
 | 2023-09-26 | [怎样把 Sentinel 规则配置在 Apollo 中](https://github.com/Bpazy/blog/issues/294) | ## 背景说明 > Refer: [Sentinel 核心概念](https://github.com/Bpazy/blog/issues/293)  目前的应用使用 Sentinel 存在一些问题： |
-| 2023-09-26 | [Sentinel 核心概念](https://github.com/Bpazy/blog/issues/293) | 官方文档: https://sentinelguard.io/zh-cn/docs/introduction.html  核心有几点： 1. 流量控制（QPS） 2. 熔断降级 3. 系统自适应保护  |
 | 2023-09-26 | [mysql基本数据类型范围与存储说明](https://github.com/Bpazy/blog/issues/292) | 一、整型数据类型存储方式  整型数据类型是Mysql中最常用的数据类型之一，其存储方式如下：  1. TINYINT：占用1个字节，范围为-128~127。  2. SMALLINT：占用2个字节，范 |
 | 2023-09-20 | [XXL-JOB点击终止任务无效](https://github.com/Bpazy/blog/issues/290) | ## 问题描述 发布日，发现xxljob上点击终止任务无效。  ## 问题分析 首先查看xxljob上被终止的任务类型发现是GLUE(SHELL)，且shell代码为： ```shell #!/bin |
 | 2023-09-20 | [limit 导致的慢 SQL](https://github.com/Bpazy/blog/issues/289) | ### 分析 慢 SQL：这是一段带分页模糊查询的 SQL ```sql select   pk_id,name,address,detail_address,contacts,fax,contact |
@@ -68,5 +69,4 @@
 | 2023-08-28 | [Zigbee2MQTT](https://github.com/Bpazy/blog/issues/263) | Zigbee2MQTT 是一款开源的用于接入 Zigbee 设备的软件，可将 Zigbee 设备接入后，并接受或发送消息到 MQTT Broker，进而与 Home Assistant 等平台去做处理 |
 | 2023-08-28 | [MQTT with mosquitto](https://github.com/Bpazy/blog/issues/264) | mosquitto 是由 Apache 对 MQTT 协议的实现 |
 | 2023-08-25 | [打造我的 homelab](https://github.com/Bpazy/blog/issues/262) | ## 概要 新房装修，趁机把早就想要搞的各种智能家居搞起来，智能开关、智能温控、家具联动、语音控制等等。我会从几个方面分享整套 homelab 的内容：电路、硬件、软件、监控。  ## 硬件篇 ### |
-| 2023-08-09 | [测测常用设备的功率](https://github.com/Bpazy/blog/issues/184) | 用功率表把家里常用设备测了一下功耗：  * 台式机：待机 50W，玩 Dota2 170W > 安钛克(Antec)VP450 450W > i7-6700K > 1060 > 2 块 SSD > 1 |
 <!--END_SECTION:blog-->
