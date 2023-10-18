@@ -19,6 +19,8 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2023-10-17 | [缓存系统](https://github.com/Bpazy/blog/issues/301) | 几个重点： 1. 击穿、穿透、雪崩 2. 二级缓存 3. 布隆过滤器  ![image](https://github.com/Bpazy/blog/assets/9838749/10bc7a78-f |
+| 2023-10-17 | [为什么字段一定要非空且有默认值？](https://github.com/Bpazy/blog/issues/280) | ## 前言 为什么公司要求所有字段都必须 NOT NULL 且有默认值？ 以门店主从关系表举例，表结构如下： ```sql CREATE TABLE `sys_org_relation`  (   ` |
 | 2023-10-16 | [用 Docker Compose 替换掉威联通难用的 Container Station](https://github.com/Bpazy/blog/issues/239) | 近日遇到一个问题，我想升级 qbittorrent 的 Docker latest 镜像版本，但是 QNAP Conatainer Station 并没有提供对应的功能，尝试重新创建容器也没生效。   |
 | 2023-10-11 | [Sentinel 核心概念](https://github.com/Bpazy/blog/issues/293) | 官方文档: https://sentinelguard.io/zh-cn/docs/introduction.html  核心有几点： 1. 流量控制（QPS） 2. 熔断降级 3. 系统自适应保护  |
 | 2023-10-11 | [B+树](https://github.com/Bpazy/blog/issues/291) | > 原文: https://mqjyl2012.gitbook.io/algorithm/data-structure/balanced-multipath-search-tree#1b-shu-de |
@@ -26,7 +28,6 @@
 | 2023-10-09 | [Spring Boot @Enable* 这类注解的实现原理](https://github.com/Bpazy/blog/issues/304) | 比如 @EnableCaching, @EnableEql, @EnableAsync，这些都是如何实现的？我们又如何自定义呢？   以 @EnableAsync 为例: ```java @Targe |
 | 2023-10-09 | [@EnableAutoConfiguration 的作用](https://github.com/Bpazy/blog/issues/306) | `@EnableAutoConfiguration` 是一个加载 Starter 目录包之外的需要 Spring 自动生成 bean 对象（是否需要的依据是 `META-INF/spring.fact |
 | 2023-10-09 | [杂谈分库分表](https://github.com/Bpazy/blog/issues/298) | ## 分表的一些难点 1. 数据迁移。可利用 DataX 全量迁移+otter增量同步。这里要考虑上线时是否允许停机几分钟，最好能停机，复杂度低很多。 2. 数据一致性。跨分片键如何保证数据一致性？可 |
-| 2023-10-08 | [缓存系统](https://github.com/Bpazy/blog/issues/301) | 几个重点： 1. 击穿、穿透、雪崩 2. 二级缓存 3. 布隆过滤器  ![image](https://github.com/Bpazy/blog/assets/9838749/10bc7a78-f |
 | 2023-10-08 | [Java 线程池](https://github.com/Bpazy/blog/issues/305) | Refer: [Java线程池实现原理及其在美团业务中的实践](https://tech.meituan.com/2020/04/02/java-pooling-pratice-in-meituan. |
 | 2023-10-07 | [注册中心及其理论](https://github.com/Bpazy/blog/issues/303) | 记录下注册中心相关知识。  各种注册中心对比： <html> <body> <!--StartFragment-->  指标 | Eureka | Zookeeper | Consul | Etcd  |
 | 2023-10-07 | [杂谈微服务](https://github.com/Bpazy/blog/issues/300) | ## 多维度抗压 前端做好防抖。  后端做的事情挺多： * 风控（检测到机器人直接封账号或 IP） * 限流（通过生产压测得出系统最高 QPS）：   * QPS：限制每秒的请求数   * 并发数：避 |
@@ -47,7 +48,6 @@
 | 2023-09-20 | [Collectors.toMap 空指针](https://github.com/Bpazy/blog/issues/283) | 直接看代码: ```java public class HashMapTest {     public static void main(String[] args) {         List< |
 | 2023-09-20 | [排序异常: Comparison method violates its general contract](https://github.com/Bpazy/blog/issues/282) | ## 背景和异常介绍 先贴异常堆栈: ```java java.lang.IllegalArgumentException: Comparison method violates its genera |
 | 2023-09-20 | [Apollo 接入准则](https://github.com/Bpazy/blog/issues/281) | ## 结论 ### 哪些配置应该上 Apollo 绝大部分配置都可以上 Apollo，如：  1. 数据库连接、MQ 配置； 2. 简单的开关，如关闭 MQ 流量，无需额外接入 XXLJOB； 3.  |
-| 2023-09-20 | [为什么字段一定要非空且有默认值？](https://github.com/Bpazy/blog/issues/280) | ## 前言 为什么公司要求所有字段都必须 NOT NULL 且有默认值？ 以门店主从关系表举例，表结构如下： ```sql CREATE TABLE `sys_org_relation`  (   ` |
 | 2023-09-20 | [SQL查询切换主从支持使用注解方案调查](https://github.com/Bpazy/blog/issues/279) | 目前多数工程使用了 @DataSource 动态切换数据源，而智配多采用 dao, dao2, dao3 这种形式手工维护不同数据源的读写分离。这里调查**如何降低维护读写分离的人工成本**。 ##  |
 | 2023-09-20 | [Wow~ you can really JMH](https://github.com/Bpazy/blog/issues/278) | ## JMH 介绍 ### JMH 是什么 > JMH is a Java harness for building, running, and analysing nano/micro/milli/ |
 | 2023-09-20 | [提高排查和写代码效率的方法](https://github.com/Bpazy/blog/issues/277) | 工作中经常一些场景：  1. 排查某接口的影响范围、接口是否有访问、前端是否用了某接口； 2. 代码写起来比较困难：写得慢、抽象慢、异味对应慢等；  ## 工具层面 ### 1. 善用 IDE ### |
