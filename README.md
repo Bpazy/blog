@@ -19,6 +19,7 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2023-10-19 | [JVM ](https://github.com/Bpazy/blog/issues/308) |  |
 | 2023-10-18 | [ElasticSearch技术相关](https://github.com/Bpazy/blog/issues/295) | # 一、ElasticSearch概要 ## 1.1 什么是ElasticSearch ElasticSearch**基于**全文搜索引擎库**Lucene**开发，提供了一套**RESTful**风 |
 | 2023-10-18 | [再入 MySQL 的门](https://github.com/Bpazy/blog/issues/202) | 用 MySQL 很久了，再一次记录一些问题 |
 | 2023-10-18 | [缓存系统](https://github.com/Bpazy/blog/issues/301) | 几个重点： 1. 击穿、穿透、雪崩 2. 二级缓存 3. 布隆过滤器  ![image](https://github.com/Bpazy/blog/assets/9838749/10bc7a78-f |
@@ -68,5 +69,4 @@
 | 2023-09-04 | [网上国网加密方式分析](https://github.com/Bpazy/blog/issues/265) | 网上国网有 web 端，所以直接分析 web 端即可。  ## 电量电费查询接口分析  URL: https://www.95598.cn/api/osg-web0004/member/c24/f01 |
 | 2023-08-28 | [创建 Tailscale derper](https://github.com/Bpazy/blog/issues/219) | ```yaml version: '3' services:   derper:     image: fredliang/derper:latest     restart: unless-stop |
 | 2023-08-28 | [Pve 中的 Ubuntu (LVM) 动态扩容](https://github.com/Bpazy/blog/issues/261) | 大体上就两个步骤： 1. 在 PVE 扩容 Hard Disk； 2. 在 Ubuntu 中使用该部分空间；  pve 扩容很简单： ![image](https://github.com/Bpazy |
-| 2023-08-28 | [Zigbee2MQTT](https://github.com/Bpazy/blog/issues/263) | Zigbee2MQTT 是一款开源的用于接入 Zigbee 设备的软件，可将 Zigbee 设备接入后，并接受或发送消息到 MQTT Broker，进而与 Home Assistant 等平台去做处理 |
 <!--END_SECTION:blog-->
