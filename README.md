@@ -19,6 +19,7 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2023-10-24 | [JDBC 参数](https://github.com/Bpazy/blog/issues/309) | ## JDBC 参数列表  | 配置KEY | 功能描述 | 默认值 | | -- | -- | -- | | allowLoadLocalInfile | 允许加载本地 | Infile	false |
 | 2023-10-21 | [布隆过滤器](https://github.com/Bpazy/blog/issues/302) | 布隆过滤器（Bloom Filter）是由布隆（Burton Howard Bloom）在 1970 年提出的，它实际上是由一个很长的二进制向量和一系列随机hash映射函数组成（说白了，就是用二进制数 |
 | 2023-10-19 | [JVM ](https://github.com/Bpazy/blog/issues/308) |  |
 | 2023-10-18 | [ElasticSearch技术相关](https://github.com/Bpazy/blog/issues/295) | # 一、ElasticSearch概要 ## 1.1 什么是ElasticSearch ElasticSearch**基于**全文搜索引擎库**Lucene**开发，提供了一套**RESTful**风 |
@@ -68,5 +69,4 @@
 | 2023-09-18 | [MySQL 锁](https://github.com/Bpazy/blog/issues/209) |  |
 | 2023-09-04 | [网上国网加密方式分析](https://github.com/Bpazy/blog/issues/265) | 网上国网有 web 端，所以直接分析 web 端即可。  ## 电量电费查询接口分析  URL: https://www.95598.cn/api/osg-web0004/member/c24/f01 |
 | 2023-08-28 | [创建 Tailscale derper](https://github.com/Bpazy/blog/issues/219) | ```yaml version: '3' services:   derper:     image: fredliang/derper:latest     restart: unless-stop |
-| 2023-08-28 | [Pve 中的 Ubuntu (LVM) 动态扩容](https://github.com/Bpazy/blog/issues/261) | 大体上就两个步骤： 1. 在 PVE 扩容 Hard Disk； 2. 在 Ubuntu 中使用该部分空间；  pve 扩容很简单： ![image](https://github.com/Bpazy |
 <!--END_SECTION:blog-->
