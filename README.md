@@ -19,9 +19,9 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2023-10-25 | [JVM ](https://github.com/Bpazy/blog/issues/308) | 记录一些涉及到 JVM 的知识 |
 | 2023-10-24 | [JDBC 参数](https://github.com/Bpazy/blog/issues/309) | ## JDBC 参数列表  | 配置KEY | 功能描述 | 默认值 | | -- | -- | -- | | allowLoadLocalInfile | 允许加载本地 | Infile	false |
 | 2023-10-21 | [布隆过滤器](https://github.com/Bpazy/blog/issues/302) | 布隆过滤器（Bloom Filter）是由布隆（Burton Howard Bloom）在 1970 年提出的，它实际上是由一个很长的二进制向量和一系列随机hash映射函数组成（说白了，就是用二进制数 |
-| 2023-10-19 | [JVM ](https://github.com/Bpazy/blog/issues/308) |  |
 | 2023-10-18 | [ElasticSearch技术相关](https://github.com/Bpazy/blog/issues/295) | # 一、ElasticSearch概要 ## 1.1 什么是ElasticSearch ElasticSearch**基于**全文搜索引擎库**Lucene**开发，提供了一套**RESTful**风 |
 | 2023-10-18 | [再入 MySQL 的门](https://github.com/Bpazy/blog/issues/202) | 用 MySQL 很久了，再一次记录一些问题 |
 | 2023-10-18 | [缓存系统](https://github.com/Bpazy/blog/issues/301) | 几个重点： 1. 击穿、穿透、雪崩 2. 二级缓存 3. 布隆过滤器  ![image](https://github.com/Bpazy/blog/assets/9838749/10bc7a78-f |
