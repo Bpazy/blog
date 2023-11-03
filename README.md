@@ -19,12 +19,12 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2023-11-02 | [缓存系统](https://github.com/Bpazy/blog/issues/301) | 几个重点： 1. 击穿、穿透、雪崩 2. 二级缓存 3. 布隆过滤器  ![image](https://github.com/Bpazy/blog/assets/9838749/10bc7a78-f |
 | 2023-10-25 | [JVM ](https://github.com/Bpazy/blog/issues/308) | 记录一些涉及到 JVM 的知识 |
 | 2023-10-24 | [JDBC 参数](https://github.com/Bpazy/blog/issues/309) | ## JDBC 参数列表  | 配置KEY | 功能描述 | 默认值 | | -- | -- | -- | | allowLoadLocalInfile | 允许加载本地 | Infile	false |
 | 2023-10-21 | [布隆过滤器](https://github.com/Bpazy/blog/issues/302) | 布隆过滤器（Bloom Filter）是由布隆（Burton Howard Bloom）在 1970 年提出的，它实际上是由一个很长的二进制向量和一系列随机hash映射函数组成（说白了，就是用二进制数 |
 | 2023-10-18 | [ElasticSearch技术相关](https://github.com/Bpazy/blog/issues/295) | # 一、ElasticSearch概要 ## 1.1 什么是ElasticSearch ElasticSearch**基于**全文搜索引擎库**Lucene**开发，提供了一套**RESTful**风 |
 | 2023-10-18 | [再入 MySQL 的门](https://github.com/Bpazy/blog/issues/202) | 用 MySQL 很久了，再一次记录一些问题 |
-| 2023-10-18 | [缓存系统](https://github.com/Bpazy/blog/issues/301) | 几个重点： 1. 击穿、穿透、雪崩 2. 二级缓存 3. 布隆过滤器  ![image](https://github.com/Bpazy/blog/assets/9838749/10bc7a78-f |
 | 2023-10-18 | [Java 线程池](https://github.com/Bpazy/blog/issues/305) | Refer: [Java线程池实现原理及其在美团业务中的实践](https://tech.meituan.com/2020/04/02/java-pooling-pratice-in-meituan. |
 | 2023-10-17 | [为什么字段一定要非空且有默认值？](https://github.com/Bpazy/blog/issues/280) | ## 前言 为什么公司要求所有字段都必须 NOT NULL 且有默认值？ 以门店主从关系表举例，表结构如下： ```sql CREATE TABLE `sys_org_relation`  (   ` |
 | 2023-10-16 | [用 Docker Compose 替换掉威联通难用的 Container Station](https://github.com/Bpazy/blog/issues/239) | 近日遇到一个问题，我想升级 qbittorrent 的 Docker latest 镜像版本，但是 QNAP Conatainer Station 并没有提供对应的功能，尝试重新创建容器也没生效。   |
