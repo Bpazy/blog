@@ -19,7 +19,9 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
-| 2023-11-04 | [ElasticSearch技术相关](https://github.com/Bpazy/blog/issues/295) | # 一、ElasticSearch概要 ## 1.1 什么是ElasticSearch ElasticSearch**基于**全文搜索引擎库**Lucene**开发，提供了一套**RESTful**风 |
+| 2023-11-07 | [ElasticSearch技术相关](https://github.com/Bpazy/blog/issues/295) | # 一、ElasticSearch概要 ## 1.1 什么是ElasticSearch ElasticSearch**基于**全文搜索引擎库**Lucene**开发，提供了一套**RESTful**风 |
+| 2023-11-07 | [为什么 Java 9 的 List.of 有这么多个重载？](https://github.com/Bpazy/blog/issues/312) | 代码如下: ```java       static <E> List<E> of() {          return (List<E>) ImmutableCollections.EMPTY_L |
+| 2023-11-07 | [Karabiner](https://github.com/Bpazy/blog/issues/311) | 利用 [Karabiner](https://karabiner-elements.pqrs.org/) 可实现： 1. 外置键盘的 Win -> option, Alt -> command，实现方 |
 | 2023-11-02 | [缓存系统](https://github.com/Bpazy/blog/issues/301) | 几个重点： 1. 击穿、穿透、雪崩 2. 二级缓存 3. 布隆过滤器  ![image](https://github.com/Bpazy/blog/assets/9838749/10bc7a78-f |
 | 2023-10-25 | [JVM ](https://github.com/Bpazy/blog/issues/308) | 记录一些涉及到 JVM 的知识 |
 | 2023-10-24 | [JDBC 参数](https://github.com/Bpazy/blog/issues/309) | ## JDBC 参数列表  | 配置KEY | 功能描述 | 默认值 | | -- | -- | -- | | allowLoadLocalInfile | 允许加载本地 | Infile	false |
@@ -67,6 +69,4 @@
 | 2023-09-20 | [J2Cache 二级缓存问题分析](https://github.com/Bpazy/blog/issues/266) | ### L1 过期时，L2 会被同步清除吗？ 不会。目前 L1 采用的是 EhCache，EhCache 采用的是惰性删除，什么是惰性删除？即访问时，判断该数据是否过期，如果已过期，则删除该数据并返回 |
 | 2023-09-18 | [事务嵌套导致的 SQL 超时](https://github.com/Bpazy/blog/issues/234) | 最近发生了个有趣的事情，事务的模型大概是这样： ![事务嵌套](https://user-images.githubusercontent.com/9838749/176080870-cb9dd107 |
 | 2023-09-18 | [MySQL 锁](https://github.com/Bpazy/blog/issues/209) |  |
-| 2023-09-04 | [网上国网加密方式分析](https://github.com/Bpazy/blog/issues/265) | 网上国网有 web 端，所以直接分析 web 端即可。  ## 电量电费查询接口分析  URL: https://www.95598.cn/api/osg-web0004/member/c24/f01 |
-| 2023-08-28 | [创建 Tailscale derper](https://github.com/Bpazy/blog/issues/219) | ```yaml version: '3' services:   derper:     image: fredliang/derper:latest     restart: unless-stop |
 <!--END_SECTION:blog-->
