@@ -19,6 +19,8 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2023-11-09 | [Kafka 知识记录](https://github.com/Bpazy/blog/issues/313) | 记录一些 Kafka 的知识 |
+| 2023-11-09 | [MQ 记录](https://github.com/Bpazy/blog/issues/307) | 常见的 MQ 有很多，比如 RocketMQ, Kafka。  Kafka 的知识参考这里: https://github.com/Bpazy/blog/issues/313 |
 | 2023-11-08 | [为什么 Java 9 的 List.of 有这么多个重载？](https://github.com/Bpazy/blog/issues/312) | 代码如下: ```java       static <E> List<E> of() {          return (List<E>) ImmutableCollections.EMPTY_L |
 | 2023-11-07 | [ElasticSearch技术相关](https://github.com/Bpazy/blog/issues/295) | # 一、ElasticSearch概要 ## 1.1 什么是ElasticSearch ElasticSearch**基于**全文搜索引擎库**Lucene**开发，提供了一套**RESTful**风 |
 | 2023-11-07 | [Karabiner](https://github.com/Bpazy/blog/issues/311) | 利用 [Karabiner](https://karabiner-elements.pqrs.org/) 可实现： 1. 外置键盘的 Win -> option, Alt -> command，实现方 |
@@ -32,7 +34,6 @@
 | 2023-10-16 | [用 Docker Compose 替换掉威联通难用的 Container Station](https://github.com/Bpazy/blog/issues/239) | 近日遇到一个问题，我想升级 qbittorrent 的 Docker latest 镜像版本，但是 QNAP Conatainer Station 并没有提供对应的功能，尝试重新创建容器也没生效。   |
 | 2023-10-11 | [Sentinel 核心概念](https://github.com/Bpazy/blog/issues/293) | 官方文档: https://sentinelguard.io/zh-cn/docs/introduction.html  核心有几点： 1. 流量控制（QPS） 2. 熔断降级 3. 系统自适应保护  |
 | 2023-10-11 | [B+树](https://github.com/Bpazy/blog/issues/291) | > 原文: https://mqjyl2012.gitbook.io/algorithm/data-structure/balanced-multipath-search-tree#1b-shu-de |
-| 2023-10-11 | [MQ 记录](https://github.com/Bpazy/blog/issues/307) | 常见的 MQ 有很多，比如 RocketMQ, Kafka |
 | 2023-10-09 | [Spring Boot @Enable* 这类注解的实现原理](https://github.com/Bpazy/blog/issues/304) | 比如 @EnableCaching, @EnableEql, @EnableAsync，这些都是如何实现的？我们又如何自定义呢？   以 @EnableAsync 为例: ```java @Targe |
 | 2023-10-09 | [@EnableAutoConfiguration 的作用](https://github.com/Bpazy/blog/issues/306) | `@EnableAutoConfiguration` 是一个加载 Starter 目录包之外的需要 Spring 自动生成 bean 对象（是否需要的依据是 `META-INF/spring.fact |
 | 2023-10-09 | [杂谈分库分表](https://github.com/Bpazy/blog/issues/298) | ## 分表的一些难点 1. 数据迁移。可利用 DataX 全量迁移+otter增量同步。这里要考虑上线时是否允许停机几分钟，最好能停机，复杂度低很多。 2. 数据一致性。跨分片键如何保证数据一致性？可 |
@@ -68,5 +69,4 @@
 | 2023-09-20 | [XxlJob 无法 restart](https://github.com/Bpazy/blog/issues/267) | ## 概要 接入 Apollo 后，准备把 XxlJob 的启停也接入配置中心，和 MQ 保持一致，这样就可以在配置中心统一管理 MQ, XxlJob 的流量了。但是在接入的过程中，发现了问题，表现为 |
 | 2023-09-20 | [J2Cache 二级缓存问题分析](https://github.com/Bpazy/blog/issues/266) | ### L1 过期时，L2 会被同步清除吗？ 不会。目前 L1 采用的是 EhCache，EhCache 采用的是惰性删除，什么是惰性删除？即访问时，判断该数据是否过期，如果已过期，则删除该数据并返回 |
 | 2023-09-18 | [事务嵌套导致的 SQL 超时](https://github.com/Bpazy/blog/issues/234) | 最近发生了个有趣的事情，事务的模型大概是这样： ![事务嵌套](https://user-images.githubusercontent.com/9838749/176080870-cb9dd107 |
-| 2023-09-18 | [MySQL 锁](https://github.com/Bpazy/blog/issues/209) |  |
 <!--END_SECTION:blog-->
