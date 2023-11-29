@@ -19,7 +19,7 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
-| 2023-11-24 | [Vmess 协议解析](https://github.com/Bpazy/blog/issues/314) |  |
+| 2023-11-28 | [Vmess 协议解析](https://github.com/Bpazy/blog/issues/314) | # VMess 协议  VMess 是 V2Ray 原创的加密通讯协议。  ## 版本  当前版本号为 1。  ## 依赖  ### 底层协议  VMess 是一个基于 TCP 的协议，所有数据使用  |
 | 2023-11-21 | [Mac 常用基础软件](https://github.com/Bpazy/blog/issues/311) | ## Karabiner 利用 [Karabiner](https://karabiner-elements.pqrs.org/) 可实现： 1. 外置键盘的 Win -> option, Alt - |
 | 2023-11-09 | [Kafka 知识记录](https://github.com/Bpazy/blog/issues/313) | 记录一些 Kafka 的知识 |
 | 2023-11-09 | [MQ 记录](https://github.com/Bpazy/blog/issues/307) | 常见的 MQ 有很多，比如 RocketMQ, Kafka。  Kafka 的知识参考这里: https://github.com/Bpazy/blog/issues/313 |
