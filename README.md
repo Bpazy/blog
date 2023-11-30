@@ -19,6 +19,7 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2023-11-29 | [排序异常: Comparison method violates its general contract](https://github.com/Bpazy/blog/issues/282) | ## 背景和异常介绍 先贴异常堆栈: ```java java.lang.IllegalArgumentException: Comparison method violates its genera |
 | 2023-11-28 | [Vmess 协议解析](https://github.com/Bpazy/blog/issues/314) | # VMess 协议  VMess 是 V2Ray 原创的加密通讯协议。  ## 版本  当前版本号为 1。  ## 依赖  ### 底层协议  VMess 是一个基于 TCP 的协议，所有数据使用  |
 | 2023-11-21 | [Mac 常用基础软件](https://github.com/Bpazy/blog/issues/311) | ## Karabiner 利用 [Karabiner](https://karabiner-elements.pqrs.org/) 可实现： 1. 外置键盘的 Win -> option, Alt - |
 | 2023-11-09 | [Kafka 知识记录](https://github.com/Bpazy/blog/issues/313) | 记录一些 Kafka 的知识 |
@@ -53,7 +54,6 @@
 | 2023-09-20 | [搜索精度丢失：大值double的科学计数法](https://github.com/Bpazy/blog/issues/285) | ## 背景 库存的出入库明细搜索中的值与数据库不一致，数据库时正确的数值，ElasticSearch 中因为科学计数法的问题丢失了精度。 ![image](https://github.com/Bpa |
 | 2023-09-20 | [来自 MySQL 的惊喜：IFNULL 碰上 bigint unsigned](https://github.com/Bpazy/blog/issues/284) | ## 问题 IFNULL 和 bigint unsigned 碰到一块，坑人不偿命。  表结构： ```sql CREATE TABLE `tmp_test` (   `pk_id` bigint(2 |
 | 2023-09-20 | [Collectors.toMap 空指针](https://github.com/Bpazy/blog/issues/283) | 直接看代码: ```java public class HashMapTest {     public static void main(String[] args) {         List< |
-| 2023-09-20 | [排序异常: Comparison method violates its general contract](https://github.com/Bpazy/blog/issues/282) | ## 背景和异常介绍 先贴异常堆栈: ```java java.lang.IllegalArgumentException: Comparison method violates its genera |
 | 2023-09-20 | [Apollo 接入准则](https://github.com/Bpazy/blog/issues/281) | ## 结论 ### 哪些配置应该上 Apollo 绝大部分配置都可以上 Apollo，如：  1. 数据库连接、MQ 配置； 2. 简单的开关，如关闭 MQ 流量，无需额外接入 XXLJOB； 3.  |
 | 2023-09-20 | [SQL查询切换主从支持使用注解方案调查](https://github.com/Bpazy/blog/issues/279) | 目前多数工程使用了 @DataSource 动态切换数据源，而智配多采用 dao, dao2, dao3 这种形式手工维护不同数据源的读写分离。这里调查**如何降低维护读写分离的人工成本**。 ##  |
 | 2023-09-20 | [Wow~ you can really JMH](https://github.com/Bpazy/blog/issues/278) | ## JMH 介绍 ### JMH 是什么 > JMH is a Java harness for building, running, and analysing nano/micro/milli/ |
