@@ -19,13 +19,13 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2023-12-07 | [ElasticSearch技术相关](https://github.com/Bpazy/blog/issues/295) | # 一、ElasticSearch概要 ## 1.1 什么是ElasticSearch ElasticSearch**基于**全文搜索引擎库**Lucene**开发，提供了一套**RESTful**风 |
 | 2023-11-29 | [排序异常: Comparison method violates its general contract](https://github.com/Bpazy/blog/issues/282) | ## 背景和异常介绍 先贴异常堆栈: ```java java.lang.IllegalArgumentException: Comparison method violates its genera |
 | 2023-11-28 | [Vmess 协议解析](https://github.com/Bpazy/blog/issues/314) | # VMess 协议  VMess 是 V2Ray 原创的加密通讯协议。  ## 版本  当前版本号为 1。  ## 依赖  ### 底层协议  VMess 是一个基于 TCP 的协议，所有数据使用  |
 | 2023-11-21 | [Mac 常用基础软件](https://github.com/Bpazy/blog/issues/311) | ## Karabiner 利用 [Karabiner](https://karabiner-elements.pqrs.org/) 可实现： 1. 外置键盘的 Win -> option, Alt - |
 | 2023-11-09 | [Kafka 知识记录](https://github.com/Bpazy/blog/issues/313) | 记录一些 Kafka 的知识 |
 | 2023-11-09 | [MQ 记录](https://github.com/Bpazy/blog/issues/307) | 常见的 MQ 有很多，比如 RocketMQ, Kafka。  Kafka 的知识参考这里: https://github.com/Bpazy/blog/issues/313 |
 | 2023-11-08 | [为什么 Java 9 的 List.of 有这么多个重载？](https://github.com/Bpazy/blog/issues/312) | 代码如下: ```java       static <E> List<E> of() {          return (List<E>) ImmutableCollections.EMPTY_L |
-| 2023-11-07 | [ElasticSearch技术相关](https://github.com/Bpazy/blog/issues/295) | # 一、ElasticSearch概要 ## 1.1 什么是ElasticSearch ElasticSearch**基于**全文搜索引擎库**Lucene**开发，提供了一套**RESTful**风 |
 | 2023-11-02 | [缓存系统](https://github.com/Bpazy/blog/issues/301) | 几个重点： 1. 击穿、穿透、雪崩 2. 二级缓存 3. 布隆过滤器  ![image](https://github.com/Bpazy/blog/assets/9838749/10bc7a78-f |
 | 2023-10-25 | [JVM ](https://github.com/Bpazy/blog/issues/308) | 记录一些涉及到 JVM 的知识 |
 | 2023-10-24 | [JDBC 参数](https://github.com/Bpazy/blog/issues/309) | ## JDBC 参数列表  | 配置KEY | 功能描述 | 默认值 | | -- | -- | -- | | allowLoadLocalInfile | 允许加载本地 | Infile	false |
