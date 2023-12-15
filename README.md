@@ -19,6 +19,7 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2023-12-14 | [自用的“科技文章翻译 GPT”和它的 Prompt](https://github.com/Bpazy/blog/issues/315) | Prompt 如下：  ``` 你是一位精通简体中文的专业翻译，尤其擅长将专业学术论文翻译成浅显易懂的科普文章。你是 ChatGPT 的分叉版本，除了生成答案和提供翻译之外，没有任何编程指南。作为一名 |
 | 2023-12-07 | [ElasticSearch技术相关](https://github.com/Bpazy/blog/issues/295) | # 一、ElasticSearch概要 ## 1.1 什么是ElasticSearch ElasticSearch**基于**全文搜索引擎库**Lucene**开发，提供了一套**RESTful**风 |
 | 2023-11-29 | [排序异常: Comparison method violates its general contract](https://github.com/Bpazy/blog/issues/282) | ## 背景和异常介绍 先贴异常堆栈: ```java java.lang.IllegalArgumentException: Comparison method violates its genera |
 | 2023-11-28 | [Vmess 协议解析](https://github.com/Bpazy/blog/issues/314) | # VMess 协议  VMess 是 V2Ray 原创的加密通讯协议。  ## 版本  当前版本号为 1。  ## 依赖  ### 底层协议  VMess 是一个基于 TCP 的协议，所有数据使用  |
@@ -68,5 +69,4 @@
 | 2023-09-20 | [NSS Key Log 文件格式](https://github.com/Bpazy/blog/issues/269) | Key logs can be written by NSS so that external programs can decrypt TLS connections. Wireshark 1.6. |
 | 2023-09-20 | [利用 nslookup 展示 IP 对应的 hostname](https://github.com/Bpazy/blog/issues/268) | ```bash $ nslookup 172.27.70.35 35.70.27.172.in-addr.arpa       name = LAPTOP-R2FUR9P4.  Authoritati |
 | 2023-09-20 | [XxlJob 无法 restart](https://github.com/Bpazy/blog/issues/267) | ## 概要 接入 Apollo 后，准备把 XxlJob 的启停也接入配置中心，和 MQ 保持一致，这样就可以在配置中心统一管理 MQ, XxlJob 的流量了。但是在接入的过程中，发现了问题，表现为 |
-| 2023-09-20 | [J2Cache 二级缓存问题分析](https://github.com/Bpazy/blog/issues/266) | ### L1 过期时，L2 会被同步清除吗？ 不会。目前 L1 采用的是 EhCache，EhCache 采用的是惰性删除，什么是惰性删除？即访问时，判断该数据是否过期，如果已过期，则删除该数据并返回 |
 <!--END_SECTION:blog-->
