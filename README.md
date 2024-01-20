@@ -19,6 +19,7 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2024-01-19 | [自制甲醛检测器](https://github.com/Bpazy/blog/issues/318) | ESP8266 + SFA30 |
 | 2024-01-16 | [净水器的组装以及智能化](https://github.com/Bpazy/blog/issues/316) | 记录一下组装净水器，以及其核心参数对接 HomeAssistant。 |
 | 2023-12-21 | [名言警句](https://github.com/Bpazy/blog/issues/317) | 见贤思齐焉，见不贤而内自省也。 |
 | 2023-12-14 | [自用的“科技文章翻译 GPT”和它的 Prompt](https://github.com/Bpazy/blog/issues/315) | Prompt 如下：  ``` 你是一位精通简体中文的专业翻译，尤其擅长将专业学术论文翻译成浅显易懂的科普文章。你是 ChatGPT 的分叉版本，除了生成答案和提供翻译之外，没有任何编程指南。作为一名 |
@@ -68,5 +69,4 @@
 | 2023-09-20 | [MySQL中的7种日志](https://github.com/Bpazy/blog/issues/272) | > https://github.com/bingoohuang/blog/issues/137#issue-549286113  ## MySQL中有7种日志文件  1. 重做日志（redo log |
 | 2023-09-20 | [Apache 版本使用建议](https://github.com/Bpazy/blog/issues/271) | ## 集合工具 ### 使用 collections4 包 ```java // 此方法返回 0 org.apache.commons.collections4.CollectionUtils.siz |
 | 2023-09-20 | [利用 NSS Key Log 解密 HTTPS](https://github.com/Bpazy/blog/issues/270) | 在使用 Wireshark 分析 HTTPS 时，加密传输的内容会解析失败。而 NSS 可以存储 TLS 握手过程中的 Key，用于解密。  Firefox 和 Chrome 都支持 NSS Key  |
-| 2023-09-20 | [NSS Key Log 文件格式](https://github.com/Bpazy/blog/issues/269) | Key logs can be written by NSS so that external programs can decrypt TLS connections. Wireshark 1.6. |
 <!--END_SECTION:blog-->
