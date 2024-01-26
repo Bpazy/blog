@@ -19,6 +19,7 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2024-01-25 | [利用 Git alias 快速合并当前分支到目标分支](https://github.com/Bpazy/blog/issues/319) | ```sh vim ~/.gitconfig ```   ``` [user]         name = Your Name         email = example@example.com |
 | 2024-01-19 | [自制甲醛检测器](https://github.com/Bpazy/blog/issues/318) | ESP8266 + SFA30 |
 | 2024-01-16 | [净水器的组装以及智能化](https://github.com/Bpazy/blog/issues/316) | 记录一下组装净水器，以及其核心参数对接 HomeAssistant。 |
 | 2023-12-21 | [名言警句](https://github.com/Bpazy/blog/issues/317) | 见贤思齐焉，见不贤而内自省也。 |
@@ -68,5 +69,4 @@
 | 2023-09-20 | [java float dubo 取值范围和精度](https://github.com/Bpazy/blog/issues/273) | ## IEEE 754 介绍 Java 中浮点数采用的是 [IEEE754 标准](https://en.wikipedia.org/wiki/IEEE_754)。 #### float | 符号位（ |
 | 2023-09-20 | [MySQL中的7种日志](https://github.com/Bpazy/blog/issues/272) | > https://github.com/bingoohuang/blog/issues/137#issue-549286113  ## MySQL中有7种日志文件  1. 重做日志（redo log |
 | 2023-09-20 | [Apache 版本使用建议](https://github.com/Bpazy/blog/issues/271) | ## 集合工具 ### 使用 collections4 包 ```java // 此方法返回 0 org.apache.commons.collections4.CollectionUtils.siz |
-| 2023-09-20 | [利用 NSS Key Log 解密 HTTPS](https://github.com/Bpazy/blog/issues/270) | 在使用 Wireshark 分析 HTTPS 时，加密传输的内容会解析失败。而 NSS 可以存储 TLS 握手过程中的 Key，用于解密。  Firefox 和 Chrome 都支持 NSS Key  |
 <!--END_SECTION:blog-->
