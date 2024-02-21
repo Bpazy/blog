@@ -19,7 +19,7 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
-| 2024-02-19 | [净水器的组装以及智能化](https://github.com/Bpazy/blog/issues/316) | 记录一下组装净水器，以及其核心参数对接 HomeAssistant。 |
+| 2024-02-20 | [净水器的组装以及智能化](https://github.com/Bpazy/blog/issues/316) | 记录一下组装净水器，以及其核心参数对接 HomeAssistant。 |
 | 2024-02-05 | [自制甲醛检测器](https://github.com/Bpazy/blog/issues/318) | 硬件: ES32 + SFA30 固件: ESPHome |
 | 2024-01-25 | [利用 Git alias 快速合并当前分支到目标分支](https://github.com/Bpazy/blog/issues/319) | ```sh vim ~/.gitconfig ```   ``` [user]         name = Your Name         email = example@example.com |
 | 2023-12-21 | [名言警句](https://github.com/Bpazy/blog/issues/317) | 见贤思齐焉，见不贤而内自省也。 |
