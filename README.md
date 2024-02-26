@@ -19,8 +19,8 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2024-02-25 | [自制甲醛检测器](https://github.com/Bpazy/blog/issues/318) | 硬件: ES32 + SFA30 固件: ESPHome |
 | 2024-02-20 | [净水器的组装以及智能化](https://github.com/Bpazy/blog/issues/316) | 记录一下组装净水器，以及其核心参数对接 HomeAssistant。 |
-| 2024-02-05 | [自制甲醛检测器](https://github.com/Bpazy/blog/issues/318) | 硬件: ES32 + SFA30 固件: ESPHome |
 | 2024-01-25 | [利用 Git alias 快速合并当前分支到目标分支](https://github.com/Bpazy/blog/issues/319) | ```sh vim ~/.gitconfig ```   ``` [user]         name = Your Name         email = example@example.com |
 | 2023-12-21 | [名言警句](https://github.com/Bpazy/blog/issues/317) | 见贤思齐焉，见不贤而内自省也。 |
 | 2023-12-14 | [自用的“科技文章翻译 GPT”和它的 Prompt](https://github.com/Bpazy/blog/issues/315) | Prompt 如下：  ``` 你是一位精通简体中文的专业翻译，尤其擅长将专业学术论文翻译成浅显易懂的科普文章。你是 ChatGPT 的分叉版本，除了生成答案和提供翻译之外，没有任何编程指南。作为一名 |
