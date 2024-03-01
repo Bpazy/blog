@@ -19,6 +19,9 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2024-02-29 | [二摸 k3s: 探寻](https://github.com/Bpazy/blog/issues/258) | 安装、使用等 |
+| 2024-02-29 | [一摸 k3s: 安装历程](https://github.com/Bpazy/blog/issues/195) | # 安装 ## 1. 安装 k3s ```shell curl -sfL https://get.k3s.io | sh - ``` 国内用户使用以下方法加速安装:  ```shell curl -s |
+| 2024-02-29 | [tailscale 组网](https://github.com/Bpazy/blog/issues/201) | 官网: [https://tailscale.com/](https://tailscale.com/)，威联通踩坑 |
 | 2024-02-28 | [自制甲醛检测器](https://github.com/Bpazy/blog/issues/318) | 硬件: ES32 + SFA30 固件: ESPHome |
 | 2024-02-27 | [利用 Git alias 快速合并当前分支到目标分支](https://github.com/Bpazy/blog/issues/319) | ```sh vim ~/.gitconfig ```   ``` [user]     name = Your Name     email = example@example.com [alias] |
 | 2024-02-20 | [净水器的组装以及智能化](https://github.com/Bpazy/blog/issues/316) | 记录一下组装净水器，以及其核心参数对接 HomeAssistant。 |
@@ -66,7 +69,4 @@
 | 2023-09-20 | [采购dubbo接口反向依赖的接口排查](https://github.com/Bpazy/blog/issues/276) | ## 范围 purchase <-> erp purchase <-> stock ## 排查结果 红色字体为导致反向依赖的接口。 黄色底为erp接口。 绿色底为stock接口。 灰色底为无需关注的接 |
 | 2023-09-20 | [复杂链路数据一致性解决方案落地](https://github.com/Bpazy/blog/issues/275) | # 前言 什么微服务、服务网格，时下流行的各种名词、文章里一定少不了的话题——数据一致性。  它在博客中原理总是很简单，让你觉得实践并不难； 它在解决方案的 Demo 中也很清晰，让你觉得手到擒来；  |
 | 2023-09-20 | [RocketMQ 订阅关系不一致](https://github.com/Bpazy/blog/issues/274) | ### 订阅关系不一致 相同 GID 多个 Consumer 订阅不同的 (Topic, Tag) 即为订阅关系不一致。 ![image](https://github.com/Bpazy/blog/ |
-| 2023-09-20 | [java float dubo 取值范围和精度](https://github.com/Bpazy/blog/issues/273) | ## IEEE 754 介绍 Java 中浮点数采用的是 [IEEE754 标准](https://en.wikipedia.org/wiki/IEEE_754)。 #### float | 符号位（ |
-| 2023-09-20 | [MySQL中的7种日志](https://github.com/Bpazy/blog/issues/272) | > https://github.com/bingoohuang/blog/issues/137#issue-549286113  ## MySQL中有7种日志文件  1. 重做日志（redo log |
-| 2023-09-20 | [Apache 版本使用建议](https://github.com/Bpazy/blog/issues/271) | ## 集合工具 ### 使用 collections4 包 ```java // 此方法返回 0 org.apache.commons.collections4.CollectionUtils.siz |
 <!--END_SECTION:blog-->
