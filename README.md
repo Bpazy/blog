@@ -19,9 +19,10 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2024-03-01 | [tailscale 组网](https://github.com/Bpazy/blog/issues/201) | 官网: [https://tailscale.com/](https://tailscale.com/)，威联通踩坑 |
+| 2024-03-01 | [iptables 和它的周边们](https://github.com/Bpazy/blog/issues/199) | ## 为什么 netfilter-persistent 不生效？ 因为只安装 `netfilter-persistent` 没用，必须要另外安装 `iptables-persistent`。 而安装  |
 | 2024-02-29 | [二摸 k3s: 探寻](https://github.com/Bpazy/blog/issues/258) | 安装、使用等 |
 | 2024-02-29 | [一摸 k3s: 安装历程](https://github.com/Bpazy/blog/issues/195) | # 安装 ## 1. 安装 k3s ```shell curl -sfL https://get.k3s.io | sh - ``` 国内用户使用以下方法加速安装:  ```shell curl -s |
-| 2024-02-29 | [tailscale 组网](https://github.com/Bpazy/blog/issues/201) | 官网: [https://tailscale.com/](https://tailscale.com/)，威联通踩坑 |
 | 2024-02-28 | [自制甲醛检测器](https://github.com/Bpazy/blog/issues/318) | 硬件: ES32 + SFA30 固件: ESPHome |
 | 2024-02-27 | [利用 Git alias 快速合并当前分支到目标分支](https://github.com/Bpazy/blog/issues/319) | ```sh vim ~/.gitconfig ```   ``` [user]     name = Your Name     email = example@example.com [alias] |
 | 2024-02-20 | [净水器的组装以及智能化](https://github.com/Bpazy/blog/issues/316) | 记录一下组装净水器，以及其核心参数对接 HomeAssistant。 |
@@ -68,5 +69,4 @@
 | 2023-09-20 | [提高排查和写代码效率的方法](https://github.com/Bpazy/blog/issues/277) | 工作中经常一些场景：  1. 排查某接口的影响范围、接口是否有访问、前端是否用了某接口； 2. 代码写起来比较困难：写得慢、抽象慢、异味对应慢等；  ## 工具层面 ### 1. 善用 IDE ### |
 | 2023-09-20 | [采购dubbo接口反向依赖的接口排查](https://github.com/Bpazy/blog/issues/276) | ## 范围 purchase <-> erp purchase <-> stock ## 排查结果 红色字体为导致反向依赖的接口。 黄色底为erp接口。 绿色底为stock接口。 灰色底为无需关注的接 |
 | 2023-09-20 | [复杂链路数据一致性解决方案落地](https://github.com/Bpazy/blog/issues/275) | # 前言 什么微服务、服务网格，时下流行的各种名词、文章里一定少不了的话题——数据一致性。  它在博客中原理总是很简单，让你觉得实践并不难； 它在解决方案的 Demo 中也很清晰，让你觉得手到擒来；  |
-| 2023-09-20 | [RocketMQ 订阅关系不一致](https://github.com/Bpazy/blog/issues/274) | ### 订阅关系不一致 相同 GID 多个 Consumer 订阅不同的 (Topic, Tag) 即为订阅关系不一致。 ![image](https://github.com/Bpazy/blog/ |
 <!--END_SECTION:blog-->
