@@ -19,6 +19,7 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2024-03-02 | [三摸 k3s: 正式部署](https://github.com/Bpazy/blog/issues/320) | 观望 k3s 好几年了，现在也有上的场景，干就完了！奥利给！ |
 | 2024-03-01 | [tailscale 组网](https://github.com/Bpazy/blog/issues/201) | 官网: [https://tailscale.com/](https://tailscale.com/)，威联通踩坑 |
 | 2024-03-01 | [iptables 和它的周边们](https://github.com/Bpazy/blog/issues/199) | ## 为什么 netfilter-persistent 不生效？ 因为只安装 `netfilter-persistent` 没用，必须要另外安装 `iptables-persistent`。 而安装  |
 | 2024-02-29 | [二摸 k3s: 探寻](https://github.com/Bpazy/blog/issues/258) | 安装、使用等 |
@@ -68,5 +69,4 @@
 | 2023-09-20 | [Wow~ you can really JMH](https://github.com/Bpazy/blog/issues/278) | ## JMH 介绍 ### JMH 是什么 > JMH is a Java harness for building, running, and analysing nano/micro/milli/ |
 | 2023-09-20 | [提高排查和写代码效率的方法](https://github.com/Bpazy/blog/issues/277) | 工作中经常一些场景：  1. 排查某接口的影响范围、接口是否有访问、前端是否用了某接口； 2. 代码写起来比较困难：写得慢、抽象慢、异味对应慢等；  ## 工具层面 ### 1. 善用 IDE ### |
 | 2023-09-20 | [采购dubbo接口反向依赖的接口排查](https://github.com/Bpazy/blog/issues/276) | ## 范围 purchase <-> erp purchase <-> stock ## 排查结果 红色字体为导致反向依赖的接口。 黄色底为erp接口。 绿色底为stock接口。 灰色底为无需关注的接 |
-| 2023-09-20 | [复杂链路数据一致性解决方案落地](https://github.com/Bpazy/blog/issues/275) | # 前言 什么微服务、服务网格，时下流行的各种名词、文章里一定少不了的话题——数据一致性。  它在博客中原理总是很简单，让你觉得实践并不难； 它在解决方案的 Demo 中也很清晰，让你觉得手到擒来；  |
 <!--END_SECTION:blog-->
