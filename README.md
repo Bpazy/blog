@@ -19,7 +19,8 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
-| 2024-03-04 | [三摸 k3s: 正式部署](https://github.com/Bpazy/blog/issues/320) | 观望 k3s 好几年了，现在也有上的场景，干就完了！奥利给！ |
+| 2024-03-05 | [使用 fail2ban 自动拉黑暴力破解的 IP](https://github.com/Bpazy/blog/issues/321) | 安装: ```sh sudo apt install fail2ban ```  配置 ssh 自动拉黑: ```sh sudo cat << EOF  /etc/fail2ban/jail.loca |
+| 2024-03-05 | [三摸 k3s: 正式部署](https://github.com/Bpazy/blog/issues/320) | 观望 k3s 好几年了，现在也有上的场景，干就完了！奥利给！ |
 | 2024-03-04 | [tailscale 组网](https://github.com/Bpazy/blog/issues/201) | 官网: [https://tailscale.com/](https://tailscale.com/)，威联通踩坑 |
 | 2024-03-04 | [自制甲醛检测器](https://github.com/Bpazy/blog/issues/318) | 硬件: ES32 + SFA30 固件: ESPHome |
 | 2024-03-01 | [iptables 和它的周边们](https://github.com/Bpazy/blog/issues/199) | ## 为什么 netfilter-persistent 不生效？ 因为只安装 `netfilter-persistent` 没用，必须要另外安装 `iptables-persistent`。 而安装  |
@@ -68,5 +69,4 @@
 | 2023-09-20 | [SQL查询切换主从支持使用注解方案调查](https://github.com/Bpazy/blog/issues/279) | 目前多数工程使用了 @DataSource 动态切换数据源，而智配多采用 dao, dao2, dao3 这种形式手工维护不同数据源的读写分离。这里调查**如何降低维护读写分离的人工成本**。 ##  |
 | 2023-09-20 | [Wow~ you can really JMH](https://github.com/Bpazy/blog/issues/278) | ## JMH 介绍 ### JMH 是什么 > JMH is a Java harness for building, running, and analysing nano/micro/milli/ |
 | 2023-09-20 | [提高排查和写代码效率的方法](https://github.com/Bpazy/blog/issues/277) | 工作中经常一些场景：  1. 排查某接口的影响范围、接口是否有访问、前端是否用了某接口； 2. 代码写起来比较困难：写得慢、抽象慢、异味对应慢等；  ## 工具层面 ### 1. 善用 IDE ### |
-| 2023-09-20 | [采购dubbo接口反向依赖的接口排查](https://github.com/Bpazy/blog/issues/276) | ## 范围 purchase <-> erp purchase <-> stock ## 排查结果 红色字体为导致反向依赖的接口。 黄色底为erp接口。 绿色底为stock接口。 灰色底为无需关注的接 |
 <!--END_SECTION:blog-->
