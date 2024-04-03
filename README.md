@@ -19,6 +19,7 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2024-04-02 | [安装 Harbor 作为镜像仓库](https://github.com/Bpazy/blog/issues/323) | ## 1. 通过 helm 安装 harbor ```sh helm repo add harbor https://helm.goharbor.io helm install my-harbor h |
 | 2024-03-24 | [三摸 k3s: 正式部署](https://github.com/Bpazy/blog/issues/320) | 观望 k3s 好几年了，现在也有上的场景，干就完了！奥利给！ |
 | 2024-03-18 | [tailscale 组网](https://github.com/Bpazy/blog/issues/201) | 官网: [https://tailscale.com/](https://tailscale.com/)，威联通踩坑 |
 | 2024-03-18 | [将 Jenkins 从 Docker compose 迁移到 k8s 中](https://github.com/Bpazy/blog/issues/322) | 两年前从裸机运行迁移到 Docekr compose 中: https://github.com/Bpazy/blog/issues/251  如今需要迁移到 k8s 集群中: ```yaml api |
@@ -68,5 +69,4 @@
 | 2023-09-20 | [搜索精度丢失：大值double的科学计数法](https://github.com/Bpazy/blog/issues/285) | ## 背景 库存的出入库明细搜索中的值与数据库不一致，数据库时正确的数值，ElasticSearch 中因为科学计数法的问题丢失了精度。 ![image](https://github.com/Bpa |
 | 2023-09-20 | [来自 MySQL 的惊喜：IFNULL 碰上 bigint unsigned](https://github.com/Bpazy/blog/issues/284) | ## 问题 IFNULL 和 bigint unsigned 碰到一块，坑人不偿命。  表结构： ```sql CREATE TABLE `tmp_test` (   `pk_id` bigint(2 |
 | 2023-09-20 | [Collectors.toMap 空指针](https://github.com/Bpazy/blog/issues/283) | 直接看代码: ```java public class HashMapTest {     public static void main(String[] args) {         List< |
-| 2023-09-20 | [Apollo 接入准则](https://github.com/Bpazy/blog/issues/281) | ## 结论 ### 哪些配置应该上 Apollo 绝大部分配置都可以上 Apollo，如：  1. 数据库连接、MQ 配置； 2. 简单的开关，如关闭 MQ 流量，无需额外接入 XXLJOB； 3.  |
 <!--END_SECTION:blog-->
