@@ -19,6 +19,9 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2024-04-06 | [Home Assistant 之旅](https://github.com/Bpazy/blog/issues/203) | Just do it |
+| 2024-04-06 | [创建 Tailscale derper](https://github.com/Bpazy/blog/issues/219) | ```yaml version: '3' services:   derper:     image: fredliang/derper:latest     restart: unless-stop |
+| 2024-04-06 | [将 Jellyfin 迁移到 k8s 集群中](https://github.com/Bpazy/blog/issues/325) | 在继 [迁移 docker Jellyfin 到全新机器](https://github.com/Bpazy/blog/issues/197) 之后，现在要把它迁入 k8s 了。  先看现在的 doc |
 | 2024-04-05 | [将 qbittorrent 从 docker 迁移到 k8s](https://github.com/Bpazy/blog/issues/324) | ## 1. k8s 集群安装 smb 这里需要用到 [csi-driver-smb](https://github.com/kubernetes-csi/csi-driver-smb)，如果你的网络环 |
 | 2024-04-03 | [三摸 k3s: 正式部署](https://github.com/Bpazy/blog/issues/320) | 观望 k3s 好几年了，现在也有上的场景，干就完了！奥利给！ |
 | 2024-04-02 | [安装 Harbor 作为镜像仓库](https://github.com/Bpazy/blog/issues/323) | ## 1. 通过 helm 安装 harbor ```sh helm repo add harbor https://helm.goharbor.io helm install my-harbor h |
@@ -66,7 +69,4 @@
 | 2023-09-20 | [limit 导致的慢 SQL](https://github.com/Bpazy/blog/issues/289) | ### 分析 慢 SQL：这是一段带分页模糊查询的 SQL ```sql select   pk_id,name,address,detail_address,contacts,fax,contact |
 | 2023-09-20 | [Apollo 不支持 @ConfigurationProperties](https://github.com/Bpazy/blog/issues/288) | 说好的支持配置自动更新，结果只支持到 @Value ？？？  ## 原因 Apollo 支持 @Value 形式的配置自动更新，但是不支持 @ConfigurationProperties 形式的配置 |
 | 2023-09-20 | [Feign 接口失效报错调查](https://github.com/Bpazy/blog/issues/287) | ## 背景 2021-05-27 发布后，当晚就出现了 Feign 调用失败的问题，日志如下： ```java 2021-05-31 00:17:42,305 [ERROR] [Thread-3109 |
-| 2023-09-20 | [Fastjson 反序列化空字符串报错](https://github.com/Bpazy/blog/issues/286) | 李宁表示疑惑，为什么一段代码原封不动的复制到另一工程就报错呢？ 看下简化后的问题代码： ```java Properties userProperties = JSON.parseObject("", |
-| 2023-09-20 | [搜索精度丢失：大值double的科学计数法](https://github.com/Bpazy/blog/issues/285) | ## 背景 库存的出入库明细搜索中的值与数据库不一致，数据库时正确的数值，ElasticSearch 中因为科学计数法的问题丢失了精度。 ![image](https://github.com/Bpa |
-| 2023-09-20 | [来自 MySQL 的惊喜：IFNULL 碰上 bigint unsigned](https://github.com/Bpazy/blog/issues/284) | ## 问题 IFNULL 和 bigint unsigned 碰到一块，坑人不偿命。  表结构： ```sql CREATE TABLE `tmp_test` (   `pk_id` bigint(2 |
 <!--END_SECTION:blog-->
