@@ -19,13 +19,14 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2024-04-08 | [Pve 8006 端口打不开 web ui](https://github.com/Bpazy/blog/issues/326) | 解决方案：  ssh 连上去，重启 pveproxy, pvedaemon 服务： ```sh $ systemctl restart pveproxy $ systemctl restart pve |
+| 2024-04-08 | [tailscale 组网](https://github.com/Bpazy/blog/issues/201) | 官网: [https://tailscale.com/](https://tailscale.com/)，威联通踩坑 |
+| 2024-04-08 | [三摸 k3s: 正式部署](https://github.com/Bpazy/blog/issues/320) | 观望 k3s 好几年了，现在也有上的场景，干就完了！奥利给！ |
 | 2024-04-07 | [创建 Tailscale derper](https://github.com/Bpazy/blog/issues/219) | ```yaml version: '3' services:   derper:     image: fredliang/derper:latest     restart: unless-stop |
 | 2024-04-06 | [Home Assistant 之旅](https://github.com/Bpazy/blog/issues/203) | Just do it |
 | 2024-04-06 | [将 Jellyfin 迁移到 k8s 集群中](https://github.com/Bpazy/blog/issues/325) | 在继 [迁移 docker Jellyfin 到全新机器](https://github.com/Bpazy/blog/issues/197) 之后，现在要把它迁入 k8s 了。  先看现在的 doc |
 | 2024-04-05 | [将 qbittorrent 从 docker 迁移到 k8s](https://github.com/Bpazy/blog/issues/324) | ## 1. k8s 集群安装 smb 这里需要用到 [csi-driver-smb](https://github.com/kubernetes-csi/csi-driver-smb)，如果你的网络环 |
-| 2024-04-03 | [三摸 k3s: 正式部署](https://github.com/Bpazy/blog/issues/320) | 观望 k3s 好几年了，现在也有上的场景，干就完了！奥利给！ |
 | 2024-04-02 | [安装 Harbor 作为镜像仓库](https://github.com/Bpazy/blog/issues/323) | ## 1. 通过 helm 安装 harbor ```sh helm repo add harbor https://helm.goharbor.io helm install my-harbor h |
-| 2024-03-18 | [tailscale 组网](https://github.com/Bpazy/blog/issues/201) | 官网: [https://tailscale.com/](https://tailscale.com/)，威联通踩坑 |
 | 2024-03-18 | [将 Jenkins 从 Docker compose 迁移到 k8s 中](https://github.com/Bpazy/blog/issues/322) | 两年前从裸机运行迁移到 Docekr compose 中: https://github.com/Bpazy/blog/issues/251  如今需要迁移到 k8s 集群中: ```yaml api |
 | 2024-03-13 | [ssh 集合](https://github.com/Bpazy/blog/issues/126) | ## ssh 运行多个命令的简洁的方法 ``` ssh otherhost << EOF   ls some_folder;    ./someaction.sh 'some params'   pw |
 | 2024-03-11 | [威联通 (QNAP) 使用 UPS 并通知家庭内其他设备关机](https://github.com/Bpazy/blog/issues/206) | 先把 UPS 该接上 NAS 的都线材都接好，这里只记录软件上的操作。  1. 打开威联通管理页面； 2. 选择：控制台 —— 系统 —— 外接设备 —— UPS，勾选“启用网络不间断电源服务器”，并 |
@@ -68,5 +69,4 @@
 | 2023-09-20 | [XXL-JOB点击终止任务无效](https://github.com/Bpazy/blog/issues/290) | ## 问题描述 发布日，发现xxljob上点击终止任务无效。  ## 问题分析 首先查看xxljob上被终止的任务类型发现是GLUE(SHELL)，且shell代码为： ```shell #!/bin |
 | 2023-09-20 | [limit 导致的慢 SQL](https://github.com/Bpazy/blog/issues/289) | ### 分析 慢 SQL：这是一段带分页模糊查询的 SQL ```sql select   pk_id,name,address,detail_address,contacts,fax,contact |
 | 2023-09-20 | [Apollo 不支持 @ConfigurationProperties](https://github.com/Bpazy/blog/issues/288) | 说好的支持配置自动更新，结果只支持到 @Value ？？？  ## 原因 Apollo 支持 @Value 形式的配置自动更新，但是不支持 @ConfigurationProperties 形式的配置 |
-| 2023-09-20 | [Feign 接口失效报错调查](https://github.com/Bpazy/blog/issues/287) | ## 背景 2021-05-27 发布后，当晚就出现了 Feign 调用失败的问题，日志如下： ```java 2021-05-31 00:17:42,305 [ERROR] [Thread-3109 |
 <!--END_SECTION:blog-->
