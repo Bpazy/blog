@@ -19,6 +19,7 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2024-04-11 | [helm 的一般使用方法](https://github.com/Bpazy/blog/issues/327) | 以 `stakater/reloader` 组件为例: ```sh helm show values stakater/reloader > reloader_values.yaml helm ins |
 | 2024-04-10 | [三摸 k3s: 正式部署](https://github.com/Bpazy/blog/issues/320) | 观望 k3s 好几年了，现在也有上的场景，干就完了！奥利给！ |
 | 2024-04-08 | [Pve 8006 端口打不开 web ui](https://github.com/Bpazy/blog/issues/326) | 解决方案：  ssh 连上去，重启 pveproxy, pvedaemon 服务： ```sh $ systemctl restart pveproxy $ systemctl restart pve |
 | 2024-04-08 | [tailscale 组网](https://github.com/Bpazy/blog/issues/201) | 官网: [https://tailscale.com/](https://tailscale.com/)，威联通踩坑 |
@@ -68,5 +69,4 @@
 | 2023-09-26 | [mysql基本数据类型范围与存储说明](https://github.com/Bpazy/blog/issues/292) | 一、整型数据类型存储方式  整型数据类型是Mysql中最常用的数据类型之一，其存储方式如下：  1. TINYINT：占用1个字节，范围为-128~127。  2. SMALLINT：占用2个字节，范 |
 | 2023-09-20 | [XXL-JOB点击终止任务无效](https://github.com/Bpazy/blog/issues/290) | ## 问题描述 发布日，发现xxljob上点击终止任务无效。  ## 问题分析 首先查看xxljob上被终止的任务类型发现是GLUE(SHELL)，且shell代码为： ```shell #!/bin |
 | 2023-09-20 | [limit 导致的慢 SQL](https://github.com/Bpazy/blog/issues/289) | ### 分析 慢 SQL：这是一段带分页模糊查询的 SQL ```sql select   pk_id,name,address,detail_address,contacts,fax,contact |
-| 2023-09-20 | [Apollo 不支持 @ConfigurationProperties](https://github.com/Bpazy/blog/issues/288) | 说好的支持配置自动更新，结果只支持到 @Value ？？？  ## 原因 Apollo 支持 @Value 形式的配置自动更新，但是不支持 @ConfigurationProperties 形式的配置 |
 <!--END_SECTION:blog-->
