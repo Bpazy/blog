@@ -19,6 +19,7 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2024-04-13 | [打造我的 homelab](https://github.com/Bpazy/blog/issues/262) | ## 概要 新房装修，趁机把早就想要搞的各种智能家居搞起来，智能开关、智能温控、家具联动、语音控制等等。我会从几个方面分享整套 homelab 的内容：电路、硬件、软件、监控。  ## 硬件篇 ### |
 | 2024-04-12 | [tailscale 组网](https://github.com/Bpazy/blog/issues/201) | 官网: [https://tailscale.com/](https://tailscale.com/)，威联通踩坑 |
 | 2024-04-11 | [helm 的一般使用方法](https://github.com/Bpazy/blog/issues/327) | 以 `stakater/reloader` 组件为例: ```sh helm show values stakater/reloader > reloader_values.yaml helm ins |
 | 2024-04-10 | [三摸 k3s: 正式部署](https://github.com/Bpazy/blog/issues/320) | 观望 k3s 好几年了，现在也有上的场景，干就完了！奥利给！ |
@@ -68,5 +69,4 @@
 | 2023-09-26 | [怎样把 Sentinel 规则配置在 Apollo 中](https://github.com/Bpazy/blog/issues/294) | ## 背景说明 > Refer: [Sentinel 核心概念](https://github.com/Bpazy/blog/issues/293)  目前的应用使用 Sentinel 存在一些问题： |
 | 2023-09-26 | [mysql基本数据类型范围与存储说明](https://github.com/Bpazy/blog/issues/292) | 一、整型数据类型存储方式  整型数据类型是Mysql中最常用的数据类型之一，其存储方式如下：  1. TINYINT：占用1个字节，范围为-128~127。  2. SMALLINT：占用2个字节，范 |
 | 2023-09-20 | [XXL-JOB点击终止任务无效](https://github.com/Bpazy/blog/issues/290) | ## 问题描述 发布日，发现xxljob上点击终止任务无效。  ## 问题分析 首先查看xxljob上被终止的任务类型发现是GLUE(SHELL)，且shell代码为： ```shell #!/bin |
-| 2023-09-20 | [limit 导致的慢 SQL](https://github.com/Bpazy/blog/issues/289) | ### 分析 慢 SQL：这是一段带分页模糊查询的 SQL ```sql select   pk_id,name,address,detail_address,contacts,fax,contact |
 <!--END_SECTION:blog-->
