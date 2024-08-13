@@ -19,6 +19,8 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2024-08-12 | [自制能源监测仪](https://github.com/Bpazy/blog/issues/330) | 硬件: ES32 + PZEM-004T + DS18B20 固件: ESPHome  ### PZEM-004T 该模块主要用于测量交流电压、电流、有功功率、频率、功率因数和有功能量，模块无显示功能 |
+| 2024-08-12 | [有功功率、无功功率和视在功率](https://github.com/Bpazy/blog/issues/329) | 把这些复杂的概念想象成足球比赛，我们可以这样理解：  * **有功功率**就是直接得分的力量。主要关联电阻性元件，对应电能向其他形式能的直接转换； * **无功功率**是帮助比赛但不直接得分的力量。无 |
 | 2024-06-26 | [创建 Tailscale derper](https://github.com/Bpazy/blog/issues/219) | ```yaml version: '3' services:   derper:     image: fredliang/derper:latest     restart: unless-stop |
 | 2024-04-22 | [使用 Prometheus 监控 k3s 集群](https://github.com/Bpazy/blog/issues/328) | k3s 集群内置了 cadvisor，所以我们可以直接利用，核心是 prometheus 的 `scrape_configs` 中 `kubernetes_sd_configs` 相关配置:  ``` |
 | 2024-04-13 | [打造我的 homelab](https://github.com/Bpazy/blog/issues/262) | ## 概要 新房装修，趁机把早就想要搞的各种智能家居搞起来，智能开关、智能温控、家具联动、语音控制等等。我会从几个方面分享整套 homelab 的内容：电路、硬件、软件、监控。  ## 硬件篇 ### |
@@ -67,6 +69,4 @@
 | 2023-10-07 | [杂谈 Redis](https://github.com/Bpazy/blog/issues/299) | 重点： 1. 数据类型的选择 2. 集群 3. 集群扩容  Redis五大数据类型：String（字符串），Hash（哈希），List（列表），Set（集合）及Zset(sorted set：有序集合 |
 | 2023-09-28 | [BKD树](https://github.com/Bpazy/blog/issues/296) | BKD树，全称为b-树形kd树（bushy kd-trees），是一种用于高维数据搜索的数据结构。它是基于kd树（k-dimensional tree）的改进版本。  kd树是一种二叉树结构，将数据按 |
 | 2023-09-26 | [MySQL 之慢查案例](https://github.com/Bpazy/blog/issues/297) | 记录一些典型的慢查案例。  百度搜了个排查步骤，也算不赖: 1. 判断运行时是否真的很慢； 2. 定位性能瓶颈（是因为在数据访问消耗了太多的时间，还是在数据的运算（如分组排序等）方面花费了太多资源）； |
-| 2023-09-26 | [怎样把 Sentinel 规则配置在 Apollo 中](https://github.com/Bpazy/blog/issues/294) | ## 背景说明 > Refer: [Sentinel 核心概念](https://github.com/Bpazy/blog/issues/293)  目前的应用使用 Sentinel 存在一些问题： |
-| 2023-09-26 | [mysql基本数据类型范围与存储说明](https://github.com/Bpazy/blog/issues/292) | 一、整型数据类型存储方式  整型数据类型是Mysql中最常用的数据类型之一，其存储方式如下：  1. TINYINT：占用1个字节，范围为-128~127。  2. SMALLINT：占用2个字节，范 |
 <!--END_SECTION:blog-->
