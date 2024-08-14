@@ -19,14 +19,16 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
-| 2024-08-12 | [自制能源监测仪](https://github.com/Bpazy/blog/issues/330) | 硬件: ES32 + PZEM-004T + DS18B20 固件: ESPHome  ### PZEM-004T 该模块主要用于测量交流电压、电流、有功功率、频率、功率因数和有功能量，模块无显示功能 |
+| 2024-08-13 | [三摸 k3s: 正式部署](https://github.com/Bpazy/blog/issues/320) | 观望 k3s 好几年了，现在也有上的场景，干就完了！奥利给！ |
+| 2024-08-13 | [自制甲醛检测器](https://github.com/Bpazy/blog/issues/318) | 硬件: ES32 + SFA30 固件: ESPHome |
+| 2024-08-13 | [自制能源监测仪](https://github.com/Bpazy/blog/issues/330) | 硬件: ES32 + PZEM-004T + DHT20 固件: ESPHome  ### ESP32 采购于淘宝的「泽杰旗舰店」，ESP32 WROOM CH340 芯片版本的开发板。  管脚定义: |
+| 2024-08-13 | [ESP32 术语解释](https://github.com/Bpazy/blog/issues/331) | ## SDA 和 SCL 这两个术语通常一起出现，它们是 **I2C** 通信协议中的两根线。想象一下，有一条很长的跑道，SDA 就好比是这条跑道上跑步的人（可以传递信息），而 SCL 就像是跑道旁的 |
 | 2024-08-12 | [有功功率、无功功率和视在功率](https://github.com/Bpazy/blog/issues/329) | 把这些复杂的概念想象成足球比赛，我们可以这样理解：  * **有功功率**就是直接得分的力量。主要关联电阻性元件，对应电能向其他形式能的直接转换； * **无功功率**是帮助比赛但不直接得分的力量。无 |
 | 2024-06-26 | [创建 Tailscale derper](https://github.com/Bpazy/blog/issues/219) | ```yaml version: '3' services:   derper:     image: fredliang/derper:latest     restart: unless-stop |
 | 2024-04-22 | [使用 Prometheus 监控 k3s 集群](https://github.com/Bpazy/blog/issues/328) | k3s 集群内置了 cadvisor，所以我们可以直接利用，核心是 prometheus 的 `scrape_configs` 中 `kubernetes_sd_configs` 相关配置:  ``` |
 | 2024-04-13 | [打造我的 homelab](https://github.com/Bpazy/blog/issues/262) | ## 概要 新房装修，趁机把早就想要搞的各种智能家居搞起来，智能开关、智能温控、家具联动、语音控制等等。我会从几个方面分享整套 homelab 的内容：电路、硬件、软件、监控。  ## 硬件篇 ### |
 | 2024-04-12 | [tailscale 组网](https://github.com/Bpazy/blog/issues/201) | 官网: [https://tailscale.com/](https://tailscale.com/)，威联通踩坑 |
 | 2024-04-11 | [helm 的一般使用方法](https://github.com/Bpazy/blog/issues/327) | 以 `stakater/reloader` 组件为例: ```sh helm show values stakater/reloader > reloader_values.yaml helm ins |
-| 2024-04-10 | [三摸 k3s: 正式部署](https://github.com/Bpazy/blog/issues/320) | 观望 k3s 好几年了，现在也有上的场景，干就完了！奥利给！ |
 | 2024-04-08 | [Pve 8006 端口打不开 web ui](https://github.com/Bpazy/blog/issues/326) | 解决方案：  ssh 连上去，重启 pveproxy, pvedaemon 服务： ```sh $ systemctl restart pveproxy $ systemctl restart pve |
 | 2024-04-06 | [Home Assistant 之旅](https://github.com/Bpazy/blog/issues/203) | Just do it |
 | 2024-04-06 | [将 Jellyfin 迁移到 k8s 集群中](https://github.com/Bpazy/blog/issues/325) | 在继 [迁移 docker Jellyfin 到全新机器](https://github.com/Bpazy/blog/issues/197) 之后，现在要把它迁入 k8s 了。  先看现在的 doc |
@@ -36,7 +38,6 @@
 | 2024-03-13 | [ssh 集合](https://github.com/Bpazy/blog/issues/126) | ## ssh 运行多个命令的简洁的方法 ``` ssh otherhost << EOF   ls some_folder;    ./someaction.sh 'some params'   pw |
 | 2024-03-11 | [威联通 (QNAP) 使用 UPS 并通知家庭内其他设备关机](https://github.com/Bpazy/blog/issues/206) | 先把 UPS 该接上 NAS 的都线材都接好，这里只记录软件上的操作。  1. 打开威联通管理页面； 2. 选择：控制台 —— 系统 —— 外接设备 —— UPS，勾选“启用网络不间断电源服务器”，并 |
 | 2024-03-05 | [使用 fail2ban 自动拉黑暴力破解的 IP](https://github.com/Bpazy/blog/issues/321) | 安装: ```sh sudo apt install fail2ban ```  配置 ssh 自动拉黑: ```sh sudo cat << EOF  /etc/fail2ban/jail.loca |
-| 2024-03-04 | [自制甲醛检测器](https://github.com/Bpazy/blog/issues/318) | 硬件: ES32 + SFA30 固件: ESPHome |
 | 2024-03-01 | [iptables 和它的周边们](https://github.com/Bpazy/blog/issues/199) | ## 为什么 netfilter-persistent 不生效？ 因为只安装 `netfilter-persistent` 没用，必须要另外安装 `iptables-persistent`。 而安装  |
 | 2024-02-29 | [二摸 k3s: 探寻](https://github.com/Bpazy/blog/issues/258) | 安装、使用等 |
 | 2024-02-29 | [一摸 k3s: 安装历程](https://github.com/Bpazy/blog/issues/195) | # 安装 ## 1. 安装 k3s ```shell curl -sfL https://get.k3s.io | sh - ``` 国内用户使用以下方法加速安装:  ```shell curl -s |
@@ -68,5 +69,4 @@
 | 2023-10-07 | [杂谈微服务](https://github.com/Bpazy/blog/issues/300) | ## 多维度抗压 前端做好防抖。  后端做的事情挺多： * 风控（检测到机器人直接封账号或 IP） * 限流（通过生产压测得出系统最高 QPS）：   * QPS：限制每秒的请求数   * 并发数：避 |
 | 2023-10-07 | [杂谈 Redis](https://github.com/Bpazy/blog/issues/299) | 重点： 1. 数据类型的选择 2. 集群 3. 集群扩容  Redis五大数据类型：String（字符串），Hash（哈希），List（列表），Set（集合）及Zset(sorted set：有序集合 |
 | 2023-09-28 | [BKD树](https://github.com/Bpazy/blog/issues/296) | BKD树，全称为b-树形kd树（bushy kd-trees），是一种用于高维数据搜索的数据结构。它是基于kd树（k-dimensional tree）的改进版本。  kd树是一种二叉树结构，将数据按 |
-| 2023-09-26 | [MySQL 之慢查案例](https://github.com/Bpazy/blog/issues/297) | 记录一些典型的慢查案例。  百度搜了个排查步骤，也算不赖: 1. 判断运行时是否真的很慢； 2. 定位性能瓶颈（是因为在数据访问消耗了太多的时间，还是在数据的运算（如分组排序等）方面花费了太多资源）； |
 <!--END_SECTION:blog-->
