@@ -19,6 +19,7 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2024-08-15 | [Zerotier 总是提示 REQUESTING_CONFIGURATION ](https://github.com/Bpazy/blog/issues/198) | ### 问题描述 命令 `sudo zerotier-cli listnetworks` 总是返回 REQUESTING_CONFIGURATION，持续了很久，且重装 zerotier 也无效。   |
 | 2024-08-14 | [自制甲醛检测器](https://github.com/Bpazy/blog/issues/318) | 硬件: ESP32WROOM32 + SFA30 固件: ESPHome |
 | 2024-08-14 | [自制能源监测仪](https://github.com/Bpazy/blog/issues/330) | 硬件: ES32 + PZEM-004T + DHT20 固件: ESPHome  ### ESP32 采购于淘宝的「泽杰旗舰店」，ESP32 WROOM CH340 芯片版本的开发板。  管脚定义: |
 | 2024-08-13 | [三摸 k3s: 正式部署](https://github.com/Bpazy/blog/issues/320) | 观望 k3s 好几年了，现在也有上的场景，干就完了！奥利给！ |
@@ -68,5 +69,4 @@
 | 2023-10-07 | [注册中心及其理论](https://github.com/Bpazy/blog/issues/303) | 记录下注册中心相关知识。  各种注册中心对比： <html> <body> <!--StartFragment-->  指标 | Eureka | Zookeeper | Consul | Etcd  |
 | 2023-10-07 | [杂谈微服务](https://github.com/Bpazy/blog/issues/300) | ## 多维度抗压 前端做好防抖。  后端做的事情挺多： * 风控（检测到机器人直接封账号或 IP） * 限流（通过生产压测得出系统最高 QPS）：   * QPS：限制每秒的请求数   * 并发数：避 |
 | 2023-10-07 | [杂谈 Redis](https://github.com/Bpazy/blog/issues/299) | 重点： 1. 数据类型的选择 2. 集群 3. 集群扩容  Redis五大数据类型：String（字符串），Hash（哈希），List（列表），Set（集合）及Zset(sorted set：有序集合 |
-| 2023-09-28 | [BKD树](https://github.com/Bpazy/blog/issues/296) | BKD树，全称为b-树形kd树（bushy kd-trees），是一种用于高维数据搜索的数据结构。它是基于kd树（k-dimensional tree）的改进版本。  kd树是一种二叉树结构，将数据按 |
 <!--END_SECTION:blog-->
