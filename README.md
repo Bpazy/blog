@@ -19,6 +19,8 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2024-10-08 | [利用 k8s+helm 实现备份有状态应用的数据](https://github.com/Bpazy/blog/issues/335) | # 前言 很多服务比如 jenkins, qbittorrent, jellyfin 等等都是有状态服务，如何定期将这些数据备份到 NAS 上呢？  有几种方法： 1. 手动定期备份 2. 在对应的机 |
+| 2024-10-08 | [k8s 的小零碎](https://github.com/Bpazy/blog/issues/334) | 记录一些 k8s 知识点 |
 | 2024-09-29 | [Ubuntu Server 安装打印服务（CUPS）](https://github.com/Bpazy/blog/issues/170) | 1. 通过 apt 安装 cups: `sudo apt install cups` 2. 编辑 cups 配置：`sudo vim /etc/cups/cupsd.conf` 3. 注释 `List |
 | 2024-09-03 | [三摸 k3s: 正式部署](https://github.com/Bpazy/blog/issues/320) | 观望 k3s 好几年了，现在也有上的场景，干就完了！奥利给！ |
 | 2024-08-30 | [Ubuntu 的一些小 Tip](https://github.com/Bpazy/blog/issues/333) | 记录一些 ubuntu 的小知识点 |
@@ -67,6 +69,4 @@
 | 2023-10-16 | [用 Docker Compose 替换掉威联通难用的 Container Station](https://github.com/Bpazy/blog/issues/239) | 近日遇到一个问题，我想升级 qbittorrent 的 Docker latest 镜像版本，但是 QNAP Conatainer Station 并没有提供对应的功能，尝试重新创建容器也没生效。   |
 | 2023-10-11 | [Sentinel 核心概念](https://github.com/Bpazy/blog/issues/293) | 官方文档: https://sentinelguard.io/zh-cn/docs/introduction.html  核心有几点： 1. 流量控制（QPS） 2. 熔断降级 3. 系统自适应保护  |
 | 2023-10-11 | [B+树](https://github.com/Bpazy/blog/issues/291) | > 原文: https://mqjyl2012.gitbook.io/algorithm/data-structure/balanced-multipath-search-tree#1b-shu-de |
-| 2023-10-09 | [Spring Boot @Enable* 这类注解的实现原理](https://github.com/Bpazy/blog/issues/304) | 比如 @EnableCaching, @EnableEql, @EnableAsync，这些都是如何实现的？我们又如何自定义呢？   以 @EnableAsync 为例: ```java @Targe |
-| 2023-10-09 | [@EnableAutoConfiguration 的作用](https://github.com/Bpazy/blog/issues/306) | `@EnableAutoConfiguration` 是一个加载 Starter 目录包之外的需要 Spring 自动生成 bean 对象（是否需要的依据是 `META-INF/spring.fact |
 <!--END_SECTION:blog-->
