@@ -19,6 +19,9 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2024-10-14 | [tailscale 组网](https://github.com/Bpazy/blog/issues/201) | 官网: [https://tailscale.com/](https://tailscale.com/)，威联通踩坑 |
+| 2024-10-14 | [systemd 系列](https://github.com/Bpazy/blog/issues/141) | ## systemctl ### 常用命令 systemctl 是 systemd 的主命令，控制所有 service，如:  * 重新载入 systemd 的脚本配置文件内容: systemctl  |
+| 2024-10-14 | [创建 Tailscale derper](https://github.com/Bpazy/blog/issues/219) | ```yaml version: '3' services:   derper:     image: fredliang/derper:latest     restart: unless-stop |
 | 2024-10-08 | [利用 k8s+helm 实现备份有状态应用的数据](https://github.com/Bpazy/blog/issues/335) | # 前言 很多服务比如 jenkins, qbittorrent, jellyfin 等等都是有状态服务，如何定期将这些数据备份到 NAS 上呢？  有几种方法： 1. 手动定期备份 2. 在对应的机 |
 | 2024-10-08 | [k8s 的小零碎](https://github.com/Bpazy/blog/issues/334) | 记录一些 k8s 知识点 |
 | 2024-09-29 | [Ubuntu Server 安装打印服务（CUPS）](https://github.com/Bpazy/blog/issues/170) | 1. 通过 apt 安装 cups: `sudo apt install cups` 2. 编辑 cups 配置：`sudo vim /etc/cups/cupsd.conf` 3. 注释 `List |
@@ -31,10 +34,8 @@
 | 2024-08-14 | [自制甲醛检测器](https://github.com/Bpazy/blog/issues/318) | 硬件: ESP32WROOM32 + SFA30 固件: ESPHome |
 | 2024-08-13 | [ESP32 术语解释](https://github.com/Bpazy/blog/issues/331) | ## SDA 和 SCL 这两个术语通常一起出现，它们是 **I2C** 通信协议中的两根线。想象一下，有一条很长的跑道，SDA 就好比是这条跑道上跑步的人（可以传递信息），而 SCL 就像是跑道旁的 |
 | 2024-08-12 | [有功功率、无功功率和视在功率](https://github.com/Bpazy/blog/issues/329) | 把这些复杂的概念想象成足球比赛，我们可以这样理解：  * **有功功率**就是直接得分的力量。主要关联电阻性元件，对应电能向其他形式能的直接转换； * **无功功率**是帮助比赛但不直接得分的力量。无 |
-| 2024-06-26 | [创建 Tailscale derper](https://github.com/Bpazy/blog/issues/219) | ```yaml version: '3' services:   derper:     image: fredliang/derper:latest     restart: unless-stop |
 | 2024-04-22 | [使用 Prometheus 监控 k3s 集群](https://github.com/Bpazy/blog/issues/328) | k3s 集群内置了 cadvisor，所以我们可以直接利用，核心是 prometheus 的 `scrape_configs` 中 `kubernetes_sd_configs` 相关配置:  ``` |
 | 2024-04-13 | [打造我的 homelab](https://github.com/Bpazy/blog/issues/262) | ## 概要 新房装修，趁机把早就想要搞的各种智能家居搞起来，智能开关、智能温控、家具联动、语音控制等等。我会从几个方面分享整套 homelab 的内容：电路、硬件、软件、监控。  ## 硬件篇 ### |
-| 2024-04-12 | [tailscale 组网](https://github.com/Bpazy/blog/issues/201) | 官网: [https://tailscale.com/](https://tailscale.com/)，威联通踩坑 |
 | 2024-04-11 | [helm 的一般使用方法](https://github.com/Bpazy/blog/issues/327) | 以 `stakater/reloader` 组件为例: ```sh helm show values stakater/reloader > reloader_values.yaml helm ins |
 | 2024-04-08 | [Pve 8006 端口打不开 web ui](https://github.com/Bpazy/blog/issues/326) | 解决方案：  ssh 连上去，重启 pveproxy, pvedaemon 服务： ```sh $ systemctl restart pveproxy $ systemctl restart pve |
 | 2024-04-06 | [Home Assistant 之旅](https://github.com/Bpazy/blog/issues/203) | Just do it |
@@ -68,5 +69,4 @@
 | 2023-10-17 | [为什么字段一定要非空且有默认值？](https://github.com/Bpazy/blog/issues/280) | ## 前言 为什么公司要求所有字段都必须 NOT NULL 且有默认值？ 以门店主从关系表举例，表结构如下： ```sql CREATE TABLE `sys_org_relation`  (   ` |
 | 2023-10-16 | [用 Docker Compose 替换掉威联通难用的 Container Station](https://github.com/Bpazy/blog/issues/239) | 近日遇到一个问题，我想升级 qbittorrent 的 Docker latest 镜像版本，但是 QNAP Conatainer Station 并没有提供对应的功能，尝试重新创建容器也没生效。   |
 | 2023-10-11 | [Sentinel 核心概念](https://github.com/Bpazy/blog/issues/293) | 官方文档: https://sentinelguard.io/zh-cn/docs/introduction.html  核心有几点： 1. 流量控制（QPS） 2. 熔断降级 3. 系统自适应保护  |
-| 2023-10-11 | [B+树](https://github.com/Bpazy/blog/issues/291) | > 原文: https://mqjyl2012.gitbook.io/algorithm/data-structure/balanced-multipath-search-tree#1b-shu-de |
 <!--END_SECTION:blog-->
