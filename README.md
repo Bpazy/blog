@@ -19,7 +19,7 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
-| 2024-10-14 | [tailscale 组网](https://github.com/Bpazy/blog/issues/201) | 官网: [https://tailscale.com/](https://tailscale.com/)，威联通踩坑 |
+| 2024-10-17 | [tailscale 组网](https://github.com/Bpazy/blog/issues/201) | 官网: [https://tailscale.com/](https://tailscale.com/)，威联通踩坑 |
 | 2024-10-14 | [systemd 系列](https://github.com/Bpazy/blog/issues/141) | ## systemctl ### 常用命令 systemctl 是 systemd 的主命令，控制所有 service，如:  * 重新载入 systemd 的脚本配置文件内容: systemctl  |
 | 2024-10-14 | [创建 Tailscale derper](https://github.com/Bpazy/blog/issues/219) | ```yaml version: '3' services:   derper:     image: fredliang/derper:latest     restart: unless-stop |
 | 2024-10-08 | [利用 k8s+helm 实现备份有状态应用的数据](https://github.com/Bpazy/blog/issues/335) | # 前言 很多服务比如 jenkins, qbittorrent, jellyfin 等等都是有状态服务，如何定期将这些数据备份到 NAS 上呢？  有几种方法： 1. 手动定期备份 2. 在对应的机 |
