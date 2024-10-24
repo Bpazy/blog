@@ -19,13 +19,14 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2024-10-23 | [三摸 k3s: 正式部署](https://github.com/Bpazy/blog/issues/320) | 观望 k3s 好几年了，现在也有上的场景，干就完了！奥利给！ |
+| 2024-10-23 | [Mac 常用基础软件](https://github.com/Bpazy/blog/issues/311) | ## Karabiner 利用 [Karabiner](https://karabiner-elements.pqrs.org/) 可实现： 1. 外置键盘的 Win -> option, Alt - |
 | 2024-10-17 | [tailscale 组网](https://github.com/Bpazy/blog/issues/201) | 官网: [https://tailscale.com/](https://tailscale.com/)，威联通踩坑 |
 | 2024-10-14 | [systemd 系列](https://github.com/Bpazy/blog/issues/141) | ## systemctl ### 常用命令 systemctl 是 systemd 的主命令，控制所有 service，如:  * 重新载入 systemd 的脚本配置文件内容: systemctl  |
 | 2024-10-14 | [创建 Tailscale derper](https://github.com/Bpazy/blog/issues/219) | ```yaml version: '3' services:   derper:     image: fredliang/derper:latest     restart: unless-stop |
 | 2024-10-08 | [利用 k8s+helm 实现备份有状态应用的数据](https://github.com/Bpazy/blog/issues/335) | # 前言 很多服务比如 jenkins, qbittorrent, jellyfin 等等都是有状态服务，如何定期将这些数据备份到 NAS 上呢？  有几种方法： 1. 手动定期备份 2. 在对应的机 |
 | 2024-10-08 | [k8s 的小零碎](https://github.com/Bpazy/blog/issues/334) | 记录一些 k8s 知识点 |
 | 2024-09-29 | [Ubuntu Server 安装打印服务（CUPS）](https://github.com/Bpazy/blog/issues/170) | 1. 通过 apt 安装 cups: `sudo apt install cups` 2. 编辑 cups 配置：`sudo vim /etc/cups/cupsd.conf` 3. 注释 `List |
-| 2024-09-03 | [三摸 k3s: 正式部署](https://github.com/Bpazy/blog/issues/320) | 观望 k3s 好几年了，现在也有上的场景，干就完了！奥利给！ |
 | 2024-08-30 | [Ubuntu 的一些小 Tip](https://github.com/Bpazy/blog/issues/333) | 记录一些 ubuntu 的小知识点 |
 | 2024-08-29 | [PVE 显卡直通](https://github.com/Bpazy/blog/issues/332) | https://www.cnblogs.com/MAENESA/p/18005241 |
 | 2024-08-29 | [Proxmox VE (PVE) 技巧记录](https://github.com/Bpazy/blog/issues/260) |  |
@@ -56,7 +57,6 @@
 | 2023-12-07 | [ElasticSearch技术相关](https://github.com/Bpazy/blog/issues/295) | # 一、ElasticSearch概要 ## 1.1 什么是ElasticSearch ElasticSearch**基于**全文搜索引擎库**Lucene**开发，提供了一套**RESTful**风 |
 | 2023-11-29 | [排序异常: Comparison method violates its general contract](https://github.com/Bpazy/blog/issues/282) | ## 背景和异常介绍 先贴异常堆栈: ```java java.lang.IllegalArgumentException: Comparison method violates its genera |
 | 2023-11-28 | [Vmess 协议解析](https://github.com/Bpazy/blog/issues/314) | # VMess 协议  VMess 是 V2Ray 原创的加密通讯协议。  ## 版本  当前版本号为 1。  ## 依赖  ### 底层协议  VMess 是一个基于 TCP 的协议，所有数据使用  |
-| 2023-11-21 | [Mac 常用基础软件](https://github.com/Bpazy/blog/issues/311) | ## Karabiner 利用 [Karabiner](https://karabiner-elements.pqrs.org/) 可实现： 1. 外置键盘的 Win -> option, Alt - |
 | 2023-11-09 | [Kafka 知识记录](https://github.com/Bpazy/blog/issues/313) | 记录一些 Kafka 的知识 |
 | 2023-11-09 | [MQ 记录](https://github.com/Bpazy/blog/issues/307) | 常见的 MQ 有很多，比如 RocketMQ, Kafka。  Kafka 的知识参考这里: https://github.com/Bpazy/blog/issues/313 |
 | 2023-11-08 | [为什么 Java 9 的 List.of 有这么多个重载？](https://github.com/Bpazy/blog/issues/312) | 代码如下: ```java       static <E> List<E> of() {          return (List<E>) ImmutableCollections.EMPTY_L |
