@@ -19,6 +19,7 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2024-11-22 | [Keepalived与MySQL互为主从自动切换配置](https://github.com/Bpazy/blog/issues/337) |  |
 | 2024-11-05 | [三摸 k3s: 正式部署](https://github.com/Bpazy/blog/issues/320) | 观望 k3s 好几年了，现在也有上的场景，干就完了！奥利给！ |
 | 2024-11-01 | [lego 使用记录](https://github.com/Bpazy/blog/issues/336) | 类似于 [acme.sh](https://github.com/Bpazy/blog/issues/138), lego 也是用于签发证书的工具，采用 go 语言实现（acme.sh 是用 shel |
 | 2024-10-31 | [创建 Tailscale derper](https://github.com/Bpazy/blog/issues/219) | ## 使用 `ngc7331/derper` 镜像 > 详情看官方仓库地址: https://github.com/ngc7331/docker-derper ```yaml version: '3' |
@@ -68,5 +69,4 @@
 | 2023-10-18 | [再入 MySQL 的门](https://github.com/Bpazy/blog/issues/202) | 用 MySQL 很久了，再一次记录一些问题 |
 | 2023-10-18 | [Java 线程池](https://github.com/Bpazy/blog/issues/305) | Refer: [Java线程池实现原理及其在美团业务中的实践](https://tech.meituan.com/2020/04/02/java-pooling-pratice-in-meituan. |
 | 2023-10-17 | [为什么字段一定要非空且有默认值？](https://github.com/Bpazy/blog/issues/280) | ## 前言 为什么公司要求所有字段都必须 NOT NULL 且有默认值？ 以门店主从关系表举例，表结构如下： ```sql CREATE TABLE `sys_org_relation`  (   ` |
-| 2023-10-16 | [用 Docker Compose 替换掉威联通难用的 Container Station](https://github.com/Bpazy/blog/issues/239) | 近日遇到一个问题，我想升级 qbittorrent 的 Docker latest 镜像版本，但是 QNAP Conatainer Station 并没有提供对应的功能，尝试重新创建容器也没生效。   |
 <!--END_SECTION:blog-->
