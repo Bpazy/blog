@@ -19,9 +19,9 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2024-11-26 | [再入 MySQL 的门](https://github.com/Bpazy/blog/issues/202) | 用 MySQL 很久了，记录一些知识点。比如创建新用户，mysqld_exporter 创建方法等等 |
 | 2024-11-23 | [夜莺 (n9e) 安装](https://github.com/Bpazy/blog/issues/339) | 推荐二进制安装，遵循官方的安装方法即可: https://flashcat.cloud/docs/content/flashcat-monitor/nightingale-v7/install/bin |
 | 2024-11-23 | [Ubuntu 逻辑安装 Redis Server](https://github.com/Bpazy/blog/issues/338) | 这里记录下裸机安装 Redis 的步骤。  先 apt 安装:  ``` sudo apt install -y redis-server ```  然后修改配置文件： ``` sudo vim /e |
-| 2024-11-23 | [再入 MySQL 的门](https://github.com/Bpazy/blog/issues/202) | 用 MySQL 很久了，再一次记录一些问题 |
 | 2024-11-22 | [Keepalived与MySQL互为主从自动切换配置](https://github.com/Bpazy/blog/issues/337) |  |
 | 2024-11-05 | [三摸 k3s: 正式部署](https://github.com/Bpazy/blog/issues/320) | 观望 k3s 好几年了，现在也有上的场景，干就完了！奥利给！ |
 | 2024-11-01 | [lego 使用记录](https://github.com/Bpazy/blog/issues/336) | 类似于 [acme.sh](https://github.com/Bpazy/blog/issues/138), lego 也是用于签发证书的工具，采用 go 语言实现（acme.sh 是用 shel |
