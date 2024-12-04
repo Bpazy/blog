@@ -19,6 +19,7 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2024-12-03 | [自制甲醛检测器](https://github.com/Bpazy/blog/issues/318) | 硬件: ESP32WROOM32 + SFA30 固件: ESPHome |
 | 2024-11-28 | [夜莺 (n9e) 的使用](https://github.com/Bpazy/blog/issues/339) | ## 安装 P0 级系统，推荐二进制安装，遵循官方的安装方法即可: https://flashcat.cloud/docs/content/flashcat-monitor/nightingale-v |
 | 2024-11-28 | [使用 Blackbox exporter 监控 k8s service](https://github.com/Bpazy/blog/issues/342) | blackbox k8s 配置: ```yaml apiVersion: v1 kind: ConfigMap metadata:   name: blackbox-exporter   namesp |
 | 2024-11-28 | [Prometheus Relabel 重写标签](https://github.com/Bpazy/blog/issues/341) | > 好文推荐: https://sheldon-lu.github.io/sheldon_Gitbook/sd/service-discovery-with-relabel.html  我这里直接给一 |
@@ -41,7 +42,6 @@
 | 2024-08-29 | [Proxmox VE (PVE) 技巧记录](https://github.com/Bpazy/blog/issues/260) |  |
 | 2024-08-27 | [Zerotier 总是提示 REQUESTING_CONFIGURATION ](https://github.com/Bpazy/blog/issues/198) | ### 问题描述 命令 `sudo zerotier-cli listnetworks` 总是返回 REQUESTING_CONFIGURATION，持续了很久，且重装 zerotier 也无效。   |
 | 2024-08-21 | [自制能源监测仪](https://github.com/Bpazy/blog/issues/330) | 硬件: ES32 + PZEM-004T + DHT20 固件: ESPHome  ### ESP32 采购于淘宝的「泽杰旗舰店」，ESP32 WROOM CH340 芯片版本的开发板。  管脚定义: |
-| 2024-08-14 | [自制甲醛检测器](https://github.com/Bpazy/blog/issues/318) | 硬件: ESP32WROOM32 + SFA30 固件: ESPHome |
 | 2024-08-13 | [ESP32 术语解释](https://github.com/Bpazy/blog/issues/331) | ## SDA 和 SCL 这两个术语通常一起出现，它们是 **I2C** 通信协议中的两根线。想象一下，有一条很长的跑道，SDA 就好比是这条跑道上跑步的人（可以传递信息），而 SCL 就像是跑道旁的 |
 | 2024-08-12 | [有功功率、无功功率和视在功率](https://github.com/Bpazy/blog/issues/329) | 把这些复杂的概念想象成足球比赛，我们可以这样理解：  * **有功功率**就是直接得分的力量。主要关联电阻性元件，对应电能向其他形式能的直接转换； * **无功功率**是帮助比赛但不直接得分的力量。无 |
 | 2024-04-22 | [使用 Prometheus 监控 k3s 集群](https://github.com/Bpazy/blog/issues/328) | k3s 集群内置了 cadvisor，所以我们可以直接利用，核心是 prometheus 的 `scrape_configs` 中 `kubernetes_sd_configs` 相关配置:  ``` |
