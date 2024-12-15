@@ -19,6 +19,8 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2024-12-14 | [再入 MySQL 的门](https://github.com/Bpazy/blog/issues/202) | 用 MySQL 很久了，记录一些知识点。比如创建新用户，mysqld_exporter 创建方法等等 |
+| 2024-12-14 | [ssh key 的生成和应用](https://github.com/Bpazy/blog/issues/343) | 以我的新机器 pve_gmk_ubuntu 举例，我要在当前机器生成 key，然后复制到目标机器实现免密登录。  先生成 key 并复制到目标机器上： ```sh ssh-keygen -f ~/.s |
 | 2024-12-03 | [自制甲醛检测器](https://github.com/Bpazy/blog/issues/318) | 硬件: ESP32WROOM32 + SFA30 固件: ESPHome |
 | 2024-11-28 | [夜莺 (n9e) 的使用](https://github.com/Bpazy/blog/issues/339) | ## 安装 P0 级系统，推荐二进制安装，遵循官方的安装方法即可: https://flashcat.cloud/docs/content/flashcat-monitor/nightingale-v |
 | 2024-11-28 | [使用 Blackbox exporter 监控 k8s service](https://github.com/Bpazy/blog/issues/342) | blackbox k8s 配置: ```yaml apiVersion: v1 kind: ConfigMap metadata:   name: blackbox-exporter   namesp |
@@ -26,7 +28,6 @@
 | 2024-11-27 | [三摸 k3s: 正式部署](https://github.com/Bpazy/blog/issues/320) | 观望 k3s 好几年了，现在也有上的场景，干就完了！奥利给！ |
 | 2024-11-27 | [可观测体系建设](https://github.com/Bpazy/blog/issues/340) |  |
 | 2024-11-27 | [Ubuntu 裸机安装 Redis Server](https://github.com/Bpazy/blog/issues/338) | 这里记录下裸机安装 Redis 的步骤。  先 apt 安装:  ``` sudo apt install -y redis-server ```  然后修改配置文件： ``` sudo vim /e |
-| 2024-11-26 | [再入 MySQL 的门](https://github.com/Bpazy/blog/issues/202) | 用 MySQL 很久了，记录一些知识点。比如创建新用户，mysqld_exporter 创建方法等等 |
 | 2024-11-22 | [Keepalived与MySQL互为主从自动切换配置](https://github.com/Bpazy/blog/issues/337) |  |
 | 2024-11-01 | [lego 使用记录](https://github.com/Bpazy/blog/issues/336) | 类似于 [acme.sh](https://github.com/Bpazy/blog/issues/138), lego 也是用于签发证书的工具，采用 go 语言实现（acme.sh 是用 shel |
 | 2024-10-31 | [创建 Tailscale derper](https://github.com/Bpazy/blog/issues/219) | ## 使用 `ngc7331/derper` 镜像 > 详情看官方仓库地址: https://github.com/ngc7331/docker-derper ```yaml version: '3' |
@@ -68,5 +69,4 @@
 | 2023-11-09 | [Kafka 知识记录](https://github.com/Bpazy/blog/issues/313) | 记录一些 Kafka 的知识 |
 | 2023-11-09 | [MQ 记录](https://github.com/Bpazy/blog/issues/307) | 常见的 MQ 有很多，比如 RocketMQ, Kafka。  Kafka 的知识参考这里: https://github.com/Bpazy/blog/issues/313 |
 | 2023-11-08 | [为什么 Java 9 的 List.of 有这么多个重载？](https://github.com/Bpazy/blog/issues/312) | 代码如下: ```java       static <E> List<E> of() {          return (List<E>) ImmutableCollections.EMPTY_L |
-| 2023-11-02 | [缓存系统](https://github.com/Bpazy/blog/issues/301) | 几个重点： 1. 击穿、穿透、雪崩 2. 二级缓存 3. 布隆过滤器  ![image](https://github.com/Bpazy/blog/assets/9838749/10bc7a78-f |
 <!--END_SECTION:blog-->
