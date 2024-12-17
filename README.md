@@ -19,13 +19,13 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2024-12-16 | [四模 k3s: 高可用部署](https://github.com/Bpazy/blog/issues/344) | k3s 单节点部署时，采用的是 sqlite 存储，当多 master 节点部署时，会采用嵌入的 etcd 存储。  由于我不具有 etcd 运维经验，所以这里直接把 k3s 迁移到 MySQL 以实 |
+| 2024-12-16 | [三摸 k3s: 正式部署](https://github.com/Bpazy/blog/issues/320) | 观望 k3s 好几年了，现在也有上的场景，干就完了！奥利给！ |
 | 2024-12-15 | [Maven 3.8.1 及以上版本无法更新项目依赖](https://github.com/Bpazy/blog/issues/215) | ## 问题描述 安装最新版本 ( 3.8.4 ) 的 Maven 之后，发现无法更新项目依赖了，出现了形如这种错误: ``` maven-default-http-blocker (http://0. |
 | 2024-12-15 | [利用泛型的类型擦除，在方法不声明 throws 异常时，抛出 checked 异常](https://github.com/Bpazy/blog/issues/226) | 参考 `org.apache.commons.lang3.exception.ExceptionUtils` 的做法: ```java     public static <R> R rethrow( |
 | 2024-12-15 | [各类软件设置代理](https://github.com/Bpazy/blog/issues/216) | ## Git 设置全局代理 如果克隆的是 http 或 https 仓库，则： ``` git config --global https.proxy http://127.0.0.1:7890 gi |
 | 2024-12-15 | [git修改commit的username和email](https://github.com/Bpazy/blog/issues/128) | ``` git filter-branch -f --env-filter \ "GIT_AUTHOR_NAME='Newname'; GIT_AUTHOR_EMAIL='newemail'; \ G |
-| 2024-12-15 | [四模 k3s: 高可用部署](https://github.com/Bpazy/blog/issues/344) | k3s 单节点部署时，采用的是 sqlite 存储，当多 master 节点部署时，会采用嵌入的 etcd 存储。  由于我不具有 etcd 运维经验，所以这里直接把 k3s 迁移到 MySQL 以实 |
 | 2024-12-15 | [Mac 常用基础软件](https://github.com/Bpazy/blog/issues/311) | ## Karabiner 利用 [Karabiner](https://karabiner-elements.pqrs.org/) 可实现： 1. 外置键盘的 Win -> option, Alt - |
-| 2024-12-15 | [三摸 k3s: 正式部署](https://github.com/Bpazy/blog/issues/320) | 观望 k3s 好几年了，现在也有上的场景，干就完了！奥利给！ |
 | 2024-12-15 | [二摸 k3s: 探寻](https://github.com/Bpazy/blog/issues/258) | 安装、使用等 |
 | 2024-12-15 | [一摸 k3s: 安装历程](https://github.com/Bpazy/blog/issues/195) | # 安装 ## 1. 安装 k3s ```shell curl -sfL https://get.k3s.io | sh - ``` 国内用户使用以下方法加速安装:  ```shell curl -s |
 | 2024-12-15 | [夜莺 (n9e) 的使用](https://github.com/Bpazy/blog/issues/339) | ## 安装 P0 级系统，推荐二进制安装，遵循官方的安装方法即可: https://flashcat.cloud/docs/content/flashcat-monitor/nightingale-v |
