@@ -19,8 +19,8 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
-| 2024-12-19 | [四模 k3s: 高可用部署](https://github.com/Bpazy/blog/issues/344) | k3s 单节点部署时，采用的是 sqlite 存储，当多 master 节点部署时，会采用嵌入的 etcd 存储。  由于我不具有 etcd 运维经验，所以这里直接把 k3s 迁移到 MySQL 以实 |
-| 2024-12-16 | [三摸 k3s: 正式部署](https://github.com/Bpazy/blog/issues/320) | 观望 k3s 好几年了，现在也有上的场景，干就完了！奥利给！ |
+| 2024-12-21 | [三摸 k3s: 正式部署](https://github.com/Bpazy/blog/issues/320) | 观望 k3s 好几年了，现在也有上的场景，干就完了！奥利给！ |
+| 2024-12-21 | [四模 k3s: 高可用部署](https://github.com/Bpazy/blog/issues/344) | k3s 单节点部署时，采用的是 sqlite 存储，当多 master 节点部署时，会采用嵌入的 etcd 存储。  由于我不具有 etcd 运维经验，所以这里直接把 k3s 迁移到 MySQL 以实 |
 | 2024-12-15 | [Maven 3.8.1 及以上版本无法更新项目依赖](https://github.com/Bpazy/blog/issues/215) | ## 问题描述 安装最新版本 ( 3.8.4 ) 的 Maven 之后，发现无法更新项目依赖了，出现了形如这种错误: ``` maven-default-http-blocker (http://0. |
 | 2024-12-15 | [利用泛型的类型擦除，在方法不声明 throws 异常时，抛出 checked 异常](https://github.com/Bpazy/blog/issues/226) | 参考 `org.apache.commons.lang3.exception.ExceptionUtils` 的做法: ```java     public static <R> R rethrow( |
 | 2024-12-15 | [各类软件设置代理](https://github.com/Bpazy/blog/issues/216) | ## Git 设置全局代理 如果克隆的是 http 或 https 仓库，则： ``` git config --global https.proxy http://127.0.0.1:7890 gi |
