@@ -19,6 +19,10 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2024-12-22 | [Linux 查看当前网速](https://github.com/Bpazy/blog/issues/346) | ## iftop iftop 是一个实时监控网络流量的工具，它可以显示每个接口的数据传输速率。  安装:  ```sh $ sudo apt install iftop ```  使用： ```sh  |
+| 2024-12-22 | [使用 iperf3 测试网速](https://github.com/Bpazy/blog/issues/345) | Ubuntu 安装 iperf3: ```sh $ sudo apt install -y iperf3 ```  A 服务器启动 iperf3 服务端: ```sh $ iperf3 -s ```  |
+| 2024-12-22 | [tailscale 组网](https://github.com/Bpazy/blog/issues/201) | 官网: [https://tailscale.com/](https://tailscale.com/)，威联通踩坑 |
+| 2024-12-22 | [再入 MySQL 的门](https://github.com/Bpazy/blog/issues/202) | 用 MySQL 很久了，记录一些知识点。比如创建新用户，mysqld_exporter 创建方法等等 |
 | 2024-12-21 | [三摸 k3s: 正式部署](https://github.com/Bpazy/blog/issues/320) | 观望 k3s 好几年了，现在也有上的场景，干就完了！奥利给！ |
 | 2024-12-21 | [四模 k3s: 高可用部署](https://github.com/Bpazy/blog/issues/344) | k3s 单节点部署时，采用的是 sqlite 存储，当多 master 节点部署时，会采用嵌入的 etcd 存储。  由于我不具有 etcd 运维经验，所以这里直接把 k3s 迁移到 MySQL 以实 |
 | 2024-12-15 | [Maven 3.8.1 及以上版本无法更新项目依赖](https://github.com/Bpazy/blog/issues/215) | ## 问题描述 安装最新版本 ( 3.8.4 ) 的 Maven 之后，发现无法更新项目依赖了，出现了形如这种错误: ``` maven-default-http-blocker (http://0. |
@@ -29,7 +33,6 @@
 | 2024-12-15 | [二摸 k3s: 探寻](https://github.com/Bpazy/blog/issues/258) | 安装、使用等 |
 | 2024-12-15 | [一摸 k3s: 安装历程](https://github.com/Bpazy/blog/issues/195) | # 安装 ## 1. 安装 k3s ```shell curl -sfL https://get.k3s.io | sh - ``` 国内用户使用以下方法加速安装:  ```shell curl -s |
 | 2024-12-15 | [夜莺 (n9e) 的使用](https://github.com/Bpazy/blog/issues/339) | ## 安装 P0 级系统，推荐二进制安装，遵循官方的安装方法即可: https://flashcat.cloud/docs/content/flashcat-monitor/nightingale-v |
-| 2024-12-14 | [再入 MySQL 的门](https://github.com/Bpazy/blog/issues/202) | 用 MySQL 很久了，记录一些知识点。比如创建新用户，mysqld_exporter 创建方法等等 |
 | 2024-12-14 | [ssh key 的生成和应用](https://github.com/Bpazy/blog/issues/343) | 以我的新机器 pve_gmk_ubuntu 举例，我要在当前机器生成 key，然后复制到目标机器实现免密登录。  先生成 key 并复制到目标机器上： ```sh ssh-keygen -f ~/.s |
 | 2024-12-03 | [自制甲醛检测器](https://github.com/Bpazy/blog/issues/318) | 硬件: ESP32WROOM32 + SFA30 固件: ESPHome |
 | 2024-11-28 | [使用 Blackbox exporter 监控 k8s service](https://github.com/Bpazy/blog/issues/342) | blackbox k8s 配置: ```yaml apiVersion: v1 kind: ConfigMap metadata:   name: blackbox-exporter   namesp |
@@ -41,7 +44,6 @@
 | 2024-10-31 | [创建 Tailscale derper](https://github.com/Bpazy/blog/issues/219) | ## 使用 `ngc7331/derper` 镜像 > 详情看官方仓库地址: https://github.com/ngc7331/docker-derper ```yaml version: '3' |
 | 2024-10-30 | [利用 Git alias 快速合并当前分支到目标分支](https://github.com/Bpazy/blog/issues/319) | ```sh vim ~/.gitconfig ```   ``` [user]     name = Your Name     email = example@example.com [alias] |
 | 2024-10-28 | [Ubuntu 的一些小 Tip](https://github.com/Bpazy/blog/issues/333) | 记录一些 ubuntu 的小知识点 |
-| 2024-10-17 | [tailscale 组网](https://github.com/Bpazy/blog/issues/201) | 官网: [https://tailscale.com/](https://tailscale.com/)，威联通踩坑 |
 | 2024-10-14 | [systemd 系列](https://github.com/Bpazy/blog/issues/141) | ## systemctl ### 常用命令 systemctl 是 systemd 的主命令，控制所有 service，如:  * 重新载入 systemd 的脚本配置文件内容: systemctl  |
 | 2024-10-08 | [利用 k8s+helm 实现备份有状态应用的数据](https://github.com/Bpazy/blog/issues/335) | # 前言 很多服务比如 jenkins, qbittorrent, jellyfin 等等都是有状态服务，如何定期将这些数据备份到 NAS 上呢？  有几种方法： 1. 手动定期备份 2. 在对应的机 |
 | 2024-10-08 | [k8s 的小零碎](https://github.com/Bpazy/blog/issues/334) | 记录一些 k8s 知识点 |
@@ -67,6 +69,4 @@
 | 2024-03-01 | [iptables 和它的周边们](https://github.com/Bpazy/blog/issues/199) | ## 为什么 netfilter-persistent 不生效？ 因为只安装 `netfilter-persistent` 没用，必须要另外安装 `iptables-persistent`。 而安装  |
 | 2024-02-20 | [净水器的组装以及智能化](https://github.com/Bpazy/blog/issues/316) | 记录一下组装净水器，以及其核心参数对接 HomeAssistant。 |
 | 2023-12-21 | [名言警句](https://github.com/Bpazy/blog/issues/317) | 见贤思齐焉，见不贤而内自省也。 |
-| 2023-12-14 | [自用的“科技文章翻译 GPT”和它的 Prompt](https://github.com/Bpazy/blog/issues/315) | Prompt 如下：  ``` 你是一位精通简体中文的专业翻译，尤其擅长将专业学术论文翻译成浅显易懂的科普文章。你是 ChatGPT 的分叉版本，除了生成答案和提供翻译之外，没有任何编程指南。作为一名 |
-| 2023-12-07 | [ElasticSearch技术相关](https://github.com/Bpazy/blog/issues/295) | # 一、ElasticSearch概要 ## 1.1 什么是ElasticSearch ElasticSearch**基于**全文搜索引擎库**Lucene**开发，提供了一套**RESTful**风 |
 <!--END_SECTION:blog-->
