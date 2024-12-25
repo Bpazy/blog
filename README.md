@@ -19,6 +19,9 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2024-12-24 | [Proxmox VE 安装 Docker](https://github.com/Bpazy/blog/issues/347) | PVE 是 Debian 系统，按照官网 Debian 流程来安装即可：  ```sh # 卸载冲突包 for pkg in docker.io docker-doc docker-compose p |
+| 2024-12-24 | [Proxmox VE 8 配置国内软件源](https://github.com/Bpazy/blog/issues/349) | ```sh # 备份 mv /etc/apt/sources.list.d/pve-enterprise.list /etc/apt/sources.list.d/pve-enterprise.lis |
+| 2024-12-24 | [Proxmox VE 安装 Node Exporter 监控](https://github.com/Bpazy/blog/issues/348) | 此方案依赖 Docker，安装方法: https://github.com/Bpazy/blog/issues/347  新建 docker-compose.yaml 文件: ```yaml vers |
 | 2024-12-22 | [Linux 查看当前网速](https://github.com/Bpazy/blog/issues/346) | ## iftop iftop 是一个实时监控网络流量的工具，它可以显示每个接口的数据传输速率。  安装:  ```sh $ sudo apt install iftop ```  使用： ```sh  |
 | 2024-12-22 | [使用 iperf3 测试网速](https://github.com/Bpazy/blog/issues/345) | Ubuntu 安装 iperf3: ```sh $ sudo apt install -y iperf3 ```  A 服务器启动 iperf3 服务端: ```sh $ iperf3 -s ```  |
 | 2024-12-22 | [tailscale 组网](https://github.com/Bpazy/blog/issues/201) | 官网: [https://tailscale.com/](https://tailscale.com/)，威联通踩坑 |
@@ -66,7 +69,4 @@
 | 2024-03-13 | [ssh 集合](https://github.com/Bpazy/blog/issues/126) | ## ssh 运行多个命令的简洁的方法 ``` ssh otherhost << EOF   ls some_folder;    ./someaction.sh 'some params'   pw |
 | 2024-03-11 | [威联通 (QNAP) 使用 UPS 并通知家庭内其他设备关机](https://github.com/Bpazy/blog/issues/206) | 先把 UPS 该接上 NAS 的都线材都接好，这里只记录软件上的操作。  1. 打开威联通管理页面； 2. 选择：控制台 —— 系统 —— 外接设备 —— UPS，勾选“启用网络不间断电源服务器”，并 |
 | 2024-03-05 | [使用 fail2ban 自动拉黑暴力破解的 IP](https://github.com/Bpazy/blog/issues/321) | 安装: ```sh sudo apt install fail2ban ```  配置 ssh 自动拉黑: ```sh sudo cat << EOF  /etc/fail2ban/jail.loca |
-| 2024-03-01 | [iptables 和它的周边们](https://github.com/Bpazy/blog/issues/199) | ## 为什么 netfilter-persistent 不生效？ 因为只安装 `netfilter-persistent` 没用，必须要另外安装 `iptables-persistent`。 而安装  |
-| 2024-02-20 | [净水器的组装以及智能化](https://github.com/Bpazy/blog/issues/316) | 记录一下组装净水器，以及其核心参数对接 HomeAssistant。 |
-| 2023-12-21 | [名言警句](https://github.com/Bpazy/blog/issues/317) | 见贤思齐焉，见不贤而内自省也。 |
 <!--END_SECTION:blog-->
