@@ -19,6 +19,7 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2024-12-28 | [Home Assistant 之旅](https://github.com/Bpazy/blog/issues/203) | Just do it |
 | 2024-12-24 | [Proxmox VE 安装 Docker](https://github.com/Bpazy/blog/issues/347) | PVE 是 Debian 系统，按照官网 Debian 流程来安装即可：  ```sh # 卸载冲突包 for pkg in docker.io docker-doc docker-compose p |
 | 2024-12-24 | [Proxmox VE 8 配置国内软件源](https://github.com/Bpazy/blog/issues/349) | ```sh # 备份 mv /etc/apt/sources.list.d/pve-enterprise.list /etc/apt/sources.list.d/pve-enterprise.lis |
 | 2024-12-24 | [Proxmox VE 安装 Node Exporter 监控](https://github.com/Bpazy/blog/issues/348) | 此方案依赖 Docker，安装方法: https://github.com/Bpazy/blog/issues/347  新建 docker-compose.yaml 文件: ```yaml vers |
@@ -61,7 +62,6 @@
 | 2024-04-13 | [打造我的 homelab](https://github.com/Bpazy/blog/issues/262) | ## 概要 新房装修，趁机把早就想要搞的各种智能家居搞起来，智能开关、智能温控、家具联动、语音控制等等。我会从几个方面分享整套 homelab 的内容：电路、硬件、软件、监控。  ## 硬件篇 ### |
 | 2024-04-11 | [helm 的一般使用方法](https://github.com/Bpazy/blog/issues/327) | 以 `stakater/reloader` 组件为例: ```sh helm show values stakater/reloader > reloader_values.yaml helm ins |
 | 2024-04-08 | [Pve 8006 端口打不开 web ui](https://github.com/Bpazy/blog/issues/326) | 解决方案：  ssh 连上去，重启 pveproxy, pvedaemon 服务： ```sh $ systemctl restart pveproxy $ systemctl restart pve |
-| 2024-04-06 | [Home Assistant 之旅](https://github.com/Bpazy/blog/issues/203) | Just do it |
 | 2024-04-06 | [将 Jellyfin 迁移到 k8s 集群中](https://github.com/Bpazy/blog/issues/325) | 在继 [迁移 docker Jellyfin 到全新机器](https://github.com/Bpazy/blog/issues/197) 之后，现在要把它迁入 k8s 了。  先看现在的 doc |
 | 2024-04-05 | [将 qbittorrent 从 docker 迁移到 k8s](https://github.com/Bpazy/blog/issues/324) | ## 1. k8s 集群安装 smb 这里需要用到 [csi-driver-smb](https://github.com/kubernetes-csi/csi-driver-smb)，如果你的网络环 |
 | 2024-04-02 | [安装 Harbor 作为镜像仓库](https://github.com/Bpazy/blog/issues/323) | ## 1. 通过 helm 安装 harbor ```sh helm repo add harbor https://helm.goharbor.io helm install my-harbor h |
