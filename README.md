@@ -19,8 +19,9 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2025-01-08 | [搭建 Rook Ceph](https://github.com/Bpazy/blog/issues/350) | k8s 集群有个问题，有状态应用的存储怎么处理？ * 如果用 NFS，sqlite 的锁无法正常支持，因为 NFS 没有实现标准 POSIX，可以看这个详细解释: https://stackoverf |
+| 2025-01-08 | [Zerotier 总是提示 REQUESTING_CONFIGURATION ](https://github.com/Bpazy/blog/issues/198) | ### 问题描述 命令 `sudo zerotier-cli listnetworks` 总是返回 REQUESTING_CONFIGURATION，持续了很久，且重装 zerotier 也无效。   |
 | 2025-01-03 | [Proxmox VE 安装 Node Exporter 监控](https://github.com/Bpazy/blog/issues/348) | 此方案依赖 Docker，安装方法: https://github.com/Bpazy/blog/issues/347  新建 docker-compose.yaml 文件: ```yaml vers |
-| 2025-01-03 | [搭建 Rook Ceph](https://github.com/Bpazy/blog/issues/350) |  |
 | 2024-12-28 | [Home Assistant 之旅](https://github.com/Bpazy/blog/issues/203) | Just do it |
 | 2024-12-24 | [Proxmox VE 安装 Docker](https://github.com/Bpazy/blog/issues/347) | PVE 是 Debian 系统，按照官网 Debian 流程来安装即可：  ```sh # 卸载冲突包 for pkg in docker.io docker-doc docker-compose p |
 | 2024-12-24 | [Proxmox VE 8 配置国内软件源](https://github.com/Bpazy/blog/issues/349) | ```sh # 备份 mv /etc/apt/sources.list.d/pve-enterprise.list /etc/apt/sources.list.d/pve-enterprise.lis |
@@ -55,7 +56,6 @@
 | 2024-09-29 | [Ubuntu Server 安装打印服务（CUPS）](https://github.com/Bpazy/blog/issues/170) | 1. 通过 apt 安装 cups: `sudo apt install cups` 2. 编辑 cups 配置：`sudo vim /etc/cups/cupsd.conf` 3. 注释 `List |
 | 2024-08-29 | [PVE 显卡直通](https://github.com/Bpazy/blog/issues/332) | https://www.cnblogs.com/MAENESA/p/18005241 |
 | 2024-08-29 | [Proxmox VE (PVE) 技巧记录](https://github.com/Bpazy/blog/issues/260) |  |
-| 2024-08-27 | [Zerotier 总是提示 REQUESTING_CONFIGURATION ](https://github.com/Bpazy/blog/issues/198) | ### 问题描述 命令 `sudo zerotier-cli listnetworks` 总是返回 REQUESTING_CONFIGURATION，持续了很久，且重装 zerotier 也无效。   |
 | 2024-08-21 | [自制能源监测仪](https://github.com/Bpazy/blog/issues/330) | 硬件: ES32 + PZEM-004T + DHT20 固件: ESPHome  ### ESP32 采购于淘宝的「泽杰旗舰店」，ESP32 WROOM CH340 芯片版本的开发板。  管脚定义: |
 | 2024-08-13 | [ESP32 术语解释](https://github.com/Bpazy/blog/issues/331) | ## SDA 和 SCL 这两个术语通常一起出现，它们是 **I2C** 通信协议中的两根线。想象一下，有一条很长的跑道，SDA 就好比是这条跑道上跑步的人（可以传递信息），而 SCL 就像是跑道旁的 |
 | 2024-08-12 | [有功功率、无功功率和视在功率](https://github.com/Bpazy/blog/issues/329) | 把这些复杂的概念想象成足球比赛，我们可以这样理解：  * **有功功率**就是直接得分的力量。主要关联电阻性元件，对应电能向其他形式能的直接转换； * **无功功率**是帮助比赛但不直接得分的力量。无 |
