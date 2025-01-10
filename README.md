@@ -19,6 +19,11 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2025-01-09 | [Linux开启Swap分区](https://github.com/Bpazy/blog/issues/111) | 1. 创建要作为swap分区的文件:增加1GB大小的交换分区，则命令写法如下，其中的count等于想要的块的数量（bs*count=文件大小）。
+```shell
+$ dd if=/dev/zero  |
+| 2025-01-09 | [Pve 中的 Ubuntu (LVM) 动态扩容](https://github.com/Bpazy/blog/issues/261) | 大体上就两个步骤： 1. 在 PVE 扩容 Hard Disk； 2. 在 Ubuntu 中使用该部分空间；  pve 扩容很简单： ![image](https://github.com/Bpazy |
+| 2025-01-09 | [三摸 k3s: 正式部署](https://github.com/Bpazy/blog/issues/320) | 观望 k3s 好几年了，现在也有上的场景，干就完了！奥利给！ |
 | 2025-01-08 | [搭建 Rook Ceph](https://github.com/Bpazy/blog/issues/350) | k8s 集群有个问题，有状态应用的存储怎么处理？ * 如果用 NFS，sqlite 的锁无法正常支持，因为 NFS 没有实现标准 POSIX，可以看这个详细解释: https://stackoverf |
 | 2025-01-08 | [Zerotier 总是提示 REQUESTING_CONFIGURATION ](https://github.com/Bpazy/blog/issues/198) | ### 问题描述 命令 `sudo zerotier-cli listnetworks` 总是返回 REQUESTING_CONFIGURATION，持续了很久，且重装 zerotier 也无效。   |
 | 2025-01-03 | [Proxmox VE 安装 Node Exporter 监控](https://github.com/Bpazy/blog/issues/348) | 此方案依赖 Docker，安装方法: https://github.com/Bpazy/blog/issues/347  新建 docker-compose.yaml 文件: ```yaml vers |
@@ -29,7 +34,6 @@
 | 2024-12-22 | [使用 iperf3 测试网速](https://github.com/Bpazy/blog/issues/345) | Ubuntu 安装 iperf3: ```sh $ sudo apt install -y iperf3 ```  A 服务器启动 iperf3 服务端: ```sh $ iperf3 -s ```  |
 | 2024-12-22 | [tailscale 组网](https://github.com/Bpazy/blog/issues/201) | 官网: [https://tailscale.com/](https://tailscale.com/)，威联通踩坑 |
 | 2024-12-22 | [再入 MySQL 的门](https://github.com/Bpazy/blog/issues/202) | 用 MySQL 很久了，记录一些知识点。比如创建新用户，mysqld_exporter 创建方法等等 |
-| 2024-12-21 | [三摸 k3s: 正式部署](https://github.com/Bpazy/blog/issues/320) | 观望 k3s 好几年了，现在也有上的场景，干就完了！奥利给！ |
 | 2024-12-21 | [四模 k3s: 高可用部署](https://github.com/Bpazy/blog/issues/344) | k3s 单节点部署时，采用的是 sqlite 存储，当多 master 节点部署时，会采用嵌入的 etcd 存储。  由于我不具有 etcd 运维经验，所以这里直接把 k3s 迁移到 MySQL 以实 |
 | 2024-12-15 | [Maven 3.8.1 及以上版本无法更新项目依赖](https://github.com/Bpazy/blog/issues/215) | ## 问题描述 安装最新版本 ( 3.8.4 ) 的 Maven 之后，发现无法更新项目依赖了，出现了形如这种错误: ``` maven-default-http-blocker (http://0. |
 | 2024-12-15 | [利用泛型的类型擦除，在方法不声明 throws 异常时，抛出 checked 异常](https://github.com/Bpazy/blog/issues/226) | 参考 `org.apache.commons.lang3.exception.ExceptionUtils` 的做法: ```java     public static <R> R rethrow( |
@@ -67,6 +71,4 @@
 | 2024-04-05 | [将 qbittorrent 从 docker 迁移到 k8s](https://github.com/Bpazy/blog/issues/324) | ## 1. k8s 集群安装 smb 这里需要用到 [csi-driver-smb](https://github.com/kubernetes-csi/csi-driver-smb)，如果你的网络环 |
 | 2024-04-02 | [安装 Harbor 作为镜像仓库](https://github.com/Bpazy/blog/issues/323) | ## 1. 通过 helm 安装 harbor ```sh helm repo add harbor https://helm.goharbor.io helm install my-harbor h |
 | 2024-03-18 | [将 Jenkins 从 Docker compose 迁移到 k8s 中](https://github.com/Bpazy/blog/issues/322) | 两年前从裸机运行迁移到 Docekr compose 中: https://github.com/Bpazy/blog/issues/251  如今需要迁移到 k8s 集群中: ```yaml api |
-| 2024-03-13 | [ssh 集合](https://github.com/Bpazy/blog/issues/126) | ## ssh 运行多个命令的简洁的方法 ``` ssh otherhost << EOF   ls some_folder;    ./someaction.sh 'some params'   pw |
-| 2024-03-11 | [威联通 (QNAP) 使用 UPS 并通知家庭内其他设备关机](https://github.com/Bpazy/blog/issues/206) | 先把 UPS 该接上 NAS 的都线材都接好，这里只记录软件上的操作。  1. 打开威联通管理页面； 2. 选择：控制台 —— 系统 —— 外接设备 —— UPS，勾选“启用网络不间断电源服务器”，并 |
 <!--END_SECTION:blog-->
