@@ -19,10 +19,10 @@
 <!--START_SECTION:blog-->
 | UpdateTime | Title | Summary |
 | ------ | ------ | ------ |
+| 2025-01-24 | [搭建 Rook Ceph](https://github.com/Bpazy/blog/issues/350) | k8s 集群有个问题，有状态应用的存储怎么处理？ * 如果用 NFS，sqlite 的锁无法正常支持，因为 NFS 没有实现标准 POSIX，可以看这个详细解释: https://stackoverf |
 | 2025-01-23 | [Linux开启Swap分区](https://github.com/Bpazy/blog/issues/111) | swap 的开启和关闭。 |
 | 2025-01-09 | [Pve 中的 Ubuntu (LVM) 动态扩容](https://github.com/Bpazy/blog/issues/261) | 大体上就两个步骤： 1. 在 PVE 扩容 Hard Disk； 2. 在 Ubuntu 中使用该部分空间；  pve 扩容很简单： ![image](https://github.com/Bpazy |
 | 2025-01-09 | [三摸 k3s: 正式部署](https://github.com/Bpazy/blog/issues/320) | 观望 k3s 好几年了，现在也有上的场景，干就完了！奥利给！ |
-| 2025-01-08 | [搭建 Rook Ceph](https://github.com/Bpazy/blog/issues/350) | k8s 集群有个问题，有状态应用的存储怎么处理？ * 如果用 NFS，sqlite 的锁无法正常支持，因为 NFS 没有实现标准 POSIX，可以看这个详细解释: https://stackoverf |
 | 2025-01-08 | [Zerotier 总是提示 REQUESTING_CONFIGURATION ](https://github.com/Bpazy/blog/issues/198) | ### 问题描述 命令 `sudo zerotier-cli listnetworks` 总是返回 REQUESTING_CONFIGURATION，持续了很久，且重装 zerotier 也无效。   |
 | 2025-01-03 | [Proxmox VE 安装 Node Exporter 监控](https://github.com/Bpazy/blog/issues/348) | 此方案依赖 Docker，安装方法: https://github.com/Bpazy/blog/issues/347  新建 docker-compose.yaml 文件: ```yaml vers |
 | 2024-12-28 | [Home Assistant 之旅](https://github.com/Bpazy/blog/issues/203) | Just do it |
